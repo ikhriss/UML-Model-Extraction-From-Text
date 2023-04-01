@@ -7,7 +7,8 @@ The use of machine learning to produce a domain model has not yet been realized.
 The dataset comprises 20 documents with 178 to 1,537 tokens each for 10,604 tokens. It is divided into a training set composing 14 documents (8,258 tokens), i.e., 70% of all documents, a validation set containing three documents (1,572 tokens), i.e., 15% of the set of documents, and a test set also including three documents (784 tokens). 
 
 <b>Acknowledgments:</b> The texts of the example specifications in this dataset are exercises taken from software engineering (UML) courses or databases (entity-relationship model) found on the internet. We, therefore, thank their authors here. Most of the texts were in French, so we translated them into English. We have annotated the specifications with our proposed annotation.
-Note! Add GloVe 6B in data folder
+
+<b>Note!<b> Add GloVe 6B in data folder
 
 ## The model and validation results
 See the references below.
