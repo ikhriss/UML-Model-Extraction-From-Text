@@ -8,7 +8,7 @@ The dataset comprises 20 documents with 178 to 1,537 tokens each for 10,604 toke
 
 <b>Acknowledgments:</b> The texts of the example specifications in this dataset are exercises taken from software engineering (UML) courses or databases (entity-relationship model) found on the internet. We, therefore, thank their authors here. Most of the texts were in French, so we translated them into English. We have annotated the specifications with our proposed annotation.
 
-<b>Note!<b> Add GloVe 6B in data folder
+<b>Note!</b> Add GloVe 6B in data folder
 
 ## The model and validation results
 See the references below.
