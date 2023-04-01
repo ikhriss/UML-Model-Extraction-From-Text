@@ -1,0 +1,3001 @@
+2021-06-02 16:49:12.599058
+----------------------------------------------
+----------------------------------------------
+FREEZED_LAYERS: 13, DECODING_HIDDEN_DIM: 100, DISTANCE_DIM: 20, DROPOUT: 0.200000, LEARNING_RATE: 0.001000 
+
+Iteration 0
+EPOCH 1
+Training   -- Loss Mention: 25.391281 | Loss Coreference: 271.288269 | Loss Relation: 31.454893
+Evaluation -- Loss Mention: 24.469971 | Loss Coreference: 334.644592 | Loss Relation: 29.902740
+EPOCH 2
+Training   -- Loss Mention: 24.967394 | Loss Coreference: 245.630081 | Loss Relation: 29.937881
+Evaluation -- Loss Mention: 24.853159 | Loss Coreference: 289.728577 | Loss Relation: 29.382235
+EPOCH 3
+Training   -- Loss Mention: 23.994184 | Loss Coreference: 245.426468 | Loss Relation: 28.676653
+Evaluation -- Loss Mention: 22.168007 | Loss Coreference: 274.629669 | Loss Relation: 29.733496
+EPOCH 4
+Training   -- Loss Mention: 22.568861 | Loss Coreference: 235.237274 | Loss Relation: 28.331654
+Evaluation -- Loss Mention: 20.598806 | Loss Coreference: 273.235504 | Loss Relation: 29.379128
+EPOCH 5
+Training   -- Loss Mention: 21.746445 | Loss Coreference: 229.172028 | Loss Relation: 28.204756
+Evaluation -- Loss Mention: 19.856047 | Loss Coreference: 287.871765 | Loss Relation: 28.743759
+EPOCH 6
+Training   -- Loss Mention: 20.976580 | Loss Coreference: 226.612274 | Loss Relation: 27.666248
+Evaluation -- Loss Mention: 19.501520 | Loss Coreference: 276.488190 | Loss Relation: 28.551041
+EPOCH 7
+Training   -- Loss Mention: 20.793884 | Loss Coreference: 231.011230 | Loss Relation: 27.060511
+Evaluation -- Loss Mention: 19.367682 | Loss Coreference: 258.180542 | Loss Relation: 27.362009
+EPOCH 8
+Training   -- Loss Mention: 20.978117 | Loss Coreference: 224.686661 | Loss Relation: 26.460922
+Evaluation -- Loss Mention: 20.337749 | Loss Coreference: 256.118500 | Loss Relation: 26.926661
+EPOCH 9
+Training   -- Loss Mention: 20.829370 | Loss Coreference: 223.889038 | Loss Relation: 26.250851
+Evaluation -- Loss Mention: 19.284252 | Loss Coreference: 248.399597 | Loss Relation: 26.794523
+EPOCH 10
+Training   -- Loss Mention: 21.379656 | Loss Coreference: 225.772293 | Loss Relation: 26.782032
+Evaluation -- Loss Mention: 19.975060 | Loss Coreference: 257.847778 | Loss Relation: 26.805296
+EPOCH 11
+Training   -- Loss Mention: 20.955135 | Loss Coreference: 219.524643 | Loss Relation: 25.965971
+Evaluation -- Loss Mention: 20.329653 | Loss Coreference: 264.571655 | Loss Relation: 28.471596
+EPOCH 12
+Training   -- Loss Mention: 20.866476 | Loss Coreference: 220.015915 | Loss Relation: 26.441605
+Evaluation -- Loss Mention: 19.417822 | Loss Coreference: 242.241043 | Loss Relation: 25.930109
+EPOCH 13
+Training   -- Loss Mention: 21.281834 | Loss Coreference: 210.248306 | Loss Relation: 25.255655
+Evaluation -- Loss Mention: 18.904325 | Loss Coreference: 238.050644 | Loss Relation: 24.998079
+EPOCH 14
+Training   -- Loss Mention: 21.444000 | Loss Coreference: 212.830063 | Loss Relation: 25.251984
+Evaluation -- Loss Mention: 20.504679 | Loss Coreference: 233.806351 | Loss Relation: 25.747055
+EPOCH 15
+Training   -- Loss Mention: 21.182676 | Loss Coreference: 206.614090 | Loss Relation: 24.284184
+Evaluation -- Loss Mention: 19.137264 | Loss Coreference: 242.703262 | Loss Relation: 28.064850
+----- TEST -----
+
+--Mentions statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.826     0.886     0.855       579
+           1      0.472     0.487     0.480       158
+           2      0.000     0.000     0.000        47
+
+    accuracy                          0.753       784
+   macro avg      0.433     0.458     0.445       784
+weighted avg      0.705     0.753     0.728       784
+
+--Coreferences statistics--
+
+Precision: 0.493510
+Recall: 1.000000
+F1: 0.660873 
+
+--Relations statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.838     0.692     0.758       224
+           1      0.409     0.500     0.450        18
+           2      0.312     0.625     0.417        40
+           3      0.000     0.000     0.000         9
+           4      0.311     0.341     0.326        41
+
+    accuracy                          0.611       332
+   macro avg      0.374     0.432     0.390       332
+weighted avg      0.664     0.611     0.626       332
+
+
+
+2021-06-02 16:56:33.706909
+Iteration 1
+EPOCH 1
+Training   -- Loss Mention: 25.309446 | Loss Coreference: 286.444305 | Loss Relation: 34.179218
+Evaluation -- Loss Mention: 24.525160 | Loss Coreference: 363.089142 | Loss Relation: 30.010431
+EPOCH 2
+Training   -- Loss Mention: 24.716160 | Loss Coreference: 251.632858 | Loss Relation: 29.910084
+Evaluation -- Loss Mention: 25.409796 | Loss Coreference: 312.843536 | Loss Relation: 29.538078
+EPOCH 3
+Training   -- Loss Mention: 23.297709 | Loss Coreference: 242.669449 | Loss Relation: 28.584545
+Evaluation -- Loss Mention: 26.859818 | Loss Coreference: 264.810211 | Loss Relation: 29.248016
+EPOCH 4
+Training   -- Loss Mention: 22.205889 | Loss Coreference: 237.782959 | Loss Relation: 28.277674
+Evaluation -- Loss Mention: 20.344675 | Loss Coreference: 287.925201 | Loss Relation: 29.096128
+EPOCH 5
+Training   -- Loss Mention: 21.063496 | Loss Coreference: 236.610229 | Loss Relation: 28.465864
+Evaluation -- Loss Mention: 21.385771 | Loss Coreference: 298.827759 | Loss Relation: 29.216545
+EPOCH 6
+Training   -- Loss Mention: 21.640306 | Loss Coreference: 232.731125 | Loss Relation: 27.952002
+Evaluation -- Loss Mention: 20.497080 | Loss Coreference: 272.086700 | Loss Relation: 28.128469
+EPOCH 7
+Training   -- Loss Mention: 23.030897 | Loss Coreference: 235.616867 | Loss Relation: 28.145121
+Evaluation -- Loss Mention: 20.590378 | Loss Coreference: 266.862457 | Loss Relation: 28.605934
+EPOCH 8
+Training   -- Loss Mention: 22.284271 | Loss Coreference: 232.026855 | Loss Relation: 27.944227
+Evaluation -- Loss Mention: 20.591833 | Loss Coreference: 260.503571 | Loss Relation: 27.638807
+EPOCH 9
+Training   -- Loss Mention: 21.697985 | Loss Coreference: 230.768723 | Loss Relation: 27.040304
+Evaluation -- Loss Mention: 20.142281 | Loss Coreference: 268.093933 | Loss Relation: 28.662329
+EPOCH 10
+Training   -- Loss Mention: 21.233454 | Loss Coreference: 225.121735 | Loss Relation: 27.738344
+Evaluation -- Loss Mention: 20.532152 | Loss Coreference: 259.849640 | Loss Relation: 27.335958
+EPOCH 11
+Training   -- Loss Mention: 21.530962 | Loss Coreference: 222.882523 | Loss Relation: 27.545515
+Evaluation -- Loss Mention: 22.650412 | Loss Coreference: 268.775482 | Loss Relation: 27.830904
+EPOCH 12
+Training   -- Loss Mention: 21.170782 | Loss Coreference: 219.241104 | Loss Relation: 25.906977
+Evaluation -- Loss Mention: 19.529842 | Loss Coreference: 263.308105 | Loss Relation: 26.047350
+EPOCH 13
+Training   -- Loss Mention: 20.746569 | Loss Coreference: 221.441788 | Loss Relation: 27.037533
+Evaluation -- Loss Mention: 19.286905 | Loss Coreference: 246.816055 | Loss Relation: 26.858912
+EPOCH 14
+Training   -- Loss Mention: 20.681658 | Loss Coreference: 215.016373 | Loss Relation: 26.051785
+Evaluation -- Loss Mention: 20.333467 | Loss Coreference: 255.910110 | Loss Relation: 27.960350
+EPOCH 15
+Training   -- Loss Mention: 20.828449 | Loss Coreference: 208.948090 | Loss Relation: 25.281614
+Evaluation -- Loss Mention: 19.892298 | Loss Coreference: 268.041443 | Loss Relation: 27.675776
+----- TEST -----
+
+--Mentions statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.816     0.888     0.850       579
+           1      0.468     0.456     0.462       158
+           2      0.000     0.000     0.000        47
+
+    accuracy                          0.747       784
+   macro avg      0.428     0.448     0.437       784
+weighted avg      0.697     0.747     0.721       784
+
+--Coreferences statistics--
+
+Precision: 0.498107
+Recall: 1.000000
+F1: 0.664982 
+
+--Relations statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.798     0.688     0.739       224
+           1      0.000     0.000     0.000        18
+           2      0.228     0.700     0.344        40
+           3      0.000     0.000     0.000         9
+           4      0.250     0.098     0.140        41
+
+    accuracy                          0.560       332
+   macro avg      0.255     0.297     0.245       332
+weighted avg      0.597     0.560     0.557       332
+
+
+
+2021-06-02 17:03:55.937132
+Iteration 2
+EPOCH 1
+Training   -- Loss Mention: 25.514179 | Loss Coreference: 277.933563 | Loss Relation: 31.611431
+Evaluation -- Loss Mention: 23.944984 | Loss Coreference: 428.210114 | Loss Relation: 31.342117
+EPOCH 2
+Training   -- Loss Mention: 24.209225 | Loss Coreference: 253.042282 | Loss Relation: 30.097181
+Evaluation -- Loss Mention: 23.390589 | Loss Coreference: 288.671631 | Loss Relation: 29.850286
+EPOCH 3
+Training   -- Loss Mention: 23.954197 | Loss Coreference: 246.376419 | Loss Relation: 29.063274
+Evaluation -- Loss Mention: 21.348097 | Loss Coreference: 322.895660 | Loss Relation: 29.072653
+EPOCH 4
+Training   -- Loss Mention: 21.835033 | Loss Coreference: 241.285034 | Loss Relation: 28.866610
+Evaluation -- Loss Mention: 22.102335 | Loss Coreference: 273.232819 | Loss Relation: 29.750711
+EPOCH 5
+Training   -- Loss Mention: 23.196476 | Loss Coreference: 244.348389 | Loss Relation: 28.306797
+Evaluation -- Loss Mention: 20.609827 | Loss Coreference: 274.929291 | Loss Relation: 29.668274
+EPOCH 6
+Training   -- Loss Mention: 22.203005 | Loss Coreference: 236.432938 | Loss Relation: 28.325861
+Evaluation -- Loss Mention: 19.102144 | Loss Coreference: 252.802078 | Loss Relation: 29.596308
+EPOCH 7
+Training   -- Loss Mention: 20.256186 | Loss Coreference: 233.649277 | Loss Relation: 28.087996
+Evaluation -- Loss Mention: 19.030891 | Loss Coreference: 266.099457 | Loss Relation: 28.212601
+EPOCH 8
+Training   -- Loss Mention: 21.269148 | Loss Coreference: 230.343857 | Loss Relation: 28.308605
+Evaluation -- Loss Mention: 21.447311 | Loss Coreference: 266.133636 | Loss Relation: 28.691008
+EPOCH 9
+Training   -- Loss Mention: 21.888231 | Loss Coreference: 231.658371 | Loss Relation: 28.657654
+Evaluation -- Loss Mention: 20.680460 | Loss Coreference: 265.715637 | Loss Relation: 29.767120
+----- TEST -----
+
+--Mentions statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.837     0.898     0.867       579
+           1      0.540     0.557     0.548       158
+           2      0.000     0.000     0.000        47
+
+    accuracy                          0.776       784
+   macro avg      0.459     0.485     0.472       784
+weighted avg      0.727     0.776     0.751       784
+
+--Coreferences statistics--
+
+Precision: 0.498107
+Recall: 1.000000
+F1: 0.664982 
+
+--Relations statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.758     0.433     0.551       224
+           1      0.000     0.000     0.000        18
+           2      0.167     0.850     0.279        40
+           3      0.000     0.000     0.000         9
+           4      0.000     0.000     0.000        41
+
+    accuracy                          0.395       332
+   macro avg      0.185     0.257     0.166       332
+weighted avg      0.531     0.395     0.405       332
+
+
+
+2021-06-02 17:08:21.137321
+Iteration 3
+EPOCH 1
+Training   -- Loss Mention: 25.485983 | Loss Coreference: 312.513123 | Loss Relation: 33.419109
+Evaluation -- Loss Mention: 24.611059 | Loss Coreference: 304.327942 | Loss Relation: 30.143961
+EPOCH 2
+Training   -- Loss Mention: 24.708715 | Loss Coreference: 247.961029 | Loss Relation: 29.649736
+Evaluation -- Loss Mention: 23.530432 | Loss Coreference: 297.258942 | Loss Relation: 29.559448
+EPOCH 3
+Training   -- Loss Mention: 23.383636 | Loss Coreference: 241.922516 | Loss Relation: 28.708151
+Evaluation -- Loss Mention: 20.920145 | Loss Coreference: 271.048218 | Loss Relation: 29.432890
+EPOCH 4
+Training   -- Loss Mention: 22.513578 | Loss Coreference: 242.469650 | Loss Relation: 28.477962
+Evaluation -- Loss Mention: 20.989641 | Loss Coreference: 274.348297 | Loss Relation: 29.896790
+EPOCH 5
+Training   -- Loss Mention: 21.762945 | Loss Coreference: 243.183426 | Loss Relation: 29.277033
+Evaluation -- Loss Mention: 20.342360 | Loss Coreference: 283.629822 | Loss Relation: 29.062002
+EPOCH 6
+Training   -- Loss Mention: 21.924896 | Loss Coreference: 233.616180 | Loss Relation: 28.003050
+Evaluation -- Loss Mention: 20.488577 | Loss Coreference: 281.451935 | Loss Relation: 28.847143
+EPOCH 7
+Training   -- Loss Mention: 20.978369 | Loss Coreference: 228.325821 | Loss Relation: 28.766552
+Evaluation -- Loss Mention: 18.795462 | Loss Coreference: 273.907715 | Loss Relation: 28.168686
+EPOCH 8
+Training   -- Loss Mention: 21.941236 | Loss Coreference: 231.196075 | Loss Relation: 28.318020
+Evaluation -- Loss Mention: 19.975634 | Loss Coreference: 266.946381 | Loss Relation: 29.059175
+EPOCH 9
+Training   -- Loss Mention: 22.234491 | Loss Coreference: 230.367401 | Loss Relation: 28.538149
+Evaluation -- Loss Mention: 19.642561 | Loss Coreference: 258.225525 | Loss Relation: 29.270990
+EPOCH 10
+Training   -- Loss Mention: 21.909483 | Loss Coreference: 232.828766 | Loss Relation: 28.253351
+Evaluation -- Loss Mention: 21.702835 | Loss Coreference: 272.197968 | Loss Relation: 30.310242
+EPOCH 11
+Training   -- Loss Mention: 21.488384 | Loss Coreference: 225.944092 | Loss Relation: 26.977291
+Evaluation -- Loss Mention: 19.089668 | Loss Coreference: 266.254425 | Loss Relation: 27.735563
+EPOCH 12
+Training   -- Loss Mention: 20.852610 | Loss Coreference: 221.917923 | Loss Relation: 27.507999
+Evaluation -- Loss Mention: 19.518242 | Loss Coreference: 263.025055 | Loss Relation: 26.807238
+EPOCH 13
+Training   -- Loss Mention: 20.790295 | Loss Coreference: 220.380737 | Loss Relation: 26.268635
+Evaluation -- Loss Mention: 20.386499 | Loss Coreference: 247.474564 | Loss Relation: 27.156616
+EPOCH 14
+Training   -- Loss Mention: 20.370680 | Loss Coreference: 211.800690 | Loss Relation: 26.305143
+Evaluation -- Loss Mention: 19.580114 | Loss Coreference: 265.122253 | Loss Relation: 26.805288
+EPOCH 15
+Training   -- Loss Mention: 20.654894 | Loss Coreference: 218.426590 | Loss Relation: 25.872650
+Evaluation -- Loss Mention: 18.910875 | Loss Coreference: 253.077011 | Loss Relation: 26.009916
+----- TEST -----
+
+--Mentions statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.778     0.948     0.854       579
+           1      0.538     0.266     0.356       158
+           2      0.000     0.000     0.000        47
+
+    accuracy                          0.754       784
+   macro avg      0.439     0.405     0.403       784
+weighted avg      0.683     0.754     0.703       784
+
+--Coreferences statistics--
+
+Precision: 0.495403
+Recall: 1.000000
+F1: 0.662568 
+
+--Relations statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.735     0.719     0.727       224
+           1      0.350     0.389     0.368        18
+           2      0.280     0.575     0.377        40
+           3      0.000     0.000     0.000         9
+           4      0.091     0.024     0.038        41
+
+    accuracy                          0.578       332
+   macro avg      0.291     0.341     0.302       332
+weighted avg      0.560     0.578     0.561       332
+
+
+
+2021-06-02 17:15:41.762167
+Iteration 4
+EPOCH 1
+Training   -- Loss Mention: 25.611948 | Loss Coreference: 298.576660 | Loss Relation: 37.368969
+Evaluation -- Loss Mention: 25.162109 | Loss Coreference: 322.356964 | Loss Relation: 29.788832
+EPOCH 2
+Training   -- Loss Mention: 24.975111 | Loss Coreference: 248.083527 | Loss Relation: 29.780493
+Evaluation -- Loss Mention: 23.829424 | Loss Coreference: 289.395142 | Loss Relation: 29.352289
+EPOCH 3
+Training   -- Loss Mention: 24.406368 | Loss Coreference: 241.241898 | Loss Relation: 28.668491
+Evaluation -- Loss Mention: 23.553177 | Loss Coreference: 298.916016 | Loss Relation: 29.469490
+EPOCH 4
+Training   -- Loss Mention: 23.223207 | Loss Coreference: 235.753860 | Loss Relation: 28.159439
+Evaluation -- Loss Mention: 22.069300 | Loss Coreference: 265.622162 | Loss Relation: 28.933220
+EPOCH 5
+Training   -- Loss Mention: 21.738741 | Loss Coreference: 234.235062 | Loss Relation: 28.265974
+Evaluation -- Loss Mention: 21.381010 | Loss Coreference: 267.507141 | Loss Relation: 28.665804
+EPOCH 6
+Training   -- Loss Mention: 20.856735 | Loss Coreference: 229.545242 | Loss Relation: 27.533194
+Evaluation -- Loss Mention: 20.332439 | Loss Coreference: 262.483612 | Loss Relation: 27.775970
+EPOCH 7
+Training   -- Loss Mention: 20.566290 | Loss Coreference: 224.475342 | Loss Relation: 27.040880
+Evaluation -- Loss Mention: 19.514122 | Loss Coreference: 253.352615 | Loss Relation: 27.886978
+EPOCH 8
+Training   -- Loss Mention: 20.512600 | Loss Coreference: 226.102463 | Loss Relation: 26.561474
+Evaluation -- Loss Mention: 19.042952 | Loss Coreference: 261.759308 | Loss Relation: 27.397627
+EPOCH 9
+Training   -- Loss Mention: 20.842672 | Loss Coreference: 222.126297 | Loss Relation: 26.535936
+Evaluation -- Loss Mention: 19.442022 | Loss Coreference: 260.474426 | Loss Relation: 27.712381
+EPOCH 10
+Training   -- Loss Mention: 20.516554 | Loss Coreference: 218.754852 | Loss Relation: 25.978943
+Evaluation -- Loss Mention: 18.934175 | Loss Coreference: 252.583450 | Loss Relation: 27.416822
+EPOCH 11
+Training   -- Loss Mention: 20.473511 | Loss Coreference: 222.439682 | Loss Relation: 26.626324
+Evaluation -- Loss Mention: 19.561537 | Loss Coreference: 275.466156 | Loss Relation: 26.993250
+EPOCH 12
+Training   -- Loss Mention: 20.753756 | Loss Coreference: 217.397079 | Loss Relation: 25.533352
+Evaluation -- Loss Mention: 19.026133 | Loss Coreference: 277.211456 | Loss Relation: 28.500076
+EPOCH 13
+Training   -- Loss Mention: 20.666409 | Loss Coreference: 216.056046 | Loss Relation: 25.110701
+Evaluation -- Loss Mention: 19.665985 | Loss Coreference: 246.485489 | Loss Relation: 28.078598
+----- TEST -----
+
+--Mentions statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.880     0.850     0.865       579
+           1      0.524     0.747     0.616       158
+           2      0.000     0.000     0.000        47
+
+    accuracy                          0.778       784
+   macro avg      0.468     0.532     0.494       784
+weighted avg      0.756     0.778     0.763       784
+
+--Coreferences statistics--
+
+Precision: 0.497837
+Recall: 1.000000
+F1: 0.664741 
+
+--Relations statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.796     0.804     0.800       224
+           1      0.000     0.000     0.000        18
+           2      0.307     0.675     0.422        40
+           3      0.000     0.000     0.000         9
+           4      0.333     0.146     0.203        41
+
+    accuracy                          0.642       332
+   macro avg      0.287     0.325     0.285       332
+weighted avg      0.616     0.642     0.616       332
+
+
+
+2021-06-02 17:22:03.027994
+Iteration 5
+EPOCH 1
+Training   -- Loss Mention: 25.275578 | Loss Coreference: 280.110168 | Loss Relation: 32.672390
+Evaluation -- Loss Mention: 24.034117 | Loss Coreference: 341.793121 | Loss Relation: 34.443722
+EPOCH 2
+Training   -- Loss Mention: 25.357500 | Loss Coreference: 256.786438 | Loss Relation: 29.978380
+Evaluation -- Loss Mention: 24.067017 | Loss Coreference: 277.121582 | Loss Relation: 29.841974
+EPOCH 3
+Training   -- Loss Mention: 24.951603 | Loss Coreference: 245.811615 | Loss Relation: 29.051701
+Evaluation -- Loss Mention: 24.518267 | Loss Coreference: 282.298981 | Loss Relation: 29.647238
+EPOCH 4
+Training   -- Loss Mention: 24.279209 | Loss Coreference: 240.185226 | Loss Relation: 28.334215
+Evaluation -- Loss Mention: 23.565676 | Loss Coreference: 269.510468 | Loss Relation: 28.824060
+EPOCH 5
+Training   -- Loss Mention: 22.983206 | Loss Coreference: 233.720215 | Loss Relation: 28.471785
+Evaluation -- Loss Mention: 20.626778 | Loss Coreference: 295.843658 | Loss Relation: 30.262014
+EPOCH 6
+Training   -- Loss Mention: 22.146061 | Loss Coreference: 235.266342 | Loss Relation: 28.044840
+Evaluation -- Loss Mention: 20.866014 | Loss Coreference: 271.822876 | Loss Relation: 28.192818
+EPOCH 7
+Training   -- Loss Mention: 21.183123 | Loss Coreference: 232.055878 | Loss Relation: 27.518219
+Evaluation -- Loss Mention: 20.016760 | Loss Coreference: 266.725098 | Loss Relation: 28.263639
+EPOCH 8
+Training   -- Loss Mention: 21.130255 | Loss Coreference: 228.311798 | Loss Relation: 27.167311
+Evaluation -- Loss Mention: 19.565145 | Loss Coreference: 253.112610 | Loss Relation: 27.479645
+EPOCH 9
+Training   -- Loss Mention: 21.239101 | Loss Coreference: 231.998672 | Loss Relation: 27.583035
+Evaluation -- Loss Mention: 19.238903 | Loss Coreference: 255.927124 | Loss Relation: 27.772120
+EPOCH 10
+Training   -- Loss Mention: 22.039396 | Loss Coreference: 225.968658 | Loss Relation: 27.351641
+Evaluation -- Loss Mention: 20.445002 | Loss Coreference: 266.948578 | Loss Relation: 28.078911
+EPOCH 11
+Training   -- Loss Mention: 22.354662 | Loss Coreference: 233.388092 | Loss Relation: 27.739941
+Evaluation -- Loss Mention: 19.814110 | Loss Coreference: 254.408630 | Loss Relation: 27.211935
+----- TEST -----
+
+--Mentions statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.860     0.862     0.861       579
+           1      0.510     0.658     0.575       158
+           2      0.000     0.000     0.000        47
+
+    accuracy                          0.769       784
+   macro avg      0.457     0.507     0.479       784
+weighted avg      0.738     0.769     0.752       784
+
+--Coreferences statistics--
+
+Precision: 0.498107
+Recall: 1.000000
+F1: 0.664982 
+
+--Relations statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.784     0.777     0.780       224
+           1      0.000     0.000     0.000        18
+           2      0.236     0.650     0.347        40
+           3      0.000     0.000     0.000         9
+           4      0.000     0.000     0.000        41
+
+    accuracy                          0.602       332
+   macro avg      0.204     0.285     0.225       332
+weighted avg      0.557     0.602     0.568       332
+
+
+
+2021-06-02 17:27:25.958615
+Iteration 6
+EPOCH 1
+Training   -- Loss Mention: 25.291870 | Loss Coreference: 274.566101 | Loss Relation: 31.929579
+Evaluation -- Loss Mention: 24.757713 | Loss Coreference: 341.959564 | Loss Relation: 30.314919
+EPOCH 2
+Training   -- Loss Mention: 25.124454 | Loss Coreference: 249.117432 | Loss Relation: 29.142660
+Evaluation -- Loss Mention: 25.402809 | Loss Coreference: 328.576843 | Loss Relation: 30.012289
+EPOCH 3
+Training   -- Loss Mention: 25.075918 | Loss Coreference: 245.205673 | Loss Relation: 29.196407
+Evaluation -- Loss Mention: 25.089485 | Loss Coreference: 317.309540 | Loss Relation: 29.356369
+EPOCH 4
+Training   -- Loss Mention: 24.563915 | Loss Coreference: 244.857162 | Loss Relation: 28.232031
+Evaluation -- Loss Mention: 24.084002 | Loss Coreference: 283.219574 | Loss Relation: 29.643633
+EPOCH 5
+Training   -- Loss Mention: 24.833567 | Loss Coreference: 239.701828 | Loss Relation: 28.124893
+Evaluation -- Loss Mention: 25.130545 | Loss Coreference: 275.306030 | Loss Relation: 28.846689
+EPOCH 6
+Training   -- Loss Mention: 23.672056 | Loss Coreference: 236.773331 | Loss Relation: 28.130390
+Evaluation -- Loss Mention: 22.559189 | Loss Coreference: 278.056976 | Loss Relation: 28.567087
+EPOCH 7
+Training   -- Loss Mention: 23.696774 | Loss Coreference: 234.172806 | Loss Relation: 27.386404
+Evaluation -- Loss Mention: 23.328787 | Loss Coreference: 259.993774 | Loss Relation: 28.351629
+EPOCH 8
+Training   -- Loss Mention: 24.440292 | Loss Coreference: 234.390961 | Loss Relation: 27.430979
+Evaluation -- Loss Mention: 23.611586 | Loss Coreference: 268.019135 | Loss Relation: 28.918703
+EPOCH 9
+Training   -- Loss Mention: 23.102156 | Loss Coreference: 231.682144 | Loss Relation: 27.511675
+Evaluation -- Loss Mention: 24.194368 | Loss Coreference: 263.912659 | Loss Relation: 28.759010
+EPOCH 10
+Training   -- Loss Mention: 23.611090 | Loss Coreference: 232.708939 | Loss Relation: 27.494299
+Evaluation -- Loss Mention: 24.082678 | Loss Coreference: 272.891449 | Loss Relation: 29.601145
+----- TEST -----
+
+--Mentions statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.739     1.000     0.850       579
+           1      0.000     0.000     0.000       158
+           2      0.000     0.000     0.000        47
+
+    accuracy                          0.739       784
+   macro avg      0.246     0.333     0.283       784
+weighted avg      0.545     0.739     0.627       784
+
+--Coreferences statistics--
+
+Precision: 0.498107
+Recall: 1.000000
+F1: 0.664982 
+
+--Relations statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.759     0.830     0.793       224
+           1      0.000     0.000     0.000        18
+           2      0.250     0.525     0.339        40
+           3      0.000     0.000     0.000         9
+           4      0.333     0.024     0.045        41
+
+    accuracy                          0.627       332
+   macro avg      0.269     0.276     0.235       332
+weighted avg      0.584     0.627     0.582       332
+
+
+
+2021-06-02 17:32:21.887863
+Iteration 7
+EPOCH 1
+Training   -- Loss Mention: 25.484936 | Loss Coreference: 287.238678 | Loss Relation: 33.521278
+Evaluation -- Loss Mention: 24.890162 | Loss Coreference: 321.434052 | Loss Relation: 29.909735
+EPOCH 2
+Training   -- Loss Mention: 24.806948 | Loss Coreference: 248.357712 | Loss Relation: 29.743103
+Evaluation -- Loss Mention: 24.046209 | Loss Coreference: 277.152557 | Loss Relation: 29.886915
+EPOCH 3
+Training   -- Loss Mention: 23.970278 | Loss Coreference: 242.595383 | Loss Relation: 29.180161
+Evaluation -- Loss Mention: 21.648399 | Loss Coreference: 303.458984 | Loss Relation: 29.316462
+EPOCH 4
+Training   -- Loss Mention: 21.661661 | Loss Coreference: 238.537628 | Loss Relation: 28.410849
+Evaluation -- Loss Mention: 20.183937 | Loss Coreference: 286.189240 | Loss Relation: 28.988325
+EPOCH 5
+Training   -- Loss Mention: 21.157545 | Loss Coreference: 237.251495 | Loss Relation: 27.866488
+Evaluation -- Loss Mention: 19.373482 | Loss Coreference: 269.983246 | Loss Relation: 29.213448
+EPOCH 6
+Training   -- Loss Mention: 21.833994 | Loss Coreference: 232.646042 | Loss Relation: 28.573229
+Evaluation -- Loss Mention: 22.071787 | Loss Coreference: 273.146423 | Loss Relation: 29.062841
+EPOCH 7
+Training   -- Loss Mention: 21.156088 | Loss Coreference: 234.504959 | Loss Relation: 27.510593
+Evaluation -- Loss Mention: 19.500467 | Loss Coreference: 260.056152 | Loss Relation: 28.310183
+EPOCH 8
+Training   -- Loss Mention: 21.373337 | Loss Coreference: 227.284698 | Loss Relation: 26.626572
+Evaluation -- Loss Mention: 22.370218 | Loss Coreference: 258.745392 | Loss Relation: 28.056135
+EPOCH 9
+Training   -- Loss Mention: 21.089487 | Loss Coreference: 224.667404 | Loss Relation: 26.773520
+Evaluation -- Loss Mention: 20.566183 | Loss Coreference: 262.819214 | Loss Relation: 28.645086
+EPOCH 10
+Training   -- Loss Mention: 20.705622 | Loss Coreference: 218.820923 | Loss Relation: 26.646265
+Evaluation -- Loss Mention: 20.822481 | Loss Coreference: 267.333893 | Loss Relation: 28.486580
+----- TEST -----
+
+--Mentions statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.862     0.839     0.850       579
+           1      0.482     0.671     0.561       158
+           2      0.000     0.000     0.000        47
+
+    accuracy                          0.755       784
+   macro avg      0.448     0.503     0.470       784
+weighted avg      0.733     0.755     0.741       784
+
+--Coreferences statistics--
+
+Precision: 0.498107
+Recall: 1.000000
+F1: 0.664982 
+
+--Relations statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.801     0.647     0.716       224
+           1      0.000     0.000     0.000        18
+           2      0.219     0.825     0.346        40
+           3      0.000     0.000     0.000         9
+           4      0.000     0.000     0.000        41
+
+    accuracy                          0.536       332
+   macro avg      0.204     0.294     0.212       332
+weighted avg      0.567     0.536     0.525       332
+
+
+
+2021-06-02 17:37:15.683934
+Iteration 8
+EPOCH 1
+Training   -- Loss Mention: 25.630423 | Loss Coreference: 352.251160 | Loss Relation: 36.449013
+Evaluation -- Loss Mention: 24.693624 | Loss Coreference: 320.103363 | Loss Relation: 29.692339
+EPOCH 2
+Training   -- Loss Mention: 23.240061 | Loss Coreference: 245.660141 | Loss Relation: 30.083740
+Evaluation -- Loss Mention: 20.756746 | Loss Coreference: 263.556366 | Loss Relation: 29.118490
+EPOCH 3
+Training   -- Loss Mention: 21.382334 | Loss Coreference: 243.545380 | Loss Relation: 29.301088
+Evaluation -- Loss Mention: 20.998903 | Loss Coreference: 260.677277 | Loss Relation: 29.520624
+EPOCH 4
+Training   -- Loss Mention: 21.024542 | Loss Coreference: 235.238876 | Loss Relation: 28.508860
+Evaluation -- Loss Mention: 26.322304 | Loss Coreference: 266.019958 | Loss Relation: 28.802256
+EPOCH 5
+Training   -- Loss Mention: 20.461391 | Loss Coreference: 228.375458 | Loss Relation: 28.812342
+Evaluation -- Loss Mention: 19.228115 | Loss Coreference: 272.936157 | Loss Relation: 31.016180
+EPOCH 6
+Training   -- Loss Mention: 20.749868 | Loss Coreference: 236.404892 | Loss Relation: 29.561232
+Evaluation -- Loss Mention: 19.815924 | Loss Coreference: 253.988449 | Loss Relation: 28.622574
+EPOCH 7
+Training   -- Loss Mention: 20.321447 | Loss Coreference: 223.197464 | Loss Relation: 27.525537
+Evaluation -- Loss Mention: 19.200411 | Loss Coreference: 249.635010 | Loss Relation: 28.681982
+EPOCH 8
+Training   -- Loss Mention: 20.637945 | Loss Coreference: 220.376953 | Loss Relation: 27.095743
+Evaluation -- Loss Mention: 18.182882 | Loss Coreference: 234.665649 | Loss Relation: 27.298605
+EPOCH 9
+Training   -- Loss Mention: 20.139690 | Loss Coreference: 210.159470 | Loss Relation: 26.761593
+Evaluation -- Loss Mention: 17.807203 | Loss Coreference: 233.547775 | Loss Relation: 26.666689
+EPOCH 10
+Training   -- Loss Mention: 20.546850 | Loss Coreference: 215.159195 | Loss Relation: 26.279570
+Evaluation -- Loss Mention: 19.116722 | Loss Coreference: 254.334595 | Loss Relation: 26.479897
+EPOCH 11
+Training   -- Loss Mention: 20.647068 | Loss Coreference: 221.889175 | Loss Relation: 25.343929
+Evaluation -- Loss Mention: 18.323471 | Loss Coreference: 227.980225 | Loss Relation: 28.080208
+EPOCH 12
+Training   -- Loss Mention: 20.476284 | Loss Coreference: 205.812637 | Loss Relation: 24.950365
+Evaluation -- Loss Mention: 19.662178 | Loss Coreference: 226.027390 | Loss Relation: 25.835413
+----- TEST -----
+
+--Mentions statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.873     0.845     0.859       579
+           1      0.500     0.709     0.586       158
+           2      0.000     0.000     0.000        47
+
+    accuracy                          0.767       784
+   macro avg      0.458     0.518     0.482       784
+weighted avg      0.746     0.767     0.752       784
+
+--Coreferences statistics--
+
+Precision: 0.464610
+Recall: 0.891473
+F1: 0.610858 
+
+--Relations statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.798     0.616     0.695       224
+           1      1.000     0.056     0.105        18
+           2      0.216     0.725     0.333        40
+           3      0.000     0.000     0.000         9
+           4      0.292     0.171     0.215        41
+
+    accuracy                          0.527       332
+   macro avg      0.461     0.313     0.270       332
+weighted avg      0.655     0.527     0.542       332
+
+
+
+2021-06-02 17:43:07.138761
+Iteration 9
+EPOCH 1
+Training   -- Loss Mention: 25.470335 | Loss Coreference: 266.533539 | Loss Relation: 34.419460
+Evaluation -- Loss Mention: 24.955931 | Loss Coreference: 287.962982 | Loss Relation: 29.872437
+EPOCH 2
+Training   -- Loss Mention: 25.152937 | Loss Coreference: 245.374054 | Loss Relation: 29.254391
+Evaluation -- Loss Mention: 24.369118 | Loss Coreference: 270.074463 | Loss Relation: 30.063677
+EPOCH 3
+Training   -- Loss Mention: 25.266890 | Loss Coreference: 242.218994 | Loss Relation: 29.101961
+Evaluation -- Loss Mention: 24.807076 | Loss Coreference: 295.570282 | Loss Relation: 29.707001
+EPOCH 4
+Training   -- Loss Mention: 25.273041 | Loss Coreference: 240.415939 | Loss Relation: 28.050564
+Evaluation -- Loss Mention: 24.917486 | Loss Coreference: 279.957672 | Loss Relation: 29.985245
+EPOCH 5
+Training   -- Loss Mention: 24.976002 | Loss Coreference: 237.162323 | Loss Relation: 28.740358
+Evaluation -- Loss Mention: 24.178970 | Loss Coreference: 259.879791 | Loss Relation: 29.384478
+EPOCH 6
+Training   -- Loss Mention: 25.009909 | Loss Coreference: 237.176132 | Loss Relation: 28.091610
+Evaluation -- Loss Mention: 23.790710 | Loss Coreference: 280.081024 | Loss Relation: 29.705231
+EPOCH 7
+Training   -- Loss Mention: 24.928223 | Loss Coreference: 244.098404 | Loss Relation: 28.548002
+Evaluation -- Loss Mention: 24.895836 | Loss Coreference: 290.600800 | Loss Relation: 30.308550
+EPOCH 8
+Training   -- Loss Mention: 25.256010 | Loss Coreference: 236.766006 | Loss Relation: 27.805721
+Evaluation -- Loss Mention: 25.099531 | Loss Coreference: 274.331451 | Loss Relation: 29.299604
+----- TEST -----
+
+--Mentions statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.739     1.000     0.850       579
+           1      0.000     0.000     0.000       158
+           2      0.000     0.000     0.000        47
+
+    accuracy                          0.739       784
+   macro avg      0.246     0.333     0.283       784
+weighted avg      0.545     0.739     0.627       784
+
+--Coreferences statistics--
+
+Precision: 0.498107
+Recall: 1.000000
+F1: 0.664982 
+
+--Relations statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.812     0.500     0.619       224
+           1      0.000     0.000     0.000        18
+           2      0.175     0.850     0.291        40
+           3      0.000     0.000     0.000         9
+           4      0.000     0.000     0.000        41
+
+    accuracy                          0.440       332
+   macro avg      0.197     0.270     0.182       332
+weighted avg      0.569     0.440     0.453       332
+
+
+
+2021-06-02 17:47:01.229740
+----------------------------------------------
+----------------------------------------------
+FREEZED_LAYERS: 13, DECODING_HIDDEN_DIM: 100, DISTANCE_DIM: 50, DROPOUT: 0.200000, LEARNING_RATE: 0.001000 
+
+Iteration 0
+EPOCH 1
+Training   -- Loss Mention: 25.135971 | Loss Coreference: 295.688538 | Loss Relation: 32.287148
+Evaluation -- Loss Mention: 24.872564 | Loss Coreference: 317.620605 | Loss Relation: 29.114275
+EPOCH 2
+Training   -- Loss Mention: 24.233227 | Loss Coreference: 245.311127 | Loss Relation: 29.434940
+Evaluation -- Loss Mention: 22.143278 | Loss Coreference: 313.873718 | Loss Relation: 29.318161
+EPOCH 3
+Training   -- Loss Mention: 22.288958 | Loss Coreference: 239.600677 | Loss Relation: 28.762085
+Evaluation -- Loss Mention: 19.179644 | Loss Coreference: 276.246552 | Loss Relation: 28.516119
+EPOCH 4
+Training   -- Loss Mention: 20.805300 | Loss Coreference: 234.112900 | Loss Relation: 28.690962
+Evaluation -- Loss Mention: 22.900017 | Loss Coreference: 263.702667 | Loss Relation: 28.026632
+EPOCH 5
+Training   -- Loss Mention: 20.308706 | Loss Coreference: 232.827194 | Loss Relation: 27.119549
+Evaluation -- Loss Mention: 18.925283 | Loss Coreference: 271.169464 | Loss Relation: 27.928963
+EPOCH 6
+Training   -- Loss Mention: 20.606428 | Loss Coreference: 227.547516 | Loss Relation: 28.246790
+Evaluation -- Loss Mention: 18.727800 | Loss Coreference: 269.654236 | Loss Relation: 27.800665
+EPOCH 7
+Training   -- Loss Mention: 21.782730 | Loss Coreference: 223.226471 | Loss Relation: 26.852371
+Evaluation -- Loss Mention: 19.262976 | Loss Coreference: 255.212830 | Loss Relation: 26.814470
+EPOCH 8
+Training   -- Loss Mention: 21.311796 | Loss Coreference: 222.843964 | Loss Relation: 26.057772
+Evaluation -- Loss Mention: 21.618830 | Loss Coreference: 255.689499 | Loss Relation: 27.291330
+EPOCH 9
+Training   -- Loss Mention: 20.969074 | Loss Coreference: 218.708008 | Loss Relation: 26.176107
+Evaluation -- Loss Mention: 19.039118 | Loss Coreference: 247.992477 | Loss Relation: 27.141844
+EPOCH 10
+Training   -- Loss Mention: 23.049086 | Loss Coreference: 227.694702 | Loss Relation: 26.820129
+Evaluation -- Loss Mention: 23.605673 | Loss Coreference: 253.569565 | Loss Relation: 29.076181
+EPOCH 11
+Training   -- Loss Mention: 23.005808 | Loss Coreference: 222.011841 | Loss Relation: 27.104685
+Evaluation -- Loss Mention: 20.725945 | Loss Coreference: 249.807297 | Loss Relation: 27.684576
+EPOCH 12
+Training   -- Loss Mention: 23.907942 | Loss Coreference: 216.360275 | Loss Relation: 26.322512
+Evaluation -- Loss Mention: 21.666956 | Loss Coreference: 249.436905 | Loss Relation: 27.347578
+----- TEST -----
+
+--Mentions statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.839     0.865     0.852       579
+           1      0.497     0.589     0.539       158
+           2      0.000     0.000     0.000        47
+
+    accuracy                          0.758       784
+   macro avg      0.446     0.485     0.464       784
+weighted avg      0.720     0.758     0.738       784
+
+--Coreferences statistics--
+
+Precision: 0.498107
+Recall: 1.000000
+F1: 0.664982 
+
+--Relations statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.844     0.629     0.721       224
+           1      0.000     0.000     0.000        18
+           2      0.237     0.825     0.369        40
+           3      0.000     0.000     0.000         9
+           4      0.231     0.146     0.179        41
+
+    accuracy                          0.542       332
+   macro avg      0.262     0.320     0.254       332
+weighted avg      0.627     0.542     0.553       332
+
+
+
+2021-06-02 17:52:53.735987
+Iteration 1
+EPOCH 1
+Training   -- Loss Mention: 25.232157 | Loss Coreference: 262.373444 | Loss Relation: 30.447645
+Evaluation -- Loss Mention: 24.300142 | Loss Coreference: 294.347321 | Loss Relation: 30.248215
+EPOCH 2
+Training   -- Loss Mention: 24.818922 | Loss Coreference: 244.254425 | Loss Relation: 29.682207
+Evaluation -- Loss Mention: 24.239157 | Loss Coreference: 307.247070 | Loss Relation: 29.185389
+EPOCH 3
+Training   -- Loss Mention: 24.486441 | Loss Coreference: 239.497101 | Loss Relation: 28.262720
+Evaluation -- Loss Mention: 23.632874 | Loss Coreference: 281.368988 | Loss Relation: 28.343302
+EPOCH 4
+Training   -- Loss Mention: 22.595053 | Loss Coreference: 239.688705 | Loss Relation: 28.069748
+Evaluation -- Loss Mention: 24.313822 | Loss Coreference: 275.696777 | Loss Relation: 28.734842
+EPOCH 5
+Training   -- Loss Mention: 21.530535 | Loss Coreference: 231.320892 | Loss Relation: 27.871481
+Evaluation -- Loss Mention: 21.915274 | Loss Coreference: 254.601913 | Loss Relation: 28.350279
+EPOCH 6
+Training   -- Loss Mention: 21.964800 | Loss Coreference: 239.173203 | Loss Relation: 31.074886
+Evaluation -- Loss Mention: 22.040955 | Loss Coreference: 272.307892 | Loss Relation: 29.624258
+EPOCH 7
+Training   -- Loss Mention: 21.594038 | Loss Coreference: 233.978012 | Loss Relation: 27.231720
+Evaluation -- Loss Mention: 19.776857 | Loss Coreference: 269.864594 | Loss Relation: 28.477133
+EPOCH 8
+Training   -- Loss Mention: 20.735821 | Loss Coreference: 230.904785 | Loss Relation: 27.110977
+Evaluation -- Loss Mention: 20.017550 | Loss Coreference: 263.555664 | Loss Relation: 28.156305
+EPOCH 9
+Training   -- Loss Mention: 20.934208 | Loss Coreference: 227.158585 | Loss Relation: 26.611542
+Evaluation -- Loss Mention: 21.344955 | Loss Coreference: 265.048981 | Loss Relation: 27.950674
+EPOCH 10
+Training   -- Loss Mention: 21.657564 | Loss Coreference: 225.796967 | Loss Relation: 26.431337
+Evaluation -- Loss Mention: 22.988409 | Loss Coreference: 258.988068 | Loss Relation: 27.450899
+EPOCH 11
+Training   -- Loss Mention: 21.477591 | Loss Coreference: 225.189789 | Loss Relation: 26.571802
+Evaluation -- Loss Mention: 19.042467 | Loss Coreference: 256.965790 | Loss Relation: 27.920919
+EPOCH 12
+Training   -- Loss Mention: 23.047558 | Loss Coreference: 241.905899 | Loss Relation: 27.994045
+Evaluation -- Loss Mention: 22.564264 | Loss Coreference: 266.849365 | Loss Relation: 27.815023
+EPOCH 13
+Training   -- Loss Mention: 22.379749 | Loss Coreference: 225.092056 | Loss Relation: 26.409792
+Evaluation -- Loss Mention: 20.540579 | Loss Coreference: 249.182251 | Loss Relation: 27.690729
+EPOCH 14
+Training   -- Loss Mention: 21.805960 | Loss Coreference: 223.162766 | Loss Relation: 26.159138
+Evaluation -- Loss Mention: 21.499163 | Loss Coreference: 250.518356 | Loss Relation: 27.555574
+----- TEST -----
+
+--Mentions statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.760     0.955     0.846       579
+           1      0.370     0.127     0.189       158
+           2      0.000     0.000     0.000        47
+
+    accuracy                          0.731       784
+   macro avg      0.377     0.361     0.345       784
+weighted avg      0.636     0.731     0.663       784
+
+--Coreferences statistics--
+
+Precision: 0.498107
+Recall: 1.000000
+F1: 0.664982 
+
+--Relations statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.859     0.732     0.790       224
+           1      0.000     0.000     0.000        18
+           2      0.264     0.800     0.398        40
+           3      0.000     0.000     0.000         9
+           4      0.400     0.195     0.262        41
+
+    accuracy                          0.614       332
+   macro avg      0.305     0.345     0.290       332
+weighted avg      0.661     0.614     0.614       332
+
+
+
+2021-06-02 17:59:40.159364
+Iteration 2
+EPOCH 1
+Training   -- Loss Mention: 25.648668 | Loss Coreference: 287.557251 | Loss Relation: 32.045483
+Evaluation -- Loss Mention: 26.162142 | Loss Coreference: 293.524445 | Loss Relation: 30.737825
+EPOCH 2
+Training   -- Loss Mention: 25.137203 | Loss Coreference: 240.044708 | Loss Relation: 28.932962
+Evaluation -- Loss Mention: 24.256510 | Loss Coreference: 278.159637 | Loss Relation: 28.640860
+EPOCH 3
+Training   -- Loss Mention: 24.295218 | Loss Coreference: 237.876297 | Loss Relation: 28.370909
+Evaluation -- Loss Mention: 25.345881 | Loss Coreference: 265.794098 | Loss Relation: 28.471930
+EPOCH 4
+Training   -- Loss Mention: 22.871546 | Loss Coreference: 234.276154 | Loss Relation: 27.934862
+Evaluation -- Loss Mention: 21.606979 | Loss Coreference: 261.215851 | Loss Relation: 27.753578
+EPOCH 5
+Training   -- Loss Mention: 21.185797 | Loss Coreference: 234.860565 | Loss Relation: 27.347181
+Evaluation -- Loss Mention: 19.170004 | Loss Coreference: 270.930969 | Loss Relation: 27.391706
+EPOCH 6
+Training   -- Loss Mention: 21.107862 | Loss Coreference: 229.892502 | Loss Relation: 27.638681
+Evaluation -- Loss Mention: 20.305836 | Loss Coreference: 255.238785 | Loss Relation: 26.795113
+EPOCH 7
+Training   -- Loss Mention: 21.488386 | Loss Coreference: 228.060898 | Loss Relation: 26.419756
+Evaluation -- Loss Mention: 20.705622 | Loss Coreference: 262.702576 | Loss Relation: 27.334822
+EPOCH 8
+Training   -- Loss Mention: 21.085348 | Loss Coreference: 224.956696 | Loss Relation: 26.514263
+Evaluation -- Loss Mention: 21.311745 | Loss Coreference: 246.759842 | Loss Relation: 27.680449
+EPOCH 9
+Training   -- Loss Mention: 20.840845 | Loss Coreference: 219.712753 | Loss Relation: 25.511692
+Evaluation -- Loss Mention: 18.994425 | Loss Coreference: 241.605789 | Loss Relation: 25.953932
+EPOCH 10
+Training   -- Loss Mention: 20.549704 | Loss Coreference: 215.388336 | Loss Relation: 26.314592
+Evaluation -- Loss Mention: 18.926376 | Loss Coreference: 254.798172 | Loss Relation: 26.290140
+EPOCH 11
+Training   -- Loss Mention: 20.617918 | Loss Coreference: 219.195602 | Loss Relation: 26.189981
+Evaluation -- Loss Mention: 20.610277 | Loss Coreference: 255.229370 | Loss Relation: 27.066168
+EPOCH 12
+Training   -- Loss Mention: 20.797680 | Loss Coreference: 211.612808 | Loss Relation: 25.353956
+Evaluation -- Loss Mention: 18.586899 | Loss Coreference: 233.637817 | Loss Relation: 25.365692
+EPOCH 13
+Training   -- Loss Mention: 20.587549 | Loss Coreference: 208.355789 | Loss Relation: 25.157400
+Evaluation -- Loss Mention: 19.383228 | Loss Coreference: 229.254318 | Loss Relation: 26.683044
+EPOCH 14
+Training   -- Loss Mention: 21.474894 | Loss Coreference: 208.026093 | Loss Relation: 24.647903
+Evaluation -- Loss Mention: 18.609423 | Loss Coreference: 227.491623 | Loss Relation: 26.466784
+EPOCH 15
+Training   -- Loss Mention: 21.654297 | Loss Coreference: 206.792862 | Loss Relation: 26.513578
+Evaluation -- Loss Mention: 19.783934 | Loss Coreference: 220.081589 | Loss Relation: 25.388140
+----- TEST -----
+
+--Mentions statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.845     0.839     0.842       579
+           1      0.445     0.589     0.507       158
+           2      0.000     0.000     0.000        47
+
+    accuracy                          0.739       784
+   macro avg      0.430     0.476     0.450       784
+weighted avg      0.714     0.739     0.724       784
+
+--Coreferences statistics--
+
+Precision: 0.491141
+Recall: 0.955039
+F1: 0.648686 
+
+--Relations statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.854     0.549     0.668       224
+           1      0.000     0.000     0.000        18
+           2      0.246     0.875     0.385        40
+           3      0.000     0.000     0.000         9
+           4      0.405     0.415     0.410        41
+
+    accuracy                          0.527       332
+   macro avg      0.301     0.368     0.293       332
+weighted avg      0.656     0.527     0.548       332
+
+
+
+2021-06-02 18:07:01.440370
+Iteration 3
+EPOCH 1
+Training   -- Loss Mention: 25.684248 | Loss Coreference: 275.000153 | Loss Relation: 32.382553
+Evaluation -- Loss Mention: 26.040504 | Loss Coreference: 281.662659 | Loss Relation: 29.417089
+EPOCH 2
+Training   -- Loss Mention: 25.116137 | Loss Coreference: 242.003494 | Loss Relation: 29.109066
+Evaluation -- Loss Mention: 24.390381 | Loss Coreference: 294.002441 | Loss Relation: 28.925043
+EPOCH 3
+Training   -- Loss Mention: 24.985994 | Loss Coreference: 239.244904 | Loss Relation: 29.446245
+Evaluation -- Loss Mention: 24.621857 | Loss Coreference: 281.701813 | Loss Relation: 28.555807
+EPOCH 4
+Training   -- Loss Mention: 24.415598 | Loss Coreference: 242.132080 | Loss Relation: 27.705767
+Evaluation -- Loss Mention: 21.593798 | Loss Coreference: 288.125153 | Loss Relation: 29.038202
+EPOCH 5
+Training   -- Loss Mention: 21.692371 | Loss Coreference: 238.459061 | Loss Relation: 27.517658
+Evaluation -- Loss Mention: 20.310791 | Loss Coreference: 275.564850 | Loss Relation: 27.646187
+EPOCH 6
+Training   -- Loss Mention: 23.781691 | Loss Coreference: 238.396591 | Loss Relation: 27.371553
+Evaluation -- Loss Mention: 22.746109 | Loss Coreference: 288.649750 | Loss Relation: 29.218031
+EPOCH 7
+Training   -- Loss Mention: 22.347813 | Loss Coreference: 234.647873 | Loss Relation: 27.379444
+Evaluation -- Loss Mention: 21.680193 | Loss Coreference: 261.024628 | Loss Relation: 27.640394
+EPOCH 8
+Training   -- Loss Mention: 21.510120 | Loss Coreference: 228.826141 | Loss Relation: 27.023518
+Evaluation -- Loss Mention: 20.236765 | Loss Coreference: 275.588531 | Loss Relation: 28.209793
+EPOCH 9
+Training   -- Loss Mention: 22.017878 | Loss Coreference: 233.663712 | Loss Relation: 27.750170
+Evaluation -- Loss Mention: 20.173807 | Loss Coreference: 269.883881 | Loss Relation: 28.019941
+EPOCH 10
+Training   -- Loss Mention: 23.148153 | Loss Coreference: 233.559067 | Loss Relation: 28.301632
+Evaluation -- Loss Mention: 25.037369 | Loss Coreference: 306.607941 | Loss Relation: 29.561073
+EPOCH 11
+Training   -- Loss Mention: 24.263920 | Loss Coreference: 237.450363 | Loss Relation: 28.741266
+Evaluation -- Loss Mention: 23.330103 | Loss Coreference: 267.892487 | Loss Relation: 30.245216
+EPOCH 12
+Training   -- Loss Mention: 24.035854 | Loss Coreference: 232.740829 | Loss Relation: 27.379572
+Evaluation -- Loss Mention: 24.222906 | Loss Coreference: 270.688934 | Loss Relation: 29.812212
+----- TEST -----
+
+--Mentions statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.739     0.993     0.847       579
+           1      0.167     0.006     0.012       158
+           2      0.000     0.000     0.000        47
+
+    accuracy                          0.735       784
+   macro avg      0.302     0.333     0.287       784
+weighted avg      0.579     0.735     0.628       784
+
+--Coreferences statistics--
+
+Precision: 0.498107
+Recall: 1.000000
+F1: 0.664982 
+
+--Relations statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.808     0.790     0.799       224
+           1      0.000     0.000     0.000        18
+           2      0.262     0.675     0.378        40
+           3      0.000     0.000     0.000         9
+           4      0.400     0.098     0.157        41
+
+    accuracy                          0.627       332
+   macro avg      0.294     0.313     0.267       332
+weighted avg      0.626     0.627     0.604       332
+
+
+
+2021-06-02 18:12:54.061277
+Iteration 4
+EPOCH 1
+Training   -- Loss Mention: 25.356632 | Loss Coreference: 269.928253 | Loss Relation: 33.290516
+Evaluation -- Loss Mention: 25.211464 | Loss Coreference: 337.947266 | Loss Relation: 29.791742
+EPOCH 2
+Training   -- Loss Mention: 24.690634 | Loss Coreference: 245.324844 | Loss Relation: 28.580843
+Evaluation -- Loss Mention: 25.237436 | Loss Coreference: 289.977478 | Loss Relation: 30.135321
+EPOCH 3
+Training   -- Loss Mention: 24.414358 | Loss Coreference: 240.110123 | Loss Relation: 28.368807
+Evaluation -- Loss Mention: 25.060507 | Loss Coreference: 289.441650 | Loss Relation: 28.210974
+EPOCH 4
+Training   -- Loss Mention: 22.997644 | Loss Coreference: 239.067337 | Loss Relation: 28.030247
+Evaluation -- Loss Mention: 21.904375 | Loss Coreference: 272.769897 | Loss Relation: 27.640696
+EPOCH 5
+Training   -- Loss Mention: 23.432440 | Loss Coreference: 232.025360 | Loss Relation: 27.357693
+Evaluation -- Loss Mention: 22.814951 | Loss Coreference: 276.041656 | Loss Relation: 28.287329
+EPOCH 6
+Training   -- Loss Mention: 21.664534 | Loss Coreference: 230.137604 | Loss Relation: 27.317923
+Evaluation -- Loss Mention: 19.771063 | Loss Coreference: 267.243774 | Loss Relation: 28.124741
+EPOCH 7
+Training   -- Loss Mention: 21.237076 | Loss Coreference: 230.802231 | Loss Relation: 27.210632
+Evaluation -- Loss Mention: 20.849581 | Loss Coreference: 271.291656 | Loss Relation: 28.226746
+EPOCH 8
+Training   -- Loss Mention: 21.260778 | Loss Coreference: 225.967316 | Loss Relation: 26.222126
+Evaluation -- Loss Mention: 19.098169 | Loss Coreference: 257.805023 | Loss Relation: 27.521757
+EPOCH 9
+Training   -- Loss Mention: 21.482035 | Loss Coreference: 223.811310 | Loss Relation: 26.263021
+Evaluation -- Loss Mention: 19.219614 | Loss Coreference: 263.895691 | Loss Relation: 26.559755
+EPOCH 10
+Training   -- Loss Mention: 21.553560 | Loss Coreference: 218.384872 | Loss Relation: 25.562794
+Evaluation -- Loss Mention: 19.773237 | Loss Coreference: 256.899200 | Loss Relation: 26.352976
+EPOCH 11
+Training   -- Loss Mention: 21.049562 | Loss Coreference: 218.649216 | Loss Relation: 25.386446
+Evaluation -- Loss Mention: 19.525944 | Loss Coreference: 257.333374 | Loss Relation: 26.500090
+EPOCH 12
+Training   -- Loss Mention: 21.250385 | Loss Coreference: 214.874802 | Loss Relation: 25.507048
+Evaluation -- Loss Mention: 20.801796 | Loss Coreference: 249.373825 | Loss Relation: 26.659082
+EPOCH 13
+Training   -- Loss Mention: 20.607817 | Loss Coreference: 210.104523 | Loss Relation: 25.319427
+Evaluation -- Loss Mention: 19.969217 | Loss Coreference: 238.959671 | Loss Relation: 25.093178
+EPOCH 14
+Training   -- Loss Mention: 20.655581 | Loss Coreference: 201.735809 | Loss Relation: 24.749805
+Evaluation -- Loss Mention: 19.496445 | Loss Coreference: 240.626160 | Loss Relation: 26.624052
+EPOCH 15
+Training   -- Loss Mention: 20.281406 | Loss Coreference: 203.382568 | Loss Relation: 23.195272
+Evaluation -- Loss Mention: 19.864536 | Loss Coreference: 237.067184 | Loss Relation: 25.225962
+----- TEST -----
+
+--Mentions statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.862     0.865     0.864       579
+           1      0.495     0.608     0.545       158
+           2      0.222     0.043     0.071        47
+
+    accuracy                          0.764       784
+   macro avg      0.526     0.505     0.494       784
+weighted avg      0.750     0.764     0.752       784
+
+--Coreferences statistics--
+
+Precision: 0.486096
+Recall: 0.913178
+F1: 0.634461 
+
+--Relations statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.830     0.589     0.689       224
+           1      0.545     0.333     0.414        18
+           2      0.243     0.700     0.361        40
+           3      0.000     0.000     0.000         9
+           4      0.277     0.317     0.295        41
+
+    accuracy                          0.539       332
+   macro avg      0.379     0.388     0.352       332
+weighted avg      0.653     0.539     0.568       332
+
+
+
+2021-06-02 18:20:15.580843
+Iteration 5
+EPOCH 1
+Training   -- Loss Mention: 25.618589 | Loss Coreference: 270.979797 | Loss Relation: 31.656004
+Evaluation -- Loss Mention: 26.941973 | Loss Coreference: 344.188599 | Loss Relation: 30.068344
+EPOCH 2
+Training   -- Loss Mention: 25.303759 | Loss Coreference: 242.450195 | Loss Relation: 29.757885
+Evaluation -- Loss Mention: 25.125051 | Loss Coreference: 305.172485 | Loss Relation: 28.960947
+EPOCH 3
+Training   -- Loss Mention: 25.209015 | Loss Coreference: 240.363556 | Loss Relation: 28.556332
+Evaluation -- Loss Mention: 25.408705 | Loss Coreference: 281.659821 | Loss Relation: 29.008980
+EPOCH 4
+Training   -- Loss Mention: 25.228235 | Loss Coreference: 238.778046 | Loss Relation: 28.046825
+Evaluation -- Loss Mention: 25.467794 | Loss Coreference: 274.082245 | Loss Relation: 27.927038
+EPOCH 5
+Training   -- Loss Mention: 24.894205 | Loss Coreference: 238.682098 | Loss Relation: 27.957043
+Evaluation -- Loss Mention: 24.228491 | Loss Coreference: 278.151367 | Loss Relation: 29.387796
+EPOCH 6
+Training   -- Loss Mention: 24.948149 | Loss Coreference: 236.927643 | Loss Relation: 26.730768
+Evaluation -- Loss Mention: 24.943039 | Loss Coreference: 273.481171 | Loss Relation: 29.161612
+EPOCH 7
+Training   -- Loss Mention: 24.898808 | Loss Coreference: 228.725143 | Loss Relation: 27.174952
+Evaluation -- Loss Mention: 23.780878 | Loss Coreference: 309.805084 | Loss Relation: 28.464174
+EPOCH 8
+Training   -- Loss Mention: 24.692326 | Loss Coreference: 231.632446 | Loss Relation: 27.063482
+Evaluation -- Loss Mention: 23.642145 | Loss Coreference: 276.175385 | Loss Relation: 27.564737
+EPOCH 9
+Training   -- Loss Mention: 22.695103 | Loss Coreference: 226.500381 | Loss Relation: 26.518097
+Evaluation -- Loss Mention: 22.345514 | Loss Coreference: 263.293762 | Loss Relation: 26.724066
+EPOCH 10
+Training   -- Loss Mention: 23.014643 | Loss Coreference: 228.570084 | Loss Relation: 26.285709
+Evaluation -- Loss Mention: 24.408365 | Loss Coreference: 255.425980 | Loss Relation: 27.562574
+EPOCH 11
+Training   -- Loss Mention: 22.421015 | Loss Coreference: 222.770096 | Loss Relation: 25.854963
+Evaluation -- Loss Mention: 20.858742 | Loss Coreference: 265.181671 | Loss Relation: 26.653738
+EPOCH 12
+Training   -- Loss Mention: 21.504831 | Loss Coreference: 220.983109 | Loss Relation: 25.886780
+Evaluation -- Loss Mention: 21.141127 | Loss Coreference: 269.939056 | Loss Relation: 27.190704
+EPOCH 13
+Training   -- Loss Mention: 22.777910 | Loss Coreference: 222.091141 | Loss Relation: 26.152071
+Evaluation -- Loss Mention: 24.884127 | Loss Coreference: 252.202255 | Loss Relation: 26.480364
+EPOCH 14
+Training   -- Loss Mention: 22.465761 | Loss Coreference: 218.991226 | Loss Relation: 25.783983
+Evaluation -- Loss Mention: 20.418158 | Loss Coreference: 245.956161 | Loss Relation: 25.845764
+EPOCH 15
+Training   -- Loss Mention: 21.046862 | Loss Coreference: 216.382889 | Loss Relation: 24.739626
+Evaluation -- Loss Mention: 20.640509 | Loss Coreference: 253.758179 | Loss Relation: 24.455170
+----- TEST -----
+
+--Mentions statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.804     0.914     0.855       579
+           1      0.500     0.399     0.444       158
+           2      0.000     0.000     0.000        47
+
+    accuracy                          0.755       784
+   macro avg      0.435     0.437     0.433       784
+weighted avg      0.694     0.755     0.721       784
+
+--Coreferences statistics--
+
+Precision: 0.494772
+Recall: 1.000000
+F1: 0.662003 
+
+--Relations statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.823     0.728     0.773       224
+           1      0.000     0.000     0.000        18
+           2      0.291     0.800     0.427        40
+           3      0.000     0.000     0.000         9
+           4      0.381     0.195     0.258        41
+
+    accuracy                          0.611       332
+   macro avg      0.299     0.345     0.291       332
+weighted avg      0.638     0.611     0.604       332
+
+
+
+2021-06-02 18:27:34.950058
+Iteration 6
+EPOCH 1
+Training   -- Loss Mention: 25.252548 | Loss Coreference: 269.697388 | Loss Relation: 34.788601
+Evaluation -- Loss Mention: 24.247665 | Loss Coreference: 349.613647 | Loss Relation: 29.454004
+EPOCH 2
+Training   -- Loss Mention: 24.687542 | Loss Coreference: 244.822021 | Loss Relation: 29.318048
+Evaluation -- Loss Mention: 22.715219 | Loss Coreference: 279.517120 | Loss Relation: 28.936357
+EPOCH 3
+Training   -- Loss Mention: 23.174793 | Loss Coreference: 237.763474 | Loss Relation: 29.016361
+Evaluation -- Loss Mention: 21.787718 | Loss Coreference: 285.167847 | Loss Relation: 28.895393
+EPOCH 4
+Training   -- Loss Mention: 22.129244 | Loss Coreference: 240.498169 | Loss Relation: 27.839144
+Evaluation -- Loss Mention: 21.582670 | Loss Coreference: 283.462067 | Loss Relation: 28.729897
+EPOCH 5
+Training   -- Loss Mention: 21.697004 | Loss Coreference: 235.985489 | Loss Relation: 27.727385
+Evaluation -- Loss Mention: 19.972416 | Loss Coreference: 298.939423 | Loss Relation: 29.497574
+EPOCH 6
+Training   -- Loss Mention: 23.562307 | Loss Coreference: 239.436569 | Loss Relation: 28.238825
+Evaluation -- Loss Mention: 19.769196 | Loss Coreference: 274.985992 | Loss Relation: 28.359682
+EPOCH 7
+Training   -- Loss Mention: 20.718702 | Loss Coreference: 231.644577 | Loss Relation: 27.064911
+Evaluation -- Loss Mention: 19.362619 | Loss Coreference: 256.003021 | Loss Relation: 27.845114
+EPOCH 8
+Training   -- Loss Mention: 21.007448 | Loss Coreference: 230.262543 | Loss Relation: 27.629330
+Evaluation -- Loss Mention: 19.516687 | Loss Coreference: 253.729492 | Loss Relation: 27.416391
+EPOCH 9
+Training   -- Loss Mention: 20.575180 | Loss Coreference: 227.650986 | Loss Relation: 26.650814
+Evaluation -- Loss Mention: 19.378586 | Loss Coreference: 256.973297 | Loss Relation: 27.175180
+EPOCH 10
+Training   -- Loss Mention: 20.875948 | Loss Coreference: 227.823090 | Loss Relation: 26.396795
+Evaluation -- Loss Mention: 18.946915 | Loss Coreference: 250.098343 | Loss Relation: 27.394945
+EPOCH 11
+Training   -- Loss Mention: 20.999540 | Loss Coreference: 224.973404 | Loss Relation: 26.335897
+Evaluation -- Loss Mention: 19.624170 | Loss Coreference: 262.206512 | Loss Relation: 27.154802
+EPOCH 12
+Training   -- Loss Mention: 20.757959 | Loss Coreference: 221.844101 | Loss Relation: 25.605183
+Evaluation -- Loss Mention: 18.989847 | Loss Coreference: 257.254486 | Loss Relation: 27.170858
+EPOCH 13
+Training   -- Loss Mention: 20.622438 | Loss Coreference: 218.191360 | Loss Relation: 25.510855
+Evaluation -- Loss Mention: 18.849293 | Loss Coreference: 247.178909 | Loss Relation: 27.777132
+EPOCH 14
+Training   -- Loss Mention: 19.851547 | Loss Coreference: 211.448196 | Loss Relation: 25.155102
+Evaluation -- Loss Mention: 18.780567 | Loss Coreference: 248.803574 | Loss Relation: 27.181890
+EPOCH 15
+Training   -- Loss Mention: 20.069889 | Loss Coreference: 207.924835 | Loss Relation: 24.487112
+Evaluation -- Loss Mention: 18.750566 | Loss Coreference: 229.983704 | Loss Relation: 26.207293
+----- TEST -----
+
+--Mentions statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.835     0.893     0.863       579
+           1      0.527     0.551     0.539       158
+           2      0.000     0.000     0.000        47
+
+    accuracy                          0.770       784
+   macro avg      0.454     0.481     0.467       784
+weighted avg      0.723     0.770     0.746       784
+
+--Coreferences statistics--
+
+Precision: 0.477264
+Recall: 0.961240
+F1: 0.637837 
+
+--Relations statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.831     0.616     0.708       224
+           1      0.500     0.278     0.357        18
+           2      0.192     0.600     0.291        40
+           3      0.000     0.000     0.000         9
+           4      0.226     0.171     0.194        41
+
+    accuracy                          0.524       332
+   macro avg      0.350     0.333     0.310       332
+weighted avg      0.639     0.524     0.556       332
+
+
+
+2021-06-02 18:34:57.521873
+Iteration 7
+EPOCH 1
+Training   -- Loss Mention: 25.626740 | Loss Coreference: 277.553772 | Loss Relation: 34.122368
+Evaluation -- Loss Mention: 25.121048 | Loss Coreference: 295.935638 | Loss Relation: 29.970896
+EPOCH 2
+Training   -- Loss Mention: 25.504772 | Loss Coreference: 245.429596 | Loss Relation: 29.095964
+Evaluation -- Loss Mention: 25.477938 | Loss Coreference: 288.588806 | Loss Relation: 29.579294
+EPOCH 3
+Training   -- Loss Mention: 25.286663 | Loss Coreference: 239.374680 | Loss Relation: 28.610636
+Evaluation -- Loss Mention: 25.353317 | Loss Coreference: 280.546722 | Loss Relation: 29.166162
+EPOCH 4
+Training   -- Loss Mention: 24.801731 | Loss Coreference: 236.775711 | Loss Relation: 27.757599
+Evaluation -- Loss Mention: 24.551079 | Loss Coreference: 273.038116 | Loss Relation: 27.556524
+EPOCH 5
+Training   -- Loss Mention: 24.769297 | Loss Coreference: 237.428604 | Loss Relation: 27.766466
+Evaluation -- Loss Mention: 24.080894 | Loss Coreference: 273.477264 | Loss Relation: 28.198034
+EPOCH 6
+Training   -- Loss Mention: 22.810026 | Loss Coreference: 235.339676 | Loss Relation: 27.424274
+Evaluation -- Loss Mention: 20.504671 | Loss Coreference: 295.071289 | Loss Relation: 29.932005
+EPOCH 7
+Training   -- Loss Mention: 22.882902 | Loss Coreference: 234.692169 | Loss Relation: 27.333155
+Evaluation -- Loss Mention: 22.411026 | Loss Coreference: 278.734772 | Loss Relation: 27.445040
+EPOCH 8
+Training   -- Loss Mention: 23.375975 | Loss Coreference: 233.022751 | Loss Relation: 26.669600
+Evaluation -- Loss Mention: 20.536674 | Loss Coreference: 256.574188 | Loss Relation: 26.846060
+EPOCH 9
+Training   -- Loss Mention: 22.011776 | Loss Coreference: 232.424973 | Loss Relation: 27.120441
+Evaluation -- Loss Mention: 21.058657 | Loss Coreference: 268.265900 | Loss Relation: 27.735445
+EPOCH 10
+Training   -- Loss Mention: 21.502268 | Loss Coreference: 228.563797 | Loss Relation: 27.204483
+Evaluation -- Loss Mention: 20.476145 | Loss Coreference: 258.647919 | Loss Relation: 27.640985
+EPOCH 11
+Training   -- Loss Mention: 21.629305 | Loss Coreference: 222.458755 | Loss Relation: 26.043745
+Evaluation -- Loss Mention: 21.293089 | Loss Coreference: 266.227997 | Loss Relation: 27.306356
+----- TEST -----
+
+--Mentions statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.811     0.924     0.864       579
+           1      0.524     0.411     0.461       158
+           2      0.000     0.000     0.000        47
+
+    accuracy                          0.765       784
+   macro avg      0.445     0.445     0.442       784
+weighted avg      0.704     0.765     0.731       784
+
+--Coreferences statistics--
+
+Precision: 0.498107
+Recall: 1.000000
+F1: 0.664982 
+
+--Relations statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.836     0.750     0.791       224
+           1      0.000     0.000     0.000        18
+           2      0.256     0.775     0.385        40
+           3      0.000     0.000     0.000         9
+           4      0.400     0.098     0.157        41
+
+    accuracy                          0.611       332
+   macro avg      0.298     0.325     0.267       332
+weighted avg      0.644     0.611     0.599       332
+
+
+
+2021-06-02 18:40:21.773318
+Iteration 8
+EPOCH 1
+Training   -- Loss Mention: 25.375944 | Loss Coreference: 266.723785 | Loss Relation: 32.827690
+Evaluation -- Loss Mention: 26.145731 | Loss Coreference: 323.584442 | Loss Relation: 31.396017
+EPOCH 2
+Training   -- Loss Mention: 25.173235 | Loss Coreference: 245.938889 | Loss Relation: 28.845444
+Evaluation -- Loss Mention: 24.309217 | Loss Coreference: 275.376587 | Loss Relation: 29.622980
+EPOCH 3
+Training   -- Loss Mention: 24.961590 | Loss Coreference: 240.717804 | Loss Relation: 28.962872
+Evaluation -- Loss Mention: 24.482550 | Loss Coreference: 283.662140 | Loss Relation: 29.360975
+EPOCH 4
+Training   -- Loss Mention: 24.592001 | Loss Coreference: 238.839447 | Loss Relation: 28.082836
+Evaluation -- Loss Mention: 24.876272 | Loss Coreference: 285.776642 | Loss Relation: 28.775698
+EPOCH 5
+Training   -- Loss Mention: 24.484043 | Loss Coreference: 240.199448 | Loss Relation: 27.387457
+Evaluation -- Loss Mention: 23.222563 | Loss Coreference: 266.558319 | Loss Relation: 28.207438
+EPOCH 6
+Training   -- Loss Mention: 24.028164 | Loss Coreference: 234.308716 | Loss Relation: 27.513083
+Evaluation -- Loss Mention: 22.964951 | Loss Coreference: 271.395386 | Loss Relation: 27.899775
+EPOCH 7
+Training   -- Loss Mention: 23.552977 | Loss Coreference: 236.568802 | Loss Relation: 26.911030
+Evaluation -- Loss Mention: 21.589842 | Loss Coreference: 257.030640 | Loss Relation: 28.375895
+EPOCH 8
+Training   -- Loss Mention: 22.788452 | Loss Coreference: 230.870590 | Loss Relation: 26.625118
+Evaluation -- Loss Mention: 22.403833 | Loss Coreference: 290.218231 | Loss Relation: 28.250893
+EPOCH 9
+Training   -- Loss Mention: 23.929102 | Loss Coreference: 238.200974 | Loss Relation: 26.971222
+Evaluation -- Loss Mention: 22.446230 | Loss Coreference: 274.244904 | Loss Relation: 27.576248
+EPOCH 10
+Training   -- Loss Mention: 23.980997 | Loss Coreference: 259.955994 | Loss Relation: 28.481749
+Evaluation -- Loss Mention: 25.208433 | Loss Coreference: 280.984894 | Loss Relation: 28.613083
+----- TEST -----
+
+--Mentions statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.739     1.000     0.850       579
+           1      0.000     0.000     0.000       158
+           2      0.000     0.000     0.000        47
+
+    accuracy                          0.739       784
+   macro avg      0.246     0.333     0.283       784
+weighted avg      0.545     0.739     0.627       784
+
+--Coreferences statistics--
+
+Precision: 0.498107
+Recall: 1.000000
+F1: 0.664982 
+
+--Relations statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.820     0.750     0.783       224
+           1      0.000     0.000     0.000        18
+           2      0.229     0.675     0.342        40
+           3      0.000     0.000     0.000         9
+           4      0.333     0.073     0.120        41
+
+    accuracy                          0.596       332
+   macro avg      0.276     0.300     0.249       332
+weighted avg      0.622     0.596     0.584       332
+
+
+
+2021-06-02 18:45:13.785865
+Iteration 9
+EPOCH 1
+Training   -- Loss Mention: 25.797657 | Loss Coreference: 275.387451 | Loss Relation: 34.572128
+Evaluation -- Loss Mention: 25.039709 | Loss Coreference: 316.304321 | Loss Relation: 29.463495
+EPOCH 2
+Training   -- Loss Mention: 25.222580 | Loss Coreference: 243.510208 | Loss Relation: 29.389845
+Evaluation -- Loss Mention: 24.776642 | Loss Coreference: 279.488800 | Loss Relation: 29.186289
+EPOCH 3
+Training   -- Loss Mention: 24.783575 | Loss Coreference: 236.439041 | Loss Relation: 28.253786
+Evaluation -- Loss Mention: 25.168016 | Loss Coreference: 273.763214 | Loss Relation: 27.831564
+EPOCH 4
+Training   -- Loss Mention: 24.517942 | Loss Coreference: 238.958618 | Loss Relation: 27.565311
+Evaluation -- Loss Mention: 23.071016 | Loss Coreference: 273.121307 | Loss Relation: 29.275408
+EPOCH 5
+Training   -- Loss Mention: 23.270884 | Loss Coreference: 233.534561 | Loss Relation: 28.469137
+Evaluation -- Loss Mention: 21.723360 | Loss Coreference: 270.788849 | Loss Relation: 28.312998
+EPOCH 6
+Training   -- Loss Mention: 22.284685 | Loss Coreference: 235.827438 | Loss Relation: 27.621893
+Evaluation -- Loss Mention: 20.434441 | Loss Coreference: 277.934326 | Loss Relation: 27.714752
+EPOCH 7
+Training   -- Loss Mention: 23.976276 | Loss Coreference: 233.604721 | Loss Relation: 28.917746
+Evaluation -- Loss Mention: 24.006456 | Loss Coreference: 280.550598 | Loss Relation: 28.784111
+EPOCH 8
+Training   -- Loss Mention: 24.369659 | Loss Coreference: 235.151215 | Loss Relation: 27.947641
+Evaluation -- Loss Mention: 23.339195 | Loss Coreference: 300.226105 | Loss Relation: 30.315393
+EPOCH 9
+Training   -- Loss Mention: 24.605345 | Loss Coreference: 237.807449 | Loss Relation: 27.272711
+Evaluation -- Loss Mention: 22.637777 | Loss Coreference: 274.913055 | Loss Relation: 27.645304
+----- TEST -----
+
+--Mentions statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.753     0.972     0.849       579
+           1      0.444     0.101     0.165       158
+           2      0.000     0.000     0.000        47
+
+    accuracy                          0.739       784
+   macro avg      0.399     0.358     0.338       784
+weighted avg      0.645     0.739     0.660       784
+
+--Coreferences statistics--
+
+Precision: 0.498107
+Recall: 1.000000
+F1: 0.664982 
+
+--Relations statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.817     0.817     0.817       224
+           1      0.000     0.000     0.000        18
+           2      0.287     0.775     0.419        40
+           3      0.000     0.000     0.000         9
+           4      0.000     0.000     0.000        41
+
+    accuracy                          0.645       332
+   macro avg      0.221     0.318     0.247       332
+weighted avg      0.586     0.645     0.602       332
+
+
+
+2021-06-02 18:49:39.677404
+----------------------------------------------
+----------------------------------------------
+FREEZED_LAYERS: 13, DECODING_HIDDEN_DIM: 150, DISTANCE_DIM: 20, DROPOUT: 0.200000, LEARNING_RATE: 0.001000 
+
+Iteration 0
+EPOCH 1
+Training   -- Loss Mention: 25.367268 | Loss Coreference: 263.128113 | Loss Relation: 32.796883
+Evaluation -- Loss Mention: 24.535837 | Loss Coreference: 301.930969 | Loss Relation: 30.360901
+EPOCH 2
+Training   -- Loss Mention: 24.657822 | Loss Coreference: 249.289383 | Loss Relation: 29.814419
+Evaluation -- Loss Mention: 25.056450 | Loss Coreference: 309.065277 | Loss Relation: 29.584602
+EPOCH 3
+Training   -- Loss Mention: 24.547991 | Loss Coreference: 242.244492 | Loss Relation: 29.304996
+Evaluation -- Loss Mention: 24.055916 | Loss Coreference: 288.395752 | Loss Relation: 29.591631
+EPOCH 4
+Training   -- Loss Mention: 24.666651 | Loss Coreference: 238.248688 | Loss Relation: 28.325369
+Evaluation -- Loss Mention: 23.580582 | Loss Coreference: 290.460724 | Loss Relation: 29.469992
+EPOCH 5
+Training   -- Loss Mention: 24.137953 | Loss Coreference: 236.126389 | Loss Relation: 28.176777
+Evaluation -- Loss Mention: 23.764626 | Loss Coreference: 270.976288 | Loss Relation: 28.962732
+EPOCH 6
+Training   -- Loss Mention: 23.501719 | Loss Coreference: 231.875534 | Loss Relation: 27.770063
+Evaluation -- Loss Mention: 21.023199 | Loss Coreference: 286.452240 | Loss Relation: 29.221796
+EPOCH 7
+Training   -- Loss Mention: 23.148329 | Loss Coreference: 237.401886 | Loss Relation: 28.278486
+Evaluation -- Loss Mention: 22.333923 | Loss Coreference: 299.221039 | Loss Relation: 29.765356
+EPOCH 8
+Training   -- Loss Mention: 23.230051 | Loss Coreference: 233.723709 | Loss Relation: 27.805159
+Evaluation -- Loss Mention: 23.905874 | Loss Coreference: 291.430939 | Loss Relation: 28.934273
+EPOCH 9
+Training   -- Loss Mention: 25.025877 | Loss Coreference: 232.378555 | Loss Relation: 27.339909
+Evaluation -- Loss Mention: 25.191385 | Loss Coreference: 267.100281 | Loss Relation: 28.266678
+----- TEST -----
+
+--Mentions statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.739     1.000     0.850       579
+           1      0.000     0.000     0.000       158
+           2      0.000     0.000     0.000        47
+
+    accuracy                          0.739       784
+   macro avg      0.246     0.333     0.283       784
+weighted avg      0.545     0.739     0.627       784
+
+--Coreferences statistics--
+
+Precision: 0.498107
+Recall: 1.000000
+F1: 0.664982 
+
+--Relations statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.765     0.567     0.651       224
+           1      0.000     0.000     0.000        18
+           2      0.193     0.800     0.311        40
+           3      0.000     0.000     0.000         9
+           4      0.000     0.000     0.000        41
+
+    accuracy                          0.479       332
+   macro avg      0.192     0.273     0.192       332
+weighted avg      0.539     0.479     0.477       332
+
+
+
+2021-06-02 18:54:04.994938
+Iteration 1
+EPOCH 1
+Training   -- Loss Mention: 25.249693 | Loss Coreference: 260.829468 | Loss Relation: 30.955997
+Evaluation -- Loss Mention: 25.143900 | Loss Coreference: 284.790710 | Loss Relation: 34.471416
+EPOCH 2
+Training   -- Loss Mention: 24.952242 | Loss Coreference: 251.106613 | Loss Relation: 29.651678
+Evaluation -- Loss Mention: 24.204840 | Loss Coreference: 318.483612 | Loss Relation: 30.419085
+EPOCH 3
+Training   -- Loss Mention: 24.725595 | Loss Coreference: 241.889679 | Loss Relation: 29.587454
+Evaluation -- Loss Mention: 25.378000 | Loss Coreference: 276.089874 | Loss Relation: 30.028223
+EPOCH 4
+Training   -- Loss Mention: 23.735952 | Loss Coreference: 236.987289 | Loss Relation: 29.085175
+Evaluation -- Loss Mention: 22.820879 | Loss Coreference: 269.025421 | Loss Relation: 29.480064
+EPOCH 5
+Training   -- Loss Mention: 22.189215 | Loss Coreference: 235.521164 | Loss Relation: 28.504671
+Evaluation -- Loss Mention: 20.307020 | Loss Coreference: 276.985565 | Loss Relation: 29.159441
+EPOCH 6
+Training   -- Loss Mention: 24.234549 | Loss Coreference: 232.979294 | Loss Relation: 28.008667
+Evaluation -- Loss Mention: 22.106836 | Loss Coreference: 267.099701 | Loss Relation: 28.221132
+EPOCH 7
+Training   -- Loss Mention: 21.937571 | Loss Coreference: 231.097046 | Loss Relation: 27.638142
+Evaluation -- Loss Mention: 19.813532 | Loss Coreference: 262.093292 | Loss Relation: 28.346716
+EPOCH 8
+Training   -- Loss Mention: 21.987013 | Loss Coreference: 229.879776 | Loss Relation: 26.959492
+Evaluation -- Loss Mention: 21.228876 | Loss Coreference: 287.881226 | Loss Relation: 27.586912
+EPOCH 9
+Training   -- Loss Mention: 21.976437 | Loss Coreference: 223.068771 | Loss Relation: 27.330648
+Evaluation -- Loss Mention: 19.835146 | Loss Coreference: 286.551056 | Loss Relation: 27.901407
+EPOCH 10
+Training   -- Loss Mention: 21.686373 | Loss Coreference: 225.159256 | Loss Relation: 26.755507
+Evaluation -- Loss Mention: 18.864058 | Loss Coreference: 262.705353 | Loss Relation: 27.936747
+EPOCH 11
+Training   -- Loss Mention: 21.451754 | Loss Coreference: 223.516739 | Loss Relation: 26.667570
+Evaluation -- Loss Mention: 20.253595 | Loss Coreference: 255.177567 | Loss Relation: 27.267672
+EPOCH 12
+Training   -- Loss Mention: 21.880980 | Loss Coreference: 222.665131 | Loss Relation: 26.435099
+Evaluation -- Loss Mention: 20.809454 | Loss Coreference: 247.916580 | Loss Relation: 27.913750
+EPOCH 13
+Training   -- Loss Mention: 21.756084 | Loss Coreference: 224.418060 | Loss Relation: 30.192385
+Evaluation -- Loss Mention: 20.520277 | Loss Coreference: 257.115601 | Loss Relation: 27.210917
+EPOCH 14
+Training   -- Loss Mention: 21.676729 | Loss Coreference: 213.604874 | Loss Relation: 25.968676
+Evaluation -- Loss Mention: 20.038103 | Loss Coreference: 238.551041 | Loss Relation: 26.029634
+EPOCH 15
+Training   -- Loss Mention: 21.309849 | Loss Coreference: 210.888458 | Loss Relation: 24.842997
+Evaluation -- Loss Mention: 19.917501 | Loss Coreference: 249.792725 | Loss Relation: 26.202898
+----- TEST -----
+
+--Mentions statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.807     0.886     0.844       579
+           1      0.480     0.449     0.464       158
+           2      0.000     0.000     0.000        47
+
+    accuracy                          0.745       784
+   macro avg      0.429     0.445     0.436       784
+weighted avg      0.692     0.745     0.717       784
+
+--Coreferences statistics--
+
+Precision: 0.498107
+Recall: 1.000000
+F1: 0.664982 
+
+--Relations statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.831     0.723     0.773       224
+           1      1.000     0.056     0.105        18
+           2      0.272     0.775     0.403        40
+           3      0.000     0.000     0.000         9
+           4      0.227     0.122     0.159        41
+
+    accuracy                          0.599       332
+   macro avg      0.466     0.335     0.288       332
+weighted avg      0.676     0.599     0.596       332
+
+
+
+2021-06-02 19:01:26.644367
+Iteration 2
+EPOCH 1
+Training   -- Loss Mention: 25.146029 | Loss Coreference: 267.045837 | Loss Relation: 30.883711
+Evaluation -- Loss Mention: 25.268629 | Loss Coreference: 331.571442 | Loss Relation: 30.893927
+EPOCH 2
+Training   -- Loss Mention: 24.530275 | Loss Coreference: 244.968964 | Loss Relation: 29.533129
+Evaluation -- Loss Mention: 23.730005 | Loss Coreference: 291.156281 | Loss Relation: 29.283806
+EPOCH 3
+Training   -- Loss Mention: 24.493689 | Loss Coreference: 240.575760 | Loss Relation: 29.352686
+Evaluation -- Loss Mention: 22.760920 | Loss Coreference: 287.115875 | Loss Relation: 29.534479
+EPOCH 4
+Training   -- Loss Mention: 23.045879 | Loss Coreference: 242.669785 | Loss Relation: 28.511978
+Evaluation -- Loss Mention: 21.322447 | Loss Coreference: 302.472931 | Loss Relation: 29.824305
+EPOCH 5
+Training   -- Loss Mention: 21.874020 | Loss Coreference: 239.284027 | Loss Relation: 28.281099
+Evaluation -- Loss Mention: 24.475128 | Loss Coreference: 278.632324 | Loss Relation: 29.301285
+EPOCH 6
+Training   -- Loss Mention: 24.210665 | Loss Coreference: 230.855728 | Loss Relation: 28.037508
+Evaluation -- Loss Mention: 21.672396 | Loss Coreference: 272.879761 | Loss Relation: 28.739502
+EPOCH 7
+Training   -- Loss Mention: 24.713278 | Loss Coreference: 230.846069 | Loss Relation: 27.440983
+Evaluation -- Loss Mention: 22.010679 | Loss Coreference: 269.787842 | Loss Relation: 29.894852
+EPOCH 8
+Training   -- Loss Mention: 22.702166 | Loss Coreference: 230.413574 | Loss Relation: 27.548719
+Evaluation -- Loss Mention: 21.376007 | Loss Coreference: 266.424164 | Loss Relation: 28.722876
+EPOCH 9
+Training   -- Loss Mention: 21.938402 | Loss Coreference: 230.508652 | Loss Relation: 26.908630
+Evaluation -- Loss Mention: 20.376631 | Loss Coreference: 264.356323 | Loss Relation: 28.057480
+EPOCH 10
+Training   -- Loss Mention: 21.365383 | Loss Coreference: 224.242661 | Loss Relation: 25.683470
+Evaluation -- Loss Mention: 20.147520 | Loss Coreference: 263.739899 | Loss Relation: 26.252085
+EPOCH 11
+Training   -- Loss Mention: 21.848099 | Loss Coreference: 226.518570 | Loss Relation: 26.797800
+Evaluation -- Loss Mention: 20.807726 | Loss Coreference: 279.722168 | Loss Relation: 26.961998
+EPOCH 12
+Training   -- Loss Mention: 22.012915 | Loss Coreference: 235.102707 | Loss Relation: 27.455446
+Evaluation -- Loss Mention: 22.818649 | Loss Coreference: 283.861694 | Loss Relation: 29.019827
+EPOCH 13
+Training   -- Loss Mention: 23.524763 | Loss Coreference: 233.982162 | Loss Relation: 26.508667
+Evaluation -- Loss Mention: 23.411644 | Loss Coreference: 260.170685 | Loss Relation: 26.453993
+----- TEST -----
+
+--Mentions statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.834     0.917     0.873       579
+           1      0.578     0.538     0.557       158
+           2      0.000     0.000     0.000        47
+
+    accuracy                          0.786       784
+   macro avg      0.471     0.485     0.477       784
+weighted avg      0.732     0.786     0.757       784
+
+--Coreferences statistics--
+
+Precision: 0.498107
+Recall: 1.000000
+F1: 0.664982 
+
+--Relations statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.782     0.866     0.822       224
+           1      0.500     0.111     0.182        18
+           2      0.338     0.550     0.419        40
+           3      0.000     0.000     0.000         9
+           4      0.533     0.195     0.286        41
+
+    accuracy                          0.681       332
+   macro avg      0.431     0.344     0.342       332
+weighted avg      0.662     0.681     0.650       332
+
+
+
+2021-06-02 19:07:48.358819
+Iteration 3
+EPOCH 1
+Training   -- Loss Mention: 25.382437 | Loss Coreference: 271.585327 | Loss Relation: 32.648426
+Evaluation -- Loss Mention: 24.925425 | Loss Coreference: 347.288544 | Loss Relation: 30.462011
+EPOCH 2
+Training   -- Loss Mention: 24.954456 | Loss Coreference: 246.668289 | Loss Relation: 29.942221
+Evaluation -- Loss Mention: 25.964071 | Loss Coreference: 290.225220 | Loss Relation: 30.076319
+EPOCH 3
+Training   -- Loss Mention: 24.516027 | Loss Coreference: 240.910782 | Loss Relation: 29.938421
+Evaluation -- Loss Mention: 24.588053 | Loss Coreference: 287.626068 | Loss Relation: 29.861734
+EPOCH 4
+Training   -- Loss Mention: 22.683048 | Loss Coreference: 242.827286 | Loss Relation: 29.431561
+Evaluation -- Loss Mention: 22.667183 | Loss Coreference: 291.583282 | Loss Relation: 29.224108
+EPOCH 5
+Training   -- Loss Mention: 21.454672 | Loss Coreference: 235.846756 | Loss Relation: 28.421764
+Evaluation -- Loss Mention: 20.464861 | Loss Coreference: 272.359985 | Loss Relation: 29.299845
+EPOCH 6
+Training   -- Loss Mention: 20.472782 | Loss Coreference: 237.787201 | Loss Relation: 27.849941
+Evaluation -- Loss Mention: 19.500723 | Loss Coreference: 278.391785 | Loss Relation: 29.586710
+EPOCH 7
+Training   -- Loss Mention: 20.922684 | Loss Coreference: 234.834549 | Loss Relation: 27.876810
+Evaluation -- Loss Mention: 19.901987 | Loss Coreference: 279.278961 | Loss Relation: 28.706476
+EPOCH 8
+Training   -- Loss Mention: 20.882647 | Loss Coreference: 233.816437 | Loss Relation: 27.567722
+Evaluation -- Loss Mention: 20.202608 | Loss Coreference: 269.644806 | Loss Relation: 28.854689
+EPOCH 9
+Training   -- Loss Mention: 21.303419 | Loss Coreference: 231.489700 | Loss Relation: 26.828409
+Evaluation -- Loss Mention: 19.363235 | Loss Coreference: 260.949646 | Loss Relation: 28.202993
+EPOCH 10
+Training   -- Loss Mention: 21.337887 | Loss Coreference: 227.369873 | Loss Relation: 27.545607
+Evaluation -- Loss Mention: 18.723362 | Loss Coreference: 262.134552 | Loss Relation: 27.880606
+EPOCH 11
+Training   -- Loss Mention: 21.144606 | Loss Coreference: 228.325974 | Loss Relation: 26.877354
+Evaluation -- Loss Mention: 20.473562 | Loss Coreference: 255.846558 | Loss Relation: 27.176300
+EPOCH 12
+Training   -- Loss Mention: 21.159361 | Loss Coreference: 222.075287 | Loss Relation: 26.363836
+Evaluation -- Loss Mention: 20.965651 | Loss Coreference: 252.155029 | Loss Relation: 26.624418
+EPOCH 13
+Training   -- Loss Mention: 21.087942 | Loss Coreference: 228.100082 | Loss Relation: 26.258627
+Evaluation -- Loss Mention: 19.190201 | Loss Coreference: 255.895950 | Loss Relation: 26.004026
+EPOCH 14
+Training   -- Loss Mention: 20.680105 | Loss Coreference: 219.872971 | Loss Relation: 25.750000
+Evaluation -- Loss Mention: 20.514091 | Loss Coreference: 253.299637 | Loss Relation: 26.563822
+EPOCH 15
+Training   -- Loss Mention: 20.846880 | Loss Coreference: 219.709030 | Loss Relation: 25.695234
+Evaluation -- Loss Mention: 20.277334 | Loss Coreference: 261.999420 | Loss Relation: 25.138693
+----- TEST -----
+
+--Mentions statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.801     0.955     0.872       579
+           1      0.628     0.373     0.468       158
+           2      0.000     0.000     0.000        47
+
+    accuracy                          0.781       784
+   macro avg      0.476     0.443     0.447       784
+weighted avg      0.718     0.781     0.738       784
+
+--Coreferences statistics--
+
+Precision: 0.498107
+Recall: 1.000000
+F1: 0.664982 
+
+--Relations statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.849     0.629     0.723       224
+           1      0.267     0.667     0.381        18
+           2      0.286     0.800     0.421        40
+           3      0.000     0.000     0.000         9
+           4      0.556     0.122     0.200        41
+
+    accuracy                          0.572       332
+   macro avg      0.391     0.444     0.345       332
+weighted avg      0.691     0.572     0.584       332
+
+
+
+2021-06-02 19:15:09.271582
+Iteration 4
+EPOCH 1
+Training   -- Loss Mention: 25.495190 | Loss Coreference: 270.078064 | Loss Relation: 34.286797
+Evaluation -- Loss Mention: 25.616028 | Loss Coreference: 389.946777 | Loss Relation: 31.786398
+EPOCH 2
+Training   -- Loss Mention: 24.694183 | Loss Coreference: 250.084991 | Loss Relation: 29.953096
+Evaluation -- Loss Mention: 24.698084 | Loss Coreference: 301.232849 | Loss Relation: 29.975357
+EPOCH 3
+Training   -- Loss Mention: 24.335083 | Loss Coreference: 245.752731 | Loss Relation: 29.770887
+Evaluation -- Loss Mention: 22.613939 | Loss Coreference: 302.189667 | Loss Relation: 29.574324
+EPOCH 4
+Training   -- Loss Mention: 22.532879 | Loss Coreference: 239.321381 | Loss Relation: 28.549988
+Evaluation -- Loss Mention: 20.309111 | Loss Coreference: 286.771881 | Loss Relation: 29.387733
+EPOCH 5
+Training   -- Loss Mention: 21.299456 | Loss Coreference: 236.848129 | Loss Relation: 28.753641
+Evaluation -- Loss Mention: 26.026451 | Loss Coreference: 263.318939 | Loss Relation: 29.467712
+EPOCH 6
+Training   -- Loss Mention: 21.276890 | Loss Coreference: 236.460464 | Loss Relation: 28.587317
+Evaluation -- Loss Mention: 21.143665 | Loss Coreference: 283.897797 | Loss Relation: 29.486483
+EPOCH 7
+Training   -- Loss Mention: 20.340303 | Loss Coreference: 234.255997 | Loss Relation: 27.773184
+Evaluation -- Loss Mention: 19.306120 | Loss Coreference: 262.384277 | Loss Relation: 28.689814
+EPOCH 8
+Training   -- Loss Mention: 20.088011 | Loss Coreference: 228.504623 | Loss Relation: 27.286806
+Evaluation -- Loss Mention: 18.807884 | Loss Coreference: 259.113983 | Loss Relation: 28.237213
+EPOCH 9
+Training   -- Loss Mention: 22.920340 | Loss Coreference: 225.264236 | Loss Relation: 28.314175
+Evaluation -- Loss Mention: 24.489899 | Loss Coreference: 278.710785 | Loss Relation: 28.274498
+EPOCH 10
+Training   -- Loss Mention: 23.572815 | Loss Coreference: 220.407318 | Loss Relation: 27.052814
+Evaluation -- Loss Mention: 22.735413 | Loss Coreference: 277.494385 | Loss Relation: 27.752785
+EPOCH 11
+Training   -- Loss Mention: 21.742611 | Loss Coreference: 220.942581 | Loss Relation: 26.762211
+Evaluation -- Loss Mention: 19.652369 | Loss Coreference: 253.749634 | Loss Relation: 27.610266
+EPOCH 12
+Training   -- Loss Mention: 20.645697 | Loss Coreference: 223.114960 | Loss Relation: 26.064053
+Evaluation -- Loss Mention: 19.310667 | Loss Coreference: 267.100922 | Loss Relation: 27.075003
+EPOCH 13
+Training   -- Loss Mention: 21.027437 | Loss Coreference: 221.890884 | Loss Relation: 25.994022
+Evaluation -- Loss Mention: 19.769793 | Loss Coreference: 266.438232 | Loss Relation: 26.428259
+EPOCH 14
+Training   -- Loss Mention: 20.613804 | Loss Coreference: 216.137955 | Loss Relation: 26.114071
+Evaluation -- Loss Mention: 20.123655 | Loss Coreference: 260.532867 | Loss Relation: 26.325310
+----- TEST -----
+
+--Mentions statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.767     0.974     0.858       579
+           1      0.592     0.184     0.280       158
+           2      0.000     0.000     0.000        47
+
+    accuracy                          0.756       784
+   macro avg      0.453     0.386     0.380       784
+weighted avg      0.686     0.756     0.690       784
+
+--Coreferences statistics--
+
+Precision: 0.497837
+Recall: 1.000000
+F1: 0.664741 
+
+--Relations statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.736     0.795     0.764       224
+           1      0.000     0.000     0.000        18
+           2      0.271     0.575     0.368        40
+           3      0.000     0.000     0.000         9
+           4      0.200     0.024     0.043        41
+
+    accuracy                          0.608       332
+   macro avg      0.241     0.279     0.235       332
+weighted avg      0.554     0.608     0.565       332
+
+
+
+2021-06-02 19:21:58.980408
+Iteration 5
+EPOCH 1
+Training   -- Loss Mention: 25.189362 | Loss Coreference: 281.896545 | Loss Relation: 33.595486
+Evaluation -- Loss Mention: 25.381821 | Loss Coreference: 352.560028 | Loss Relation: 29.899178
+EPOCH 2
+Training   -- Loss Mention: 24.187361 | Loss Coreference: 250.238159 | Loss Relation: 29.286346
+Evaluation -- Loss Mention: 23.958357 | Loss Coreference: 294.468750 | Loss Relation: 30.122641
+EPOCH 3
+Training   -- Loss Mention: 21.954165 | Loss Coreference: 240.222244 | Loss Relation: 29.900486
+Evaluation -- Loss Mention: 21.180128 | Loss Coreference: 285.787964 | Loss Relation: 29.778351
+EPOCH 4
+Training   -- Loss Mention: 20.809195 | Loss Coreference: 237.117828 | Loss Relation: 28.831247
+Evaluation -- Loss Mention: 19.645327 | Loss Coreference: 282.472565 | Loss Relation: 29.182678
+EPOCH 5
+Training   -- Loss Mention: 21.464294 | Loss Coreference: 233.945572 | Loss Relation: 28.119539
+Evaluation -- Loss Mention: 20.530096 | Loss Coreference: 265.780121 | Loss Relation: 28.153551
+EPOCH 6
+Training   -- Loss Mention: 23.739405 | Loss Coreference: 232.269516 | Loss Relation: 27.883083
+Evaluation -- Loss Mention: 22.848480 | Loss Coreference: 290.705597 | Loss Relation: 28.836634
+EPOCH 7
+Training   -- Loss Mention: 22.305264 | Loss Coreference: 234.183762 | Loss Relation: 28.580851
+Evaluation -- Loss Mention: 20.124407 | Loss Coreference: 256.233887 | Loss Relation: 28.380163
+EPOCH 8
+Training   -- Loss Mention: 21.636608 | Loss Coreference: 220.080032 | Loss Relation: 27.483374
+Evaluation -- Loss Mention: 19.579906 | Loss Coreference: 250.020462 | Loss Relation: 27.128065
+EPOCH 9
+Training   -- Loss Mention: 21.578348 | Loss Coreference: 226.023605 | Loss Relation: 28.430271
+Evaluation -- Loss Mention: 20.168951 | Loss Coreference: 307.132477 | Loss Relation: 29.546915
+EPOCH 10
+Training   -- Loss Mention: 21.651325 | Loss Coreference: 222.101929 | Loss Relation: 27.214825
+Evaluation -- Loss Mention: 20.455109 | Loss Coreference: 256.045135 | Loss Relation: 27.906570
+EPOCH 11
+Training   -- Loss Mention: 21.867432 | Loss Coreference: 217.060410 | Loss Relation: 26.362478
+Evaluation -- Loss Mention: 18.953432 | Loss Coreference: 237.526367 | Loss Relation: 28.061777
+EPOCH 12
+Training   -- Loss Mention: 21.779325 | Loss Coreference: 213.426163 | Loss Relation: 26.179089
+Evaluation -- Loss Mention: 20.866026 | Loss Coreference: 263.785797 | Loss Relation: 28.108330
+EPOCH 13
+Training   -- Loss Mention: 21.281769 | Loss Coreference: 213.683609 | Loss Relation: 25.837597
+Evaluation -- Loss Mention: 20.275499 | Loss Coreference: 238.297073 | Loss Relation: 26.964628
+EPOCH 14
+Training   -- Loss Mention: 21.512239 | Loss Coreference: 210.697144 | Loss Relation: 25.897524
+Evaluation -- Loss Mention: 19.380262 | Loss Coreference: 239.866348 | Loss Relation: 27.028143
+----- TEST -----
+
+--Mentions statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.779     0.971     0.865       579
+           1      0.645     0.253     0.364       158
+           2      0.000     0.000     0.000        47
+
+    accuracy                          0.768       784
+   macro avg      0.475     0.408     0.409       784
+weighted avg      0.706     0.768     0.712       784
+
+--Coreferences statistics--
+
+Precision: 0.507289
+Recall: 0.931783
+F1: 0.656928 
+
+--Relations statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.751     0.795     0.772       224
+           1      0.000     0.000     0.000        18
+           2      0.302     0.650     0.413        40
+           3      0.000     0.000     0.000         9
+           4      0.222     0.049     0.080        41
+
+    accuracy                          0.620       332
+   macro avg      0.255     0.299     0.253       332
+weighted avg      0.571     0.620     0.581       332
+
+
+
+2021-06-02 19:28:49.686275
+Iteration 6
+EPOCH 1
+Training   -- Loss Mention: 25.643841 | Loss Coreference: 285.032745 | Loss Relation: 34.514503
+Evaluation -- Loss Mention: 25.629744 | Loss Coreference: 321.811005 | Loss Relation: 30.247381
+EPOCH 2
+Training   -- Loss Mention: 24.902178 | Loss Coreference: 249.374969 | Loss Relation: 29.302908
+Evaluation -- Loss Mention: 25.260275 | Loss Coreference: 294.068787 | Loss Relation: 29.058548
+EPOCH 3
+Training   -- Loss Mention: 24.742662 | Loss Coreference: 239.395508 | Loss Relation: 28.526962
+Evaluation -- Loss Mention: 26.359324 | Loss Coreference: 287.089569 | Loss Relation: 29.261236
+EPOCH 4
+Training   -- Loss Mention: 23.548254 | Loss Coreference: 236.809219 | Loss Relation: 28.027683
+Evaluation -- Loss Mention: 21.940477 | Loss Coreference: 276.746613 | Loss Relation: 28.323845
+EPOCH 5
+Training   -- Loss Mention: 22.419287 | Loss Coreference: 235.791351 | Loss Relation: 27.520227
+Evaluation -- Loss Mention: 26.742983 | Loss Coreference: 262.740875 | Loss Relation: 28.220835
+EPOCH 6
+Training   -- Loss Mention: 21.300415 | Loss Coreference: 228.717255 | Loss Relation: 27.179327
+Evaluation -- Loss Mention: 20.366632 | Loss Coreference: 290.952301 | Loss Relation: 28.306580
+EPOCH 7
+Training   -- Loss Mention: 21.938894 | Loss Coreference: 231.431763 | Loss Relation: 27.864063
+Evaluation -- Loss Mention: 20.367168 | Loss Coreference: 257.785065 | Loss Relation: 28.394228
+EPOCH 8
+Training   -- Loss Mention: 21.315680 | Loss Coreference: 223.366409 | Loss Relation: 27.118927
+Evaluation -- Loss Mention: 19.601229 | Loss Coreference: 258.560425 | Loss Relation: 27.473631
+EPOCH 9
+Training   -- Loss Mention: 20.705669 | Loss Coreference: 228.240128 | Loss Relation: 27.423872
+Evaluation -- Loss Mention: 19.887459 | Loss Coreference: 254.423767 | Loss Relation: 27.842775
+EPOCH 10
+Training   -- Loss Mention: 21.229380 | Loss Coreference: 223.047928 | Loss Relation: 27.520319
+Evaluation -- Loss Mention: 19.284021 | Loss Coreference: 274.041870 | Loss Relation: 29.378763
+EPOCH 11
+Training   -- Loss Mention: 21.293295 | Loss Coreference: 226.453873 | Loss Relation: 26.184408
+Evaluation -- Loss Mention: 19.942083 | Loss Coreference: 251.225540 | Loss Relation: 28.591356
+EPOCH 12
+Training   -- Loss Mention: 20.744665 | Loss Coreference: 225.937180 | Loss Relation: 26.686829
+Evaluation -- Loss Mention: 19.898232 | Loss Coreference: 252.621902 | Loss Relation: 27.446123
+EPOCH 13
+Training   -- Loss Mention: 20.887980 | Loss Coreference: 218.410370 | Loss Relation: 25.429724
+Evaluation -- Loss Mention: 21.688318 | Loss Coreference: 247.140213 | Loss Relation: 25.731995
+EPOCH 14
+Training   -- Loss Mention: 21.724833 | Loss Coreference: 214.201492 | Loss Relation: 26.042418
+Evaluation -- Loss Mention: 21.549278 | Loss Coreference: 268.045288 | Loss Relation: 26.502586
+EPOCH 15
+Training   -- Loss Mention: 21.177586 | Loss Coreference: 215.528397 | Loss Relation: 24.785017
+Evaluation -- Loss Mention: 20.692772 | Loss Coreference: 250.973495 | Loss Relation: 24.733620
+----- TEST -----
+
+--Mentions statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.755     0.957     0.844       579
+           1      0.512     0.139     0.219       158
+           2      0.143     0.021     0.037        47
+
+    accuracy                          0.736       784
+   macro avg      0.470     0.372     0.367       784
+weighted avg      0.669     0.736     0.670       784
+
+--Coreferences statistics--
+
+Precision: 0.497025
+Recall: 1.000000
+F1: 0.664017 
+
+--Relations statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.794     0.759     0.776       224
+           1      0.429     0.333     0.375        18
+           2      0.289     0.700     0.409        40
+           3      0.000     0.000     0.000         9
+           4      0.571     0.098     0.167        41
+
+    accuracy                          0.627       332
+   macro avg      0.417     0.378     0.345       332
+weighted avg      0.665     0.627     0.614       332
+
+
+
+2021-06-02 19:36:09.113761
+Iteration 7
+EPOCH 1
+Training   -- Loss Mention: 25.226000 | Loss Coreference: 267.152161 | Loss Relation: 33.423191
+Evaluation -- Loss Mention: 23.509842 | Loss Coreference: 308.643707 | Loss Relation: 29.449081
+EPOCH 2
+Training   -- Loss Mention: 25.033285 | Loss Coreference: 244.123215 | Loss Relation: 28.954346
+Evaluation -- Loss Mention: 24.211409 | Loss Coreference: 300.807587 | Loss Relation: 29.713076
+EPOCH 3
+Training   -- Loss Mention: 22.935743 | Loss Coreference: 243.964020 | Loss Relation: 28.450350
+Evaluation -- Loss Mention: 21.652349 | Loss Coreference: 312.043304 | Loss Relation: 29.159264
+EPOCH 4
+Training   -- Loss Mention: 21.569458 | Loss Coreference: 234.363510 | Loss Relation: 28.640995
+Evaluation -- Loss Mention: 21.459284 | Loss Coreference: 280.576050 | Loss Relation: 28.761887
+EPOCH 5
+Training   -- Loss Mention: 21.892704 | Loss Coreference: 239.715546 | Loss Relation: 28.300863
+Evaluation -- Loss Mention: 20.566402 | Loss Coreference: 277.830261 | Loss Relation: 29.074387
+EPOCH 6
+Training   -- Loss Mention: 21.304668 | Loss Coreference: 233.575897 | Loss Relation: 27.959261
+Evaluation -- Loss Mention: 19.643415 | Loss Coreference: 264.502960 | Loss Relation: 28.917234
+EPOCH 7
+Training   -- Loss Mention: 23.095396 | Loss Coreference: 227.590240 | Loss Relation: 27.766378
+Evaluation -- Loss Mention: 21.646124 | Loss Coreference: 256.458740 | Loss Relation: 28.469147
+EPOCH 8
+Training   -- Loss Mention: 24.037695 | Loss Coreference: 230.343338 | Loss Relation: 27.660843
+Evaluation -- Loss Mention: 22.420023 | Loss Coreference: 267.574615 | Loss Relation: 29.121241
+EPOCH 9
+Training   -- Loss Mention: 21.620121 | Loss Coreference: 230.604767 | Loss Relation: 27.255030
+Evaluation -- Loss Mention: 20.486568 | Loss Coreference: 255.822144 | Loss Relation: 27.732931
+EPOCH 10
+Training   -- Loss Mention: 23.790567 | Loss Coreference: 227.522430 | Loss Relation: 27.018053
+Evaluation -- Loss Mention: 20.461994 | Loss Coreference: 270.499481 | Loss Relation: 27.737501
+EPOCH 11
+Training   -- Loss Mention: 23.666517 | Loss Coreference: 234.911484 | Loss Relation: 27.397778
+Evaluation -- Loss Mention: 19.879995 | Loss Coreference: 276.170898 | Loss Relation: 28.821230
+EPOCH 12
+Training   -- Loss Mention: 21.906324 | Loss Coreference: 222.943985 | Loss Relation: 26.587645
+Evaluation -- Loss Mention: 19.583715 | Loss Coreference: 255.830582 | Loss Relation: 27.424520
+EPOCH 13
+Training   -- Loss Mention: 21.921587 | Loss Coreference: 220.613907 | Loss Relation: 26.705374
+Evaluation -- Loss Mention: 20.342455 | Loss Coreference: 269.117310 | Loss Relation: 28.186460
+EPOCH 14
+Training   -- Loss Mention: 21.735346 | Loss Coreference: 224.794525 | Loss Relation: 26.920897
+Evaluation -- Loss Mention: 22.165520 | Loss Coreference: 254.379272 | Loss Relation: 27.748779
+EPOCH 15
+Training   -- Loss Mention: 22.407633 | Loss Coreference: 218.702545 | Loss Relation: 25.602739
+Evaluation -- Loss Mention: 19.492447 | Loss Coreference: 257.289520 | Loss Relation: 28.128614
+----- TEST -----
+
+--Mentions statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.785     0.933     0.852       579
+           1      0.469     0.285     0.354       158
+           2      0.000     0.000     0.000        47
+
+    accuracy                          0.746       784
+   macro avg      0.418     0.406     0.402       784
+weighted avg      0.674     0.746     0.701       784
+
+--Coreferences statistics--
+
+Precision: 0.498107
+Recall: 1.000000
+F1: 0.664982 
+
+--Relations statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.775     0.754     0.765       224
+           1      0.000     0.000     0.000        18
+           2      0.259     0.700     0.378        40
+           3      0.000     0.000     0.000         9
+           4      0.500     0.073     0.128        41
+
+    accuracy                          0.602       332
+   macro avg      0.307     0.306     0.254       332
+weighted avg      0.616     0.602     0.577       332
+
+
+
+2021-06-02 19:43:28.575651
+Iteration 8
+EPOCH 1
+Training   -- Loss Mention: 25.029003 | Loss Coreference: 277.727966 | Loss Relation: 38.252453
+Evaluation -- Loss Mention: 23.587173 | Loss Coreference: 359.493439 | Loss Relation: 30.357779
+EPOCH 2
+Training   -- Loss Mention: 24.648533 | Loss Coreference: 248.608658 | Loss Relation: 30.163645
+Evaluation -- Loss Mention: 25.348631 | Loss Coreference: 292.016693 | Loss Relation: 29.646421
+EPOCH 3
+Training   -- Loss Mention: 22.527927 | Loss Coreference: 240.551758 | Loss Relation: 28.842819
+Evaluation -- Loss Mention: 20.537725 | Loss Coreference: 301.635223 | Loss Relation: 29.424522
+EPOCH 4
+Training   -- Loss Mention: 21.393826 | Loss Coreference: 239.450073 | Loss Relation: 28.440042
+Evaluation -- Loss Mention: 21.490707 | Loss Coreference: 281.644043 | Loss Relation: 28.218534
+EPOCH 5
+Training   -- Loss Mention: 20.918024 | Loss Coreference: 232.521988 | Loss Relation: 27.816252
+Evaluation -- Loss Mention: 20.521770 | Loss Coreference: 272.417908 | Loss Relation: 28.196472
+EPOCH 6
+Training   -- Loss Mention: 20.956709 | Loss Coreference: 228.564651 | Loss Relation: 27.205982
+Evaluation -- Loss Mention: 18.999941 | Loss Coreference: 258.154785 | Loss Relation: 27.743017
+EPOCH 7
+Training   -- Loss Mention: 21.454952 | Loss Coreference: 221.017624 | Loss Relation: 26.413071
+Evaluation -- Loss Mention: 19.370001 | Loss Coreference: 247.379440 | Loss Relation: 26.927450
+EPOCH 8
+Training   -- Loss Mention: 21.160542 | Loss Coreference: 227.561401 | Loss Relation: 27.094492
+Evaluation -- Loss Mention: 19.372286 | Loss Coreference: 270.035248 | Loss Relation: 26.921362
+EPOCH 9
+Training   -- Loss Mention: 21.061474 | Loss Coreference: 221.930420 | Loss Relation: 26.388855
+Evaluation -- Loss Mention: 20.138227 | Loss Coreference: 249.033936 | Loss Relation: 27.163214
+EPOCH 10
+Training   -- Loss Mention: 21.120413 | Loss Coreference: 216.133942 | Loss Relation: 26.261265
+Evaluation -- Loss Mention: 20.026281 | Loss Coreference: 247.110062 | Loss Relation: 26.599600
+----- TEST -----
+
+--Mentions statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.807     0.886     0.844       579
+           1      0.459     0.430     0.444       158
+           2      0.000     0.000     0.000        47
+
+    accuracy                          0.741       784
+   macro avg      0.422     0.439     0.430       784
+weighted avg      0.688     0.741     0.713       784
+
+--Coreferences statistics--
+
+Precision: 0.497566
+Recall: 1.000000
+F1: 0.664500 
+
+--Relations statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.800     0.786     0.793       224
+           1      0.000     0.000     0.000        18
+           2      0.257     0.700     0.376        40
+           3      0.000     0.000     0.000         9
+           4      0.333     0.024     0.045        41
+
+    accuracy                          0.617       332
+   macro avg      0.278     0.302     0.243       332
+weighted avg      0.612     0.617     0.586       332
+
+
+
+2021-06-02 19:48:24.949306
+Iteration 9
+EPOCH 1
+Training   -- Loss Mention: 25.462704 | Loss Coreference: 268.087524 | Loss Relation: 31.810806
+Evaluation -- Loss Mention: 24.673727 | Loss Coreference: 330.733246 | Loss Relation: 30.516733
+EPOCH 2
+Training   -- Loss Mention: 24.617050 | Loss Coreference: 247.860870 | Loss Relation: 29.785055
+Evaluation -- Loss Mention: 23.756042 | Loss Coreference: 300.264740 | Loss Relation: 30.155962
+EPOCH 3
+Training   -- Loss Mention: 25.182522 | Loss Coreference: 247.424210 | Loss Relation: 30.151182
+Evaluation -- Loss Mention: 23.798508 | Loss Coreference: 310.139801 | Loss Relation: 29.696495
+EPOCH 4
+Training   -- Loss Mention: 24.623417 | Loss Coreference: 244.191132 | Loss Relation: 28.573275
+Evaluation -- Loss Mention: 25.601288 | Loss Coreference: 295.021088 | Loss Relation: 29.476957
+EPOCH 5
+Training   -- Loss Mention: 24.182150 | Loss Coreference: 241.024399 | Loss Relation: 27.952616
+Evaluation -- Loss Mention: 25.115372 | Loss Coreference: 277.617432 | Loss Relation: 28.978964
+EPOCH 6
+Training   -- Loss Mention: 22.921057 | Loss Coreference: 235.538498 | Loss Relation: 27.987478
+Evaluation -- Loss Mention: 21.517235 | Loss Coreference: 275.992096 | Loss Relation: 29.320337
+EPOCH 7
+Training   -- Loss Mention: 21.228561 | Loss Coreference: 231.622025 | Loss Relation: 27.711975
+Evaluation -- Loss Mention: 19.574377 | Loss Coreference: 257.398560 | Loss Relation: 28.660200
+EPOCH 8
+Training   -- Loss Mention: 22.173910 | Loss Coreference: 228.900497 | Loss Relation: 27.013224
+Evaluation -- Loss Mention: 19.760908 | Loss Coreference: 265.481903 | Loss Relation: 27.897467
+EPOCH 9
+Training   -- Loss Mention: 21.146601 | Loss Coreference: 232.037766 | Loss Relation: 27.070675
+Evaluation -- Loss Mention: 20.297308 | Loss Coreference: 265.066376 | Loss Relation: 28.000223
+EPOCH 10
+Training   -- Loss Mention: 21.307840 | Loss Coreference: 225.618439 | Loss Relation: 26.417559
+Evaluation -- Loss Mention: 20.389780 | Loss Coreference: 249.240051 | Loss Relation: 27.170706
+EPOCH 11
+Training   -- Loss Mention: 21.986681 | Loss Coreference: 221.072708 | Loss Relation: 27.372923
+Evaluation -- Loss Mention: 19.946259 | Loss Coreference: 251.451416 | Loss Relation: 25.103798
+EPOCH 12
+Training   -- Loss Mention: 21.130667 | Loss Coreference: 220.320801 | Loss Relation: 25.977098
+Evaluation -- Loss Mention: 20.553957 | Loss Coreference: 257.222198 | Loss Relation: 25.665977
+EPOCH 13
+Training   -- Loss Mention: 21.229013 | Loss Coreference: 219.818802 | Loss Relation: 26.569704
+Evaluation -- Loss Mention: 21.014465 | Loss Coreference: 261.654175 | Loss Relation: 26.102030
+EPOCH 14
+Training   -- Loss Mention: 21.693920 | Loss Coreference: 217.768967 | Loss Relation: 25.703938
+Evaluation -- Loss Mention: 19.892666 | Loss Coreference: 242.613449 | Loss Relation: 25.276398
+EPOCH 15
+Training   -- Loss Mention: 21.263077 | Loss Coreference: 209.394516 | Loss Relation: 25.848326
+Evaluation -- Loss Mention: 19.938494 | Loss Coreference: 235.576843 | Loss Relation: 24.009010
+----- TEST -----
+
+--Mentions statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.818     0.902     0.858       579
+           1      0.514     0.475     0.493       158
+           2      0.000     0.000     0.000        47
+
+    accuracy                          0.761       784
+   macro avg      0.444     0.459     0.450       784
+weighted avg      0.708     0.761     0.733       784
+
+--Coreferences statistics--
+
+Precision: 0.467914
+Recall: 0.955039
+F1: 0.628097 
+
+--Relations statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.810     0.647     0.720       224
+           1      0.348     0.444     0.390        18
+           2      0.250     0.750     0.375        40
+           3      0.000     0.000     0.000         9
+           4      0.300     0.073     0.118        41
+
+    accuracy                          0.560       332
+   macro avg      0.342     0.383     0.320       332
+weighted avg      0.633     0.560     0.566       332
+
+
+
+2021-06-02 19:55:45.493694
+----------------------------------------------
+----------------------------------------------
+FREEZED_LAYERS: 13, DECODING_HIDDEN_DIM: 150, DISTANCE_DIM: 50, DROPOUT: 0.200000, LEARNING_RATE: 0.001000 
+
+Iteration 0
+EPOCH 1
+Training   -- Loss Mention: 25.165384 | Loss Coreference: 264.609436 | Loss Relation: 34.677101
+Evaluation -- Loss Mention: 26.066580 | Loss Coreference: 366.018951 | Loss Relation: 31.452820
+EPOCH 2
+Training   -- Loss Mention: 24.015915 | Loss Coreference: 244.567429 | Loss Relation: 28.767668
+Evaluation -- Loss Mention: 22.588594 | Loss Coreference: 299.808899 | Loss Relation: 29.647873
+EPOCH 3
+Training   -- Loss Mention: 22.853882 | Loss Coreference: 240.874863 | Loss Relation: 28.452251
+Evaluation -- Loss Mention: 21.333300 | Loss Coreference: 280.558563 | Loss Relation: 28.759499
+EPOCH 4
+Training   -- Loss Mention: 21.449492 | Loss Coreference: 236.919556 | Loss Relation: 28.660299
+Evaluation -- Loss Mention: 21.260391 | Loss Coreference: 273.786011 | Loss Relation: 27.625837
+EPOCH 5
+Training   -- Loss Mention: 22.246943 | Loss Coreference: 233.505875 | Loss Relation: 27.513992
+Evaluation -- Loss Mention: 19.959600 | Loss Coreference: 276.007172 | Loss Relation: 28.423376
+EPOCH 6
+Training   -- Loss Mention: 21.836605 | Loss Coreference: 230.350677 | Loss Relation: 27.194904
+Evaluation -- Loss Mention: 20.578066 | Loss Coreference: 272.900085 | Loss Relation: 28.368311
+EPOCH 7
+Training   -- Loss Mention: 24.044405 | Loss Coreference: 231.562958 | Loss Relation: 26.912083
+Evaluation -- Loss Mention: 23.905752 | Loss Coreference: 281.589325 | Loss Relation: 27.802582
+EPOCH 8
+Training   -- Loss Mention: 24.507059 | Loss Coreference: 232.851898 | Loss Relation: 26.719767
+Evaluation -- Loss Mention: 22.067581 | Loss Coreference: 271.032623 | Loss Relation: 28.127932
+----- TEST -----
+
+--Mentions statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.739     1.000     0.850       579
+           1      0.000     0.000     0.000       158
+           2      0.000     0.000     0.000        47
+
+    accuracy                          0.739       784
+   macro avg      0.246     0.333     0.283       784
+weighted avg      0.545     0.739     0.627       784
+
+--Coreferences statistics--
+
+Precision: 0.498107
+Recall: 1.000000
+F1: 0.664982 
+
+--Relations statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.747     0.871     0.804       224
+           1      0.000     0.000     0.000        18
+           2      0.309     0.525     0.389        40
+           3      0.000     0.000     0.000         9
+           4      0.333     0.024     0.045        41
+
+    accuracy                          0.654       332
+   macro avg      0.278     0.284     0.248       332
+weighted avg      0.582     0.654     0.595       332
+
+
+
+2021-06-02 19:59:42.457412
+Iteration 1
+EPOCH 1
+Training   -- Loss Mention: 25.460606 | Loss Coreference: 268.448456 | Loss Relation: 32.296219
+Evaluation -- Loss Mention: 25.512167 | Loss Coreference: 289.166351 | Loss Relation: 32.478016
+EPOCH 2
+Training   -- Loss Mention: 24.925032 | Loss Coreference: 246.197479 | Loss Relation: 28.976309
+Evaluation -- Loss Mention: 24.428551 | Loss Coreference: 300.095215 | Loss Relation: 29.942734
+EPOCH 3
+Training   -- Loss Mention: 24.645512 | Loss Coreference: 238.392380 | Loss Relation: 28.528475
+Evaluation -- Loss Mention: 23.671722 | Loss Coreference: 270.323730 | Loss Relation: 29.628473
+EPOCH 4
+Training   -- Loss Mention: 24.278574 | Loss Coreference: 237.814499 | Loss Relation: 28.641371
+Evaluation -- Loss Mention: 22.453695 | Loss Coreference: 268.202240 | Loss Relation: 28.255638
+EPOCH 5
+Training   -- Loss Mention: 24.002453 | Loss Coreference: 236.889862 | Loss Relation: 27.808390
+Evaluation -- Loss Mention: 26.100258 | Loss Coreference: 280.776459 | Loss Relation: 28.582245
+EPOCH 6
+Training   -- Loss Mention: 22.713392 | Loss Coreference: 233.019531 | Loss Relation: 27.672865
+Evaluation -- Loss Mention: 25.984728 | Loss Coreference: 267.740692 | Loss Relation: 28.920212
+EPOCH 7
+Training   -- Loss Mention: 22.676794 | Loss Coreference: 231.396927 | Loss Relation: 27.523367
+Evaluation -- Loss Mention: 19.828241 | Loss Coreference: 265.735474 | Loss Relation: 28.272085
+EPOCH 8
+Training   -- Loss Mention: 22.833796 | Loss Coreference: 231.188965 | Loss Relation: 27.222254
+Evaluation -- Loss Mention: 22.156494 | Loss Coreference: 271.111542 | Loss Relation: 28.478735
+EPOCH 9
+Training   -- Loss Mention: 23.680563 | Loss Coreference: 236.550018 | Loss Relation: 27.347525
+Evaluation -- Loss Mention: 22.206116 | Loss Coreference: 271.454803 | Loss Relation: 28.350073
+EPOCH 10
+Training   -- Loss Mention: 21.454130 | Loss Coreference: 231.003571 | Loss Relation: 26.632450
+Evaluation -- Loss Mention: 19.445427 | Loss Coreference: 272.243103 | Loss Relation: 27.976313
+----- TEST -----
+
+--Mentions statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.739     1.000     0.850       579
+           1      0.000     0.000     0.000       158
+           2      0.000     0.000     0.000        47
+
+    accuracy                          0.739       784
+   macro avg      0.246     0.333     0.283       784
+weighted avg      0.545     0.739     0.627       784
+
+--Coreferences statistics--
+
+Precision: 0.498107
+Recall: 1.000000
+F1: 0.664982 
+
+--Relations statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.794     0.808     0.801       224
+           1      0.000     0.000     0.000        18
+           2      0.269     0.700     0.389        40
+           3      0.000     0.000     0.000         9
+           4      0.000     0.000     0.000        41
+
+    accuracy                          0.630       332
+   macro avg      0.213     0.302     0.238       332
+weighted avg      0.568     0.630     0.587       332
+
+
+
+2021-06-02 20:04:36.100678
+Iteration 2
+EPOCH 1
+Training   -- Loss Mention: 25.289724 | Loss Coreference: 276.639160 | Loss Relation: 31.376398
+Evaluation -- Loss Mention: 25.251673 | Loss Coreference: 332.875397 | Loss Relation: 30.749445
+EPOCH 2
+Training   -- Loss Mention: 24.540665 | Loss Coreference: 242.209152 | Loss Relation: 29.324902
+Evaluation -- Loss Mention: 22.804808 | Loss Coreference: 290.393829 | Loss Relation: 28.774210
+EPOCH 3
+Training   -- Loss Mention: 23.483234 | Loss Coreference: 241.331146 | Loss Relation: 29.003117
+Evaluation -- Loss Mention: 21.666428 | Loss Coreference: 291.294220 | Loss Relation: 29.079689
+EPOCH 4
+Training   -- Loss Mention: 22.739780 | Loss Coreference: 238.033081 | Loss Relation: 28.144506
+Evaluation -- Loss Mention: 21.098101 | Loss Coreference: 284.316803 | Loss Relation: 28.082550
+EPOCH 5
+Training   -- Loss Mention: 21.500402 | Loss Coreference: 237.201614 | Loss Relation: 27.112974
+Evaluation -- Loss Mention: 24.192314 | Loss Coreference: 267.120697 | Loss Relation: 27.304598
+EPOCH 6
+Training   -- Loss Mention: 22.202208 | Loss Coreference: 234.976303 | Loss Relation: 26.812559
+Evaluation -- Loss Mention: 21.209818 | Loss Coreference: 286.640045 | Loss Relation: 29.781332
+EPOCH 7
+Training   -- Loss Mention: 21.665239 | Loss Coreference: 233.568863 | Loss Relation: 27.272068
+Evaluation -- Loss Mention: 20.843330 | Loss Coreference: 280.861267 | Loss Relation: 28.569391
+EPOCH 8
+Training   -- Loss Mention: 24.116041 | Loss Coreference: 247.354401 | Loss Relation: 28.070963
+Evaluation -- Loss Mention: 25.594070 | Loss Coreference: 280.017120 | Loss Relation: 28.860514
+EPOCH 9
+Training   -- Loss Mention: 25.337093 | Loss Coreference: 235.343094 | Loss Relation: 26.956326
+Evaluation -- Loss Mention: 24.837517 | Loss Coreference: 279.237701 | Loss Relation: 27.839911
+EPOCH 10
+Training   -- Loss Mention: 24.873047 | Loss Coreference: 231.687241 | Loss Relation: 27.066193
+Evaluation -- Loss Mention: 23.608513 | Loss Coreference: 267.935791 | Loss Relation: 28.044182
+----- TEST -----
+
+--Mentions statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.737     0.988     0.844       579
+           1      0.125     0.006     0.012       158
+           2      0.000     0.000     0.000        47
+
+    accuracy                          0.731       784
+   macro avg      0.287     0.331     0.285       784
+weighted avg      0.570     0.731     0.626       784
+
+--Coreferences statistics--
+
+Precision: 0.498107
+Recall: 1.000000
+F1: 0.664982 
+
+--Relations statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.808     0.714     0.758       224
+           1      0.000     0.000     0.000        18
+           2      0.242     0.775     0.369        40
+           3      0.000     0.000     0.000         9
+           4      0.167     0.024     0.043        41
+
+    accuracy                          0.578       332
+   macro avg      0.243     0.303     0.234       332
+weighted avg      0.595     0.578     0.561       332
+
+
+
+2021-06-02 20:09:29.464072
+Iteration 3
+EPOCH 1
+Training   -- Loss Mention: 25.356007 | Loss Coreference: 281.131165 | Loss Relation: 33.727764
+Evaluation -- Loss Mention: 24.529528 | Loss Coreference: 304.829315 | Loss Relation: 30.163183
+EPOCH 2
+Training   -- Loss Mention: 24.259533 | Loss Coreference: 246.223389 | Loss Relation: 29.754469
+Evaluation -- Loss Mention: 25.595163 | Loss Coreference: 302.333832 | Loss Relation: 29.217505
+EPOCH 3
+Training   -- Loss Mention: 23.296387 | Loss Coreference: 236.826447 | Loss Relation: 28.370405
+Evaluation -- Loss Mention: 21.386118 | Loss Coreference: 288.560669 | Loss Relation: 28.677431
+EPOCH 4
+Training   -- Loss Mention: 21.756226 | Loss Coreference: 240.026810 | Loss Relation: 28.253345
+Evaluation -- Loss Mention: 21.069109 | Loss Coreference: 267.500580 | Loss Relation: 28.400629
+EPOCH 5
+Training   -- Loss Mention: 20.804354 | Loss Coreference: 236.749649 | Loss Relation: 27.501574
+Evaluation -- Loss Mention: 19.190828 | Loss Coreference: 267.825592 | Loss Relation: 27.026749
+EPOCH 6
+Training   -- Loss Mention: 20.898397 | Loss Coreference: 227.904037 | Loss Relation: 27.155455
+Evaluation -- Loss Mention: 18.969715 | Loss Coreference: 262.056824 | Loss Relation: 27.009552
+EPOCH 7
+Training   -- Loss Mention: 20.355206 | Loss Coreference: 229.091446 | Loss Relation: 26.769926
+Evaluation -- Loss Mention: 19.798563 | Loss Coreference: 257.987427 | Loss Relation: 26.713449
+EPOCH 8
+Training   -- Loss Mention: 20.419905 | Loss Coreference: 224.080841 | Loss Relation: 26.398479
+Evaluation -- Loss Mention: 20.929903 | Loss Coreference: 265.306793 | Loss Relation: 27.088936
+EPOCH 9
+Training   -- Loss Mention: 20.285227 | Loss Coreference: 222.308807 | Loss Relation: 27.049389
+Evaluation -- Loss Mention: 21.980890 | Loss Coreference: 277.181610 | Loss Relation: 27.934664
+----- TEST -----
+
+--Mentions statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.854     0.867     0.860       579
+           1      0.515     0.639     0.571       158
+           2      0.000     0.000     0.000        47
+
+    accuracy                          0.769       784
+   macro avg      0.456     0.502     0.477       784
+weighted avg      0.734     0.769     0.750       784
+
+--Coreferences statistics--
+
+Precision: 0.498107
+Recall: 1.000000
+F1: 0.664982 
+
+--Relations statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.815     0.728     0.769       224
+           1      0.000     0.000     0.000        18
+           2      0.263     0.775     0.392        40
+           3      0.000     0.000     0.000         9
+           4      0.357     0.122     0.182        41
+
+    accuracy                          0.599       332
+   macro avg      0.287     0.325     0.269       332
+weighted avg      0.626     0.599     0.588       332
+
+
+
+2021-06-02 20:13:54.995549
+Iteration 4
+EPOCH 1
+Training   -- Loss Mention: 25.372223 | Loss Coreference: 266.747009 | Loss Relation: 31.260431
+Evaluation -- Loss Mention: 24.746252 | Loss Coreference: 319.304810 | Loss Relation: 29.510340
+EPOCH 2
+Training   -- Loss Mention: 24.742277 | Loss Coreference: 239.997086 | Loss Relation: 28.683798
+Evaluation -- Loss Mention: 23.845169 | Loss Coreference: 275.468597 | Loss Relation: 29.132681
+EPOCH 3
+Training   -- Loss Mention: 24.323252 | Loss Coreference: 240.902557 | Loss Relation: 28.475271
+Evaluation -- Loss Mention: 23.042479 | Loss Coreference: 281.436279 | Loss Relation: 28.461187
+EPOCH 4
+Training   -- Loss Mention: 22.854702 | Loss Coreference: 239.074844 | Loss Relation: 28.277796
+Evaluation -- Loss Mention: 19.894156 | Loss Coreference: 275.394806 | Loss Relation: 28.624414
+EPOCH 5
+Training   -- Loss Mention: 21.455326 | Loss Coreference: 239.544205 | Loss Relation: 28.081125
+Evaluation -- Loss Mention: 19.655014 | Loss Coreference: 299.344971 | Loss Relation: 28.244242
+EPOCH 6
+Training   -- Loss Mention: 21.774103 | Loss Coreference: 239.895248 | Loss Relation: 27.863214
+Evaluation -- Loss Mention: 21.393347 | Loss Coreference: 275.822845 | Loss Relation: 27.989847
+EPOCH 7
+Training   -- Loss Mention: 21.146502 | Loss Coreference: 237.034164 | Loss Relation: 27.571623
+Evaluation -- Loss Mention: 22.708534 | Loss Coreference: 278.133270 | Loss Relation: 28.800371
+EPOCH 8
+Training   -- Loss Mention: 21.045191 | Loss Coreference: 234.488617 | Loss Relation: 27.275116
+Evaluation -- Loss Mention: 22.958929 | Loss Coreference: 275.717133 | Loss Relation: 28.341005
+----- TEST -----
+
+--Mentions statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.739     1.000     0.850       579
+           1      0.000     0.000     0.000       158
+           2      0.000     0.000     0.000        47
+
+    accuracy                          0.739       784
+   macro avg      0.246     0.333     0.283       784
+weighted avg      0.545     0.739     0.627       784
+
+--Coreferences statistics--
+
+Precision: 0.498107
+Recall: 1.000000
+F1: 0.664982 
+
+--Relations statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.813     0.737     0.773       224
+           1      0.000     0.000     0.000        18
+           2      0.256     0.825     0.391        40
+           3      0.000     0.000     0.000         9
+           4      0.000     0.000     0.000        41
+
+    accuracy                          0.596       332
+   macro avg      0.214     0.312     0.233       332
+weighted avg      0.579     0.596     0.568       332
+
+
+
+2021-06-02 20:17:50.435318
+Iteration 5
+EPOCH 1
+Training   -- Loss Mention: 25.158901 | Loss Coreference: 279.146118 | Loss Relation: 32.529575
+Evaluation -- Loss Mention: 23.961771 | Loss Coreference: 315.208679 | Loss Relation: 29.355293
+EPOCH 2
+Training   -- Loss Mention: 24.834574 | Loss Coreference: 240.051193 | Loss Relation: 29.683243
+Evaluation -- Loss Mention: 23.791571 | Loss Coreference: 301.347321 | Loss Relation: 28.891504
+EPOCH 3
+Training   -- Loss Mention: 23.151859 | Loss Coreference: 239.665695 | Loss Relation: 28.705181
+Evaluation -- Loss Mention: 20.911074 | Loss Coreference: 276.559845 | Loss Relation: 27.961889
+EPOCH 4
+Training   -- Loss Mention: 22.012983 | Loss Coreference: 237.262543 | Loss Relation: 28.058094
+Evaluation -- Loss Mention: 21.232481 | Loss Coreference: 283.948944 | Loss Relation: 28.828104
+EPOCH 5
+Training   -- Loss Mention: 21.212505 | Loss Coreference: 234.945877 | Loss Relation: 28.299986
+Evaluation -- Loss Mention: 20.181158 | Loss Coreference: 271.476837 | Loss Relation: 27.795153
+EPOCH 6
+Training   -- Loss Mention: 21.678499 | Loss Coreference: 233.043381 | Loss Relation: 27.183462
+Evaluation -- Loss Mention: 22.788004 | Loss Coreference: 284.524994 | Loss Relation: 27.424393
+EPOCH 7
+Training   -- Loss Mention: 21.425299 | Loss Coreference: 232.311813 | Loss Relation: 26.884024
+Evaluation -- Loss Mention: 21.503029 | Loss Coreference: 261.345642 | Loss Relation: 28.506704
+EPOCH 8
+Training   -- Loss Mention: 21.166653 | Loss Coreference: 231.458084 | Loss Relation: 26.729004
+Evaluation -- Loss Mention: 19.825848 | Loss Coreference: 257.009277 | Loss Relation: 27.470312
+EPOCH 9
+Training   -- Loss Mention: 21.107370 | Loss Coreference: 226.391891 | Loss Relation: 26.995104
+Evaluation -- Loss Mention: 20.273523 | Loss Coreference: 273.307617 | Loss Relation: 28.636896
+EPOCH 10
+Training   -- Loss Mention: 21.916746 | Loss Coreference: 227.137039 | Loss Relation: 26.489779
+Evaluation -- Loss Mention: 22.242872 | Loss Coreference: 271.529968 | Loss Relation: 28.697199
+EPOCH 11
+Training   -- Loss Mention: 24.278015 | Loss Coreference: 239.248703 | Loss Relation: 26.901882
+Evaluation -- Loss Mention: 24.946356 | Loss Coreference: 268.087891 | Loss Relation: 28.052229
+----- TEST -----
+
+--Mentions statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.938     0.731     0.821       579
+           1      0.423     0.892     0.574       158
+           2      0.000     0.000     0.000        47
+
+    accuracy                          0.719       784
+   macro avg      0.454     0.541     0.465       784
+weighted avg      0.778     0.719     0.722       784
+
+--Coreferences statistics--
+
+Precision: 0.497837
+Recall: 1.000000
+F1: 0.664741 
+
+--Relations statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.759     0.786     0.772       224
+           1      0.000     0.000     0.000        18
+           2      0.258     0.575     0.357        40
+           3      0.000     0.000     0.000         9
+           4      0.364     0.098     0.154        41
+
+    accuracy                          0.611       332
+   macro avg      0.276     0.292     0.256       332
+weighted avg      0.588     0.611     0.583       332
+
+
+
+2021-06-02 20:23:12.164872
+Iteration 6
+EPOCH 1
+Training   -- Loss Mention: 25.422636 | Loss Coreference: 272.383240 | Loss Relation: 34.002178
+Evaluation -- Loss Mention: 25.360498 | Loss Coreference: 348.056885 | Loss Relation: 30.879587
+EPOCH 2
+Training   -- Loss Mention: 25.073673 | Loss Coreference: 247.192535 | Loss Relation: 30.237783
+Evaluation -- Loss Mention: 23.744261 | Loss Coreference: 280.107391 | Loss Relation: 29.823008
+EPOCH 3
+Training   -- Loss Mention: 24.372868 | Loss Coreference: 248.615234 | Loss Relation: 28.234430
+Evaluation -- Loss Mention: 23.065725 | Loss Coreference: 280.711395 | Loss Relation: 29.999945
+EPOCH 4
+Training   -- Loss Mention: 23.578609 | Loss Coreference: 240.984344 | Loss Relation: 28.208038
+Evaluation -- Loss Mention: 20.097960 | Loss Coreference: 278.854370 | Loss Relation: 28.793905
+EPOCH 5
+Training   -- Loss Mention: 21.086298 | Loss Coreference: 236.101913 | Loss Relation: 27.838547
+Evaluation -- Loss Mention: 19.437155 | Loss Coreference: 281.491791 | Loss Relation: 28.348169
+EPOCH 6
+Training   -- Loss Mention: 20.670134 | Loss Coreference: 231.372238 | Loss Relation: 27.379908
+Evaluation -- Loss Mention: 19.510237 | Loss Coreference: 279.765381 | Loss Relation: 28.227049
+EPOCH 7
+Training   -- Loss Mention: 20.650225 | Loss Coreference: 227.480469 | Loss Relation: 26.743143
+Evaluation -- Loss Mention: 19.805777 | Loss Coreference: 271.085175 | Loss Relation: 27.226013
+EPOCH 8
+Training   -- Loss Mention: 20.620869 | Loss Coreference: 229.456985 | Loss Relation: 27.209009
+Evaluation -- Loss Mention: 19.505577 | Loss Coreference: 287.202271 | Loss Relation: 27.625175
+EPOCH 9
+Training   -- Loss Mention: 20.904282 | Loss Coreference: 225.343857 | Loss Relation: 26.542219
+Evaluation -- Loss Mention: 20.135515 | Loss Coreference: 268.041565 | Loss Relation: 26.891100
+EPOCH 10
+Training   -- Loss Mention: 22.591272 | Loss Coreference: 224.921844 | Loss Relation: 26.085236
+Evaluation -- Loss Mention: 20.190161 | Loss Coreference: 267.721222 | Loss Relation: 27.571722
+EPOCH 11
+Training   -- Loss Mention: 21.730867 | Loss Coreference: 223.025681 | Loss Relation: 26.204840
+Evaluation -- Loss Mention: 19.198427 | Loss Coreference: 244.748062 | Loss Relation: 26.988230
+EPOCH 12
+Training   -- Loss Mention: 20.524336 | Loss Coreference: 214.927490 | Loss Relation: 25.160843
+Evaluation -- Loss Mention: 19.857321 | Loss Coreference: 270.195129 | Loss Relation: 25.673286
+EPOCH 13
+Training   -- Loss Mention: 21.567842 | Loss Coreference: 215.321320 | Loss Relation: 25.351656
+Evaluation -- Loss Mention: 19.868942 | Loss Coreference: 253.845871 | Loss Relation: 25.844553
+EPOCH 14
+Training   -- Loss Mention: 20.643427 | Loss Coreference: 211.449661 | Loss Relation: 24.763121
+Evaluation -- Loss Mention: 19.180002 | Loss Coreference: 283.682892 | Loss Relation: 25.218079
+----- TEST -----
+
+--Mentions statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.808     0.921     0.860       579
+           1      0.524     0.411     0.461       158
+           2      0.000     0.000     0.000        47
+
+    accuracy                          0.763       784
+   macro avg      0.444     0.444     0.440       784
+weighted avg      0.702     0.763     0.728       784
+
+--Coreferences statistics--
+
+Precision: 0.498107
+Recall: 1.000000
+F1: 0.664982 
+
+--Relations statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.800     0.625     0.702       224
+           1      0.429     0.167     0.240        18
+           2      0.226     0.750     0.347        40
+           3      0.000     0.000     0.000         9
+           4      0.353     0.146     0.207        41
+
+    accuracy                          0.539       332
+   macro avg      0.361     0.338     0.299       332
+weighted avg      0.634     0.539     0.554       332
+
+
+
+2021-06-02 20:30:04.530357
+Iteration 7
+EPOCH 1
+Training   -- Loss Mention: 25.559492 | Loss Coreference: 272.517578 | Loss Relation: 34.308487
+Evaluation -- Loss Mention: 24.928513 | Loss Coreference: 342.506561 | Loss Relation: 30.649084
+EPOCH 2
+Training   -- Loss Mention: 24.833496 | Loss Coreference: 243.167587 | Loss Relation: 28.794926
+Evaluation -- Loss Mention: 24.235323 | Loss Coreference: 291.049408 | Loss Relation: 28.940834
+EPOCH 3
+Training   -- Loss Mention: 24.858328 | Loss Coreference: 242.378540 | Loss Relation: 28.586502
+Evaluation -- Loss Mention: 27.680283 | Loss Coreference: 331.220062 | Loss Relation: 31.118128
+EPOCH 4
+Training   -- Loss Mention: 22.949640 | Loss Coreference: 239.318710 | Loss Relation: 28.072941
+Evaluation -- Loss Mention: 19.752226 | Loss Coreference: 262.879730 | Loss Relation: 28.709242
+EPOCH 5
+Training   -- Loss Mention: 21.502829 | Loss Coreference: 233.701447 | Loss Relation: 27.407915
+Evaluation -- Loss Mention: 19.538179 | Loss Coreference: 273.072540 | Loss Relation: 28.004387
+EPOCH 6
+Training   -- Loss Mention: 21.053671 | Loss Coreference: 231.389862 | Loss Relation: 26.842815
+Evaluation -- Loss Mention: 19.124342 | Loss Coreference: 260.136047 | Loss Relation: 27.483398
+EPOCH 7
+Training   -- Loss Mention: 20.378338 | Loss Coreference: 229.071274 | Loss Relation: 26.911291
+Evaluation -- Loss Mention: 18.812239 | Loss Coreference: 275.427887 | Loss Relation: 29.112474
+EPOCH 8
+Training   -- Loss Mention: 21.389040 | Loss Coreference: 227.644699 | Loss Relation: 26.880096
+Evaluation -- Loss Mention: 20.433752 | Loss Coreference: 260.445038 | Loss Relation: 28.081156
+EPOCH 9
+Training   -- Loss Mention: 21.592829 | Loss Coreference: 227.467789 | Loss Relation: 26.569757
+Evaluation -- Loss Mention: 21.052591 | Loss Coreference: 260.953461 | Loss Relation: 28.464956
+----- TEST -----
+
+--Mentions statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.956     0.748     0.839       579
+           1      0.441     0.924     0.597       158
+           2      0.000     0.000     0.000        47
+
+    accuracy                          0.739       784
+   macro avg      0.466     0.557     0.479       784
+weighted avg      0.795     0.739     0.740       784
+
+--Coreferences statistics--
+
+Precision: 0.498107
+Recall: 1.000000
+F1: 0.664982 
+
+--Relations statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.824     0.692     0.752       224
+           1      0.000     0.000     0.000        18
+           2      0.250     0.875     0.389        40
+           3      0.000     0.000     0.000         9
+           4      0.000     0.000     0.000        41
+
+    accuracy                          0.572       332
+   macro avg      0.215     0.313     0.228       332
+weighted avg      0.586     0.572     0.555       332
+
+
+
+2021-06-02 20:34:28.411889
+Iteration 8
+EPOCH 1
+Training   -- Loss Mention: 25.502239 | Loss Coreference: 293.136963 | Loss Relation: 32.807560
+Evaluation -- Loss Mention: 24.189817 | Loss Coreference: 303.107086 | Loss Relation: 31.537958
+EPOCH 2
+Training   -- Loss Mention: 24.037395 | Loss Coreference: 242.389542 | Loss Relation: 29.278662
+Evaluation -- Loss Mention: 21.192923 | Loss Coreference: 282.456757 | Loss Relation: 30.208746
+EPOCH 3
+Training   -- Loss Mention: 21.742910 | Loss Coreference: 241.360077 | Loss Relation: 28.849304
+Evaluation -- Loss Mention: 24.225317 | Loss Coreference: 281.103394 | Loss Relation: 28.831099
+EPOCH 4
+Training   -- Loss Mention: 21.273355 | Loss Coreference: 236.335007 | Loss Relation: 28.479414
+Evaluation -- Loss Mention: 21.518738 | Loss Coreference: 264.872894 | Loss Relation: 28.826700
+EPOCH 5
+Training   -- Loss Mention: 20.495451 | Loss Coreference: 230.789337 | Loss Relation: 28.275028
+Evaluation -- Loss Mention: 21.243746 | Loss Coreference: 254.019760 | Loss Relation: 27.856455
+EPOCH 6
+Training   -- Loss Mention: 21.121006 | Loss Coreference: 230.889084 | Loss Relation: 27.774832
+Evaluation -- Loss Mention: 21.943848 | Loss Coreference: 268.314362 | Loss Relation: 27.713896
+EPOCH 7
+Training   -- Loss Mention: 21.807898 | Loss Coreference: 226.670456 | Loss Relation: 26.482340
+Evaluation -- Loss Mention: 20.916464 | Loss Coreference: 243.175308 | Loss Relation: 27.486948
+EPOCH 8
+Training   -- Loss Mention: 21.610111 | Loss Coreference: 224.321823 | Loss Relation: 26.236755
+Evaluation -- Loss Mention: 25.774179 | Loss Coreference: 263.884888 | Loss Relation: 27.412277
+EPOCH 9
+Training   -- Loss Mention: 21.521162 | Loss Coreference: 222.546478 | Loss Relation: 25.443701
+Evaluation -- Loss Mention: 20.687544 | Loss Coreference: 260.130463 | Loss Relation: 25.476303
+EPOCH 10
+Training   -- Loss Mention: 20.961187 | Loss Coreference: 220.686661 | Loss Relation: 25.703770
+Evaluation -- Loss Mention: 20.313097 | Loss Coreference: 245.971313 | Loss Relation: 26.730896
+EPOCH 11
+Training   -- Loss Mention: 21.512667 | Loss Coreference: 213.414780 | Loss Relation: 26.842279
+Evaluation -- Loss Mention: 20.888695 | Loss Coreference: 261.038757 | Loss Relation: 26.536982
+EPOCH 12
+Training   -- Loss Mention: 21.041056 | Loss Coreference: 210.751114 | Loss Relation: 25.380629
+Evaluation -- Loss Mention: 20.605209 | Loss Coreference: 262.472839 | Loss Relation: 25.006754
+EPOCH 13
+Training   -- Loss Mention: 21.221796 | Loss Coreference: 208.046524 | Loss Relation: 24.916080
+Evaluation -- Loss Mention: 20.253197 | Loss Coreference: 254.254684 | Loss Relation: 23.363619
+EPOCH 14
+Training   -- Loss Mention: 21.055998 | Loss Coreference: 207.196808 | Loss Relation: 23.313646
+Evaluation -- Loss Mention: 20.457937 | Loss Coreference: 242.856369 | Loss Relation: 23.167322
+EPOCH 15
+Training   -- Loss Mention: 21.009474 | Loss Coreference: 205.965927 | Loss Relation: 23.876764
+Evaluation -- Loss Mention: 20.763294 | Loss Coreference: 245.718811 | Loss Relation: 23.085922
+----- TEST -----
+
+--Mentions statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.808     0.860     0.833       579
+           1      0.417     0.443     0.429       158
+           2      0.000     0.000     0.000        47
+
+    accuracy                          0.724       784
+   macro avg      0.408     0.434     0.421       784
+weighted avg      0.681     0.724     0.702       784
+
+--Coreferences statistics--
+
+Precision: 0.487876
+Recall: 1.000000
+F1: 0.655802 
+
+--Relations statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.839     0.629     0.719       224
+           1      0.319     0.833     0.462        18
+           2      0.273     0.600     0.375        40
+           3      0.000     0.000     0.000         9
+           4      0.276     0.195     0.229        41
+
+    accuracy                          0.566       332
+   macro avg      0.341     0.452     0.357       332
+weighted avg      0.650     0.566     0.584       332
+
+
+
+2021-06-02 20:41:47.526252
+Iteration 9
+EPOCH 1
+Training   -- Loss Mention: 25.295475 | Loss Coreference: 278.774323 | Loss Relation: 33.302425
+Evaluation -- Loss Mention: 23.936577 | Loss Coreference: 309.594910 | Loss Relation: 30.294104
+EPOCH 2
+Training   -- Loss Mention: 23.934134 | Loss Coreference: 244.777924 | Loss Relation: 28.925861
+Evaluation -- Loss Mention: 22.242201 | Loss Coreference: 292.697021 | Loss Relation: 29.212746
+EPOCH 3
+Training   -- Loss Mention: 23.580715 | Loss Coreference: 239.019196 | Loss Relation: 29.070236
+Evaluation -- Loss Mention: 22.070150 | Loss Coreference: 298.349243 | Loss Relation: 29.134455
+EPOCH 4
+Training   -- Loss Mention: 23.973398 | Loss Coreference: 245.790329 | Loss Relation: 27.343435
+Evaluation -- Loss Mention: 25.768524 | Loss Coreference: 289.879395 | Loss Relation: 33.556328
+EPOCH 5
+Training   -- Loss Mention: 24.402710 | Loss Coreference: 236.601776 | Loss Relation: 27.468592
+Evaluation -- Loss Mention: 23.880808 | Loss Coreference: 267.655396 | Loss Relation: 27.802286
+EPOCH 6
+Training   -- Loss Mention: 21.836988 | Loss Coreference: 234.432587 | Loss Relation: 27.438540
+Evaluation -- Loss Mention: 20.454157 | Loss Coreference: 273.553925 | Loss Relation: 28.570509
+EPOCH 7
+Training   -- Loss Mention: 21.062973 | Loss Coreference: 233.322540 | Loss Relation: 27.224882
+Evaluation -- Loss Mention: 19.648003 | Loss Coreference: 275.582764 | Loss Relation: 28.441210
+EPOCH 8
+Training   -- Loss Mention: 21.278353 | Loss Coreference: 235.079605 | Loss Relation: 28.039721
+Evaluation -- Loss Mention: 19.125452 | Loss Coreference: 286.577271 | Loss Relation: 27.520233
+EPOCH 9
+Training   -- Loss Mention: 20.675869 | Loss Coreference: 229.258667 | Loss Relation: 27.578613
+Evaluation -- Loss Mention: 20.322191 | Loss Coreference: 266.272064 | Loss Relation: 27.592140
+EPOCH 10
+Training   -- Loss Mention: 21.430414 | Loss Coreference: 226.945206 | Loss Relation: 26.360294
+Evaluation -- Loss Mention: 19.186956 | Loss Coreference: 266.457733 | Loss Relation: 27.388479
+EPOCH 11
+Training   -- Loss Mention: 22.845533 | Loss Coreference: 221.169525 | Loss Relation: 25.998226
+Evaluation -- Loss Mention: 24.459864 | Loss Coreference: 261.048889 | Loss Relation: 28.759962
+EPOCH 12
+Training   -- Loss Mention: 22.180832 | Loss Coreference: 222.869003 | Loss Relation: 26.392355
+Evaluation -- Loss Mention: 20.078600 | Loss Coreference: 277.760162 | Loss Relation: 27.012825
+EPOCH 13
+Training   -- Loss Mention: 22.252161 | Loss Coreference: 219.140884 | Loss Relation: 25.688349
+Evaluation -- Loss Mention: 22.529993 | Loss Coreference: 256.564331 | Loss Relation: 28.139791
+----- TEST -----
+
+--Mentions statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.780     0.965     0.863       579
+           1      0.582     0.247     0.347       158
+           2      0.000     0.000     0.000        47
+
+    accuracy                          0.763       784
+   macro avg      0.454     0.404     0.403       784
+weighted avg      0.693     0.763     0.707       784
+
+--Coreferences statistics--
+
+Precision: 0.498107
+Recall: 1.000000
+F1: 0.664982 
+
+--Relations statistics--
+
+              precision    recall  f1-score   support
+
+           0      0.800     0.768     0.784       224
+           1      0.000     0.000     0.000        18
+           2      0.258     0.575     0.357        40
+           3      0.000     0.000     0.000         9
+           4      0.286     0.195     0.232        41
+
+    accuracy                          0.611       332
+   macro avg      0.269     0.308     0.274       332
+weighted avg      0.606     0.611     0.600       332
+
+
+
+2021-06-02 20:48:08.861992

@@ -1,0 +1,549 @@
+The O 
+Clarus O 
+Initiative O 
+is O 
+essentially O 
+a O 
+plan O 
+to O 
+create O 
+a O 
+“ O 
+network O 
+of O 
+networks O 
+” O 
+— O 
+much O 
+like O 
+the O 
+Internet O 
+— O 
+for O 
+surface O 
+transportation O 
+environmental O 
+data O 
+. O 
+
+First O 
+, O 
+the O 
+participant H 0
+will O 
+be O 
+able O 
+to O 
+share O 
+collected O 
+environmental R 
+data H 0 2
+with O 
+Clarus H 0 2-2
+. O 
+
+Second O 
+, O 
+participants H 1
+will O 
+be O 
+able O 
+to O 
+receive O 
+environmental H 2 2
+data O 
+collected O 
+by O 
+Clarus H 3 2-2
+. O 
+
+The O 
+primary O 
+recipients H 0
+of O 
+this O 
+data H 2 2
+will O 
+be O 
+weather R  
+service R 
+providers H 0 2-0
+, O 
+but O 
+any O 
+Clarus R 
+participants H 1 0-0-0
+would O 
+be O 
+able O 
+to O 
+receive O 
+data H 2 0-0-0-2
+if O 
+they O 
+choose O 
+so O 
+. O 
+
+The O 
+Clarus R 
+system H 3
+will O 
+collect O 
+, O 
+organize O 
+, O 
+and O 
+qualify O 
+the O 
+environmental R 
+data H 2 2
+to O 
+be O 
+published O 
+by O 
+the O 
+system H 3 1-2
+. O 
+
+The O 
+data H 2
+will O 
+be O 
+collected O 
+from O 
+the O 
+participants H 1 2
+, O 
+organized O 
+by O 
+location H 0 4-0
+and O 
+type H 0 4-0-0
+of R 
+data R 
+, O 
+and O 
+quality R 
+flags H 0 4-0-0-0
+will O 
+be O 
+added O 
+. O 
+
+When O 
+this O 
+is O 
+done O 
+, O 
+the O 
+data H 2
+will O 
+be O 
+published O 
+to O 
+the O 
+Service R 
+Providers H 5 2
+and O 
+other O 
+participant H 1 2-0
+/ O 
+consumers H 0 2-0-0
+in O 
+Clarus H 3 0-0-0-2
+. O 
+
+Determining O 
+data H 2
+types H 7 4
+will O 
+be O 
+a O 
+significant O 
+challenge O 
+. O 
+
+While O 
+there O 
+are O 
+many O 
+types H 7
+of O 
+environmental R 
+data H 2 3
+that O 
+could O 
+be O 
+collected O 
+, O 
+the O 
+Clarus O 
+emphasis O 
+on O 
+surface O 
+weather O 
+and O 
+transportation O 
+puts O 
+the O 
+focus O 
+on O 
+those O 
+weather O 
+elements O 
+that O 
+have O 
+a O 
+direct O 
+bearing O 
+on O 
+surface O 
+transportation O 
+systems O 
+. O 
+
+These O 
+environmental R
+data R 
+elements H 2
+are O 
+: O 
+• O 
+Fixed R 
+ESS R 
+Data H 0 2
+include O 
+station R 
+category H 0 0-4
+, O 
+type H 0 0-4-0
+of R 
+station R 
+, O 
+location H 0 0-4-0-0
+of R 
+ESS R  
+, O 
+location H 0 0-4-0-0-0
+of R 
+sensors R  
+, O 
+sensor R 
+configuration H 0 0-4-0-0-0-0
+and O 
+time H 0 0-4-0-0-0-0-0
+of R 
+observation R 
+• O 
+Mobile R 
+ESS R 
+data H 0 2-0-0-0-0-0-0-0
+include O 
+location H 0 0-0-0-0-0-0-0-0-4
+of R 
+ESS R 
+, O 
+sensor R 
+configuration H 0 0-0-0-0-0-0-0-0-4-0
+, O 
+speed H 0 0-0-0-0-0-0-0-0-4-0-0
+of R 
+platform R 
+, O 
+direction H 0 0-0-0-0-0-0-0-0-4-0-0-0
+of R 
+plateform R 
+and O 
+time H 0 0-0-0-0-0-0-0-0-4-0-0-0-0
+of R 
+observation R 
+• O 
+Atmospheric R 
+sensor R 
+data H 0 2-0-0-0-0-0-0-0-0-0-0-0-0-0
+include O 
+sensor R 
+data H 0 0-0-0-0-0-0-0-0-0-0-0-0-0-0-4
+, O 
+air R 
+temperature H 0 0-0-0-0-0-0-0-0-0-0-0-0-0-0-4-0
+, O 
+atmospheric R 
+pressure H 0 0-0-0-0-0-0-0-0-0-0-0-0-0-0-4-0-0
+, O 
+humidity H 0 0-0-0-0-0-0-0-0-0-0-0-0-0-0-4-0-0-0
+, O 
+long R 0 0-0-0-0-0-0-0-0-0-0-0-0-0-0-4-0-0-0-0
+wave R
+and O 
+short R
+wave R
+radiation H 0 0-0-0-0-0-0-0-0-0-0-0-0-0-0-4-0-0-0-0-0
+, O 
+occurrence R 0 0-0-0-0-0-0-0-0-0-0-0-0-0-0-4-0-0-0-0-0-0
+, O 
+type R 0 0-0-0-0-0-0-0-0-0-0-0-0-0-0-4-0-0-0-0-0-0-0
+, O 
+rate R 0 0-0-0-0-0-0-0-0-0-0-0-0-0-0-4-0-0-0-0-0-0-0-0
+and O 
+amount R 0 0-0-0-0-0-0-0-0-0-0-0-0-0-0-4-0-0-0-0-0-0-0-0-0
+of R
+precipitation H 
+, O 
+visibility H 0 0-0-0-0-0-0-0-0-0-0-0-0-0-0-4-0-0-0-0-0-0-0-0-0-0
+, O 
+wind R 
+speed H 0 0-0-0-0-0-0-0-0-0-0-0-0-0-0-4-0-0-0-0-0-0-0-0-0-0-0
+and O 
+direction H 0 0-0-0-0-0-0-0-0-0-0-0-0-0-0-4-0-0-0-0-0-0-0-0-0-0-0-0
+and O 
+wind R 
+gust H 0 0-0-0-0-0-0-0-0-0-0-0-0-0-0-4-0-0-0-0-0-0-0-0-0-0-0-0-0
+• O 
+Pavement R 
+sensor R 
+data H 0 2-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0
+include O 
+sensor R 
+data H 0 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-4
+, O 
+pavement R
+condition H 0 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-4-0
+, O 
+pavement R 
+temperature H 0 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-4-0-0
+, O 
+pavement R 
+chemical R 
+condition R 
+freeze R 
+point H 0 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-4-0-0-0
+, O 
+pavement R 
+ice R 
+thickness H 0 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-4-0-0-0-0
+, O 
+snow R 
+depth H 0 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-4-0-0-0-0-0
+and O 
+water R 
+depth H 0 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-4-0-0-0-0-0-0
+. O 
+• O 
+Subsurface R
+sensor R 
+data H 0 2-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0
+include O 
+sensor R 
+data H 0 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-4
+, O 
+subsurface R 
+temperature H 0 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-4-0
+and O 
+subsurface R 
+moisture H 0 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-4-0-0
+. O 
+• O 
+Air R 
+quality R 
+sensor R 
+data H 0 2-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0
+include O 
+sensor R 
+data H 0 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-4
+and O 
+air R 
+quality R 
+conidition H 0 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-4-0
+. O 
+
+Average O 
+Data H 2
+Age H 0 4
+is O 
+the O 
+estimated O 
+average O 
+age H 52 0-1
+of O 
+a O 
+station R 
+observation H 2 1-0-3
+as O 
+it O 
+is O 
+transferred O 
+from O 
+the O 
+station H 0 0-0-0-2
+to O 
+the O 
+end R 
+user H 0 0-0-0-2-0
+. O 
+
+The O 
+primary O 
+user H 54
+classes O 
+include O 
+the O 
+owners H 0 2
+and O 
+operators H 0 2-0
+of O 
+the O 
+observing O 
+systems O 
+collecting O 
+and O 
+sending O 
+information O 
+to O 
+Clarus O 
+, O 
+and O 
+the O 
+users H 0 2-0-0 
+directly R 
+accessing R 
+the R 
+data R 
+published O 
+by O 
+the O 
+Clarus O 
+system O 
+. O 
+
+The O 
+following O 
+is O 
+an O 
+initial O 
+list O 
+of O 
+stakeholders O 
+whose O 
+user H 54
+needs O 
+are O 
+considered O 
+: O 
+• O 
+Observation R 
+system R 
+owners H 0 2
+including O 
+federal R 0 0-2
+, O 
+state R 0 0-2-0
+, O 
+local R 0 0-2-0-0
+, O 
+and O 
+private R 0 0-2-0-0-0
+institutions H
+; O 
+• O 
+Instrument R 
+and R 
+observation R 
+platform R 
+suppliers H 0 2-0-0-0-0-0 
+; O 
+• O 
+Direct R 
+data R 
+users H 0 2-0-0-0-0-0-0 
+including O 
+system R 
+owners H 0 0-0-0-0-0-0-0-2
+and O 
+their O 
+contractors H 0 0-0-0-0-0-0-0-2-0
+; O 
+• O 
+Surface R 
+transportation R 
+weather R 
+service R 
+providers H 0 2-0-0-0-0-0-0-0-0-0
+( O 
+which O 
+may O 
+include O 
+the O 
+observation R 
+system R 
+owners H 0 0-0-0-0-0-0-0-0-0-0-2
+) O 
+; O 
+• O 
+NOAA H 0 2-0-0-0-0-0-0-0-0-0-0-0
+; O 
+• O 
+General R 
+weather R 
+service R 
+providers H 0 2-0-0-0-0-0-0-0-0-0-0-0-0
+; O 
+• O 
+Research R 
+community H 0 2-0-0-0-0-0-0-0-0-0-0-0-0-0
+; O 
+• O 
+Climate R 
+data R 
+warehouse H 0 2-0-0-0-0-0-0-0-0-0-0-0-0-0-0
+and O 
+other R 
+non-surface R 
+weather R 
+interests H 0 2-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0
+. O 
+
+The O 
+following O 
+roles H 0 
+can O 
+be O 
+assigned O 
+to O 
+each O 
+group O 
+of O 
+users H 54 3
+: O 
+• O 
+Federal O 
+, O 
+State O 
+, O 
+and O 
+Local O 
+Agencies O 
+• O 
+Transit O 
+• O 
+Rail O 
+• O 
+Vehicle O 
+• O 
+Surface O 
+Transportation O 
+Weather O 
+Service O 
+Providers O 
+( O  
+STWSP O 
+• O 
+Weather O 
+Service O 
+Providers O 
+• O 
+Research O 
+• O 
+Archives O 
+. O 

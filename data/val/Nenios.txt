@@ -1,0 +1,637 @@
+This O 
+section O 
+contains O 
+a O 
+general O 
+description O 
+of O 
+the O 
+software O 
+functionality O 
+followed O 
+by O 
+detailed O 
+requirements O 
+that O 
+will O 
+be O 
+traced O 
+throughout O 
+the O 
+project O 
+. O 
+
+Before O 
+gaining O 
+access O 
+to O 
+the O 
+NCCM R 
+system H 0
+an O 
+employee H 0 2
+will O 
+be O 
+required O 
+to O 
+enter O 
+their H 2 0-1
+user R 
+name H 0 0-0-4
+and O 
+password H 0 0-0-4-0
+. O 
+
+An O 
+employee H 2
+’s O 
+access R 
+privileges H 0 4 
+within O 
+the O 
+system H 1 0-0
+are O 
+determined O 
+by O 
+their H 2 1-0-0
+job R 
+classification H 0 0-0-0-4
+. O 
+
+The O 
+administrators H 0
+will O 
+have O 
+unlimited O 
+access O 
+whereas O 
+teachers H 0 0 
+and O 
+assistants H 0 0-0
+will O 
+have O 
+fewer O 
+privileges H 5 0-4-4
+as O 
+described O 
+below O 
+. O 
+
+Administrators H 7 
+are O 
+responsible O 
+for O 
+registering O 
+new O 
+customers H 0 2
+so O 
+they H 7 1-0
+are O 
+the O 
+only O 
+employees H 2 0-0-2
+allowed O 
+to O 
+view O 
+or O 
+edit O 
+all O 
+account H 0 0-0-2-0
+information O 
+. O 
+
+When O 
+a O 
+parent H 0
+contacts O 
+the O 
+Care O 
+Center O 
+to O 
+enroll O 
+a O 
+child H 0 2
+an O 
+administrator H 7 0-0
+will O 
+first O 
+check O 
+classroom H 0 0-0-2
+availability H 0 0-0-0-4
+. O 
+
+If O 
+the O 
+classrooms H 14
+for O 
+the O 
+child H 13 2
+’s O 
+age R
+group H 0 0-4
+are O 
+already O 
+full O 
+the O 
+child H 13 0-0-0
+is O 
+placed O 
+on O 
+the O 
+classroom H 14 0-0-0-2
+waiting R
+list H 0 0-0-0-0-2
+. O 
+
+The O 
+administrator H 7
+will O 
+then O 
+create O 
+an O 
+account H 11 2
+if O 
+it O 
+is O 
+a O 
+new O 
+customer H 10 0-2
+or O 
+edit O 
+an O 
+existing O 
+account H 11 2-0-0
+for O 
+a O 
+returning O 
+customer H 10 0-0-0-2
+. O 
+
+As O 
+the O 
+children H 13
+arrive O 
+in O 
+the O 
+morning O 
+the O 
+teaching R
+assistant H 9 0
+will O 
+record O 
+the O 
+time H 0 0-0
+of O 
+their H 13 1-0-0
+arrival H 0 0-0-3-2
+. O 
+
+Likewise O 
+when O 
+the O 
+children H 13
+leave O 
+for O 
+the O 
+day O 
+the O 
+assistant H 9 0
+will O 
+record O 
+the O 
+time H 0 0-0
+of O 
+their H 13 1-0-0
+departure H 0 0-0-3-2
+. O 
+
+The O 
+departure H 21
+time H 20 4
+will O 
+be O 
+used O 
+to O 
+keep O 
+track O 
+of O 
+late O 
+pick O 
+ups O 
+so O 
+the O 
+parent H 12 0-0
+can O 
+be O 
+billed O 
+accordingly O 
+. O 
+
+If O 
+a O 
+parent H 12 
+is O 
+unable O 
+to O 
+pick O 
+up O 
+their H 12 1
+child H 13 0-2
+they H 12 1-0-0
+may O 
+send O 
+another O 
+person O 
+, O 
+but O 
+only O 
+if O 
+the O 
+person O 
+had O 
+previously O 
+been O 
+designated O 
+as O 
+an O 
+authorized R 
+pick-up H 0 0-0-0-2
+. O 
+
+The O 
+names H 0 
+of O 
+all O 
+authorized R 
+pick-ups H 22 3
+are O 
+maintained O 
+in O 
+a O 
+child H 13 0-2
+’s O 
+record O 
+for O 
+this O 
+purpose O 
+. O 
+
+One O 
+of O 
+the O 
+teacher H 8
+’s O 
+responsibilities O 
+is O 
+to O 
+document O 
+the O 
+behavior O 
+of O 
+children H 13 0
+they H 8 1-2
+supervise O 
+. O 
+
+The O 
+NCCM R  
+system H 1
+will O 
+store O 
+this O 
+information O 
+in O 
+a O 
+database O 
+for O 
+future O 
+reference O 
+. O 
+
+This O 
+is O 
+especially O 
+useful O 
+for O 
+parent H 12 
+teacher H 8 2
+conferences O 
+. O 
+
+Teachers H 8
+will O 
+have O 
+the O 
+ability O 
+to O 
+add O 
+or O 
+edit O 
+their O 
+comments H 0 2
+at O 
+any O 
+time O 
+. O 
+
+Administrators H 7
+can O 
+access O 
+a O 
+reporting O 
+feature O 
+that O 
+generates O 
+preformatted O 
+documents O 
+summarizing O 
+key O 
+customer H 10 2
+information O 
+. O 
+
+In O 
+addition O 
+to O 
+printing O 
+these O 
+reports O 
+administrators H 7
+are O 
+able O 
+to O 
+print O 
+invoices H 0 2 
+. O 
+
+Invoices H 25
+will O 
+include O 
+a O 
+special O 
+notice H 0 4
+if O 
+a O 
+child H 13 0-0
+is O 
+due O 
+for O 
+a O 
+required O 
+immunization H 0 0-0-2
+. O 
+
+Customers H 10
+will O 
+be O 
+billed O 
+on O 
+the O 
+last O 
+day O 
+of O 
+every O 
+month O 
+with O 
+a O 
+discount O 
+applied O 
+to O 
+those O 
+accounts H 11 0
+having O 
+multiple O 
+children H 13 0-2
+enrolled O 
+in O 
+the O 
+Care O 
+Center O 
+. O 
+
+Daily O 
+reminders O 
+are O 
+a O 
+feature O 
+that O 
+all O 
+employees H 2
+have O 
+access O 
+to O 
+. O 
+
+An O 
+employee H 2
+can O 
+enter O 
+the O 
+date H 0 0
+of O 
+an O 
+event H 0 2-3
+as O 
+well O 
+as O 
+a O 
+message H 0 2-0-0
+describing O 
+the O 
+event H 29 0-0-0-2
+. O 
+
+On O 
+the O 
+day O 
+of O 
+the O 
+reminder O 
+a O 
+pop R  
+up R  
+message H 30
+will O 
+be O 
+displayed O 
+when O 
+the O 
+employee H 2 2
+logs O 
+onto O 
+the O 
+system H 1 0-2
+. O 
+
+Acknowledgement O 
+of O 
+the O 
+reminder O 
+will O 
+permanently O 
+remove O 
+it O 
+from O 
+the O 
+database O 
+. O 
+
+When O 
+a O 
+user H 2
+edits O 
+an O 
+account H 11 2 
+their H 2 1-0
+user R
+ID H 0 0-0-4 
+along O 
+with O 
+the O 
+date H 0 0-0-0-0
+, O 
+time H 0 0-0-0-0-0
+and O 
+a O 
+description H 0 0-0-0-0-0-0
+of O 
+the O 
+change H 0 0-0-0-3-3-3-3
+shall O 
+be O 
+recorded O 
+in O 
+the O 
+database O 
+. O 
+
+The O 
+Parent R 
+’s R 
+record H 12 
+shall O 
+contain O 
+the O 
+following O 
+information O 
+: O 
+• O 
+Name H 0 4
+• O 
+Address H 0 4-0
+• O 
+Home R 
+phone H 0 4-0-0
+• O 
+Work R 
+phone H 0 4-0-0-0
+• O 
+Email R 
+address H 0 4-0-0-0-0
+• O 
+Emergency R 
+contact H 0 4-0-0-0-0-0
+• O 
+Name H 23 0-0-0-0-0-0-0
+of O 
+an O 
+authorized R
+pick-up H 22 2-0-0-0-0-0-0-3 
+. O 
+
+The O 
+Child R 
+’s R 
+record H 13
+shall O 
+contain O 
+the O 
+following O 
+information O 
+: O 
+• O 
+Name H 0 4
+• O 
+Date R 
+of R 
+birth H 0 4-0
+• O 
+Gender H 0 4-0-0
+• O 
+Classroom H 14 2-0-0-0
+name H 0 0-0-0-0-4
+• O 
+Special R 
+needs H 0 4-0-0-0-0-0
+• O 
+Photo H 0 4-0-0-0-0-0-0
+• O 
+Teacher R
+’s R 
+comments H 0 4-0-0-0-0-0-0-0
+• O 
+Immunization H 27 2-0-0-0-0-0-0-0-0
+dates H 0 0-0-0-0-0-0-0-0-0-4
+. O 
+
+Each O 
+classroom H 14
+shall O 
+only O 
+accept O 
+a O 
+maximum O 
+of O 
+20 O 
+children H 13 2
+. O 
+
+Each O 
+student H 13
+shall O 
+only O 
+belong O 
+to O 
+one O 
+class H 14 2
+. O 
+
+One O 
+teacher H 8
+and O 
+one O 
+assistant H 9 0
+shall O 
+be O 
+assigned O 
+to O 
+each O 
+class H 14 2-2
+. O 
+
+A O 
+waiting R
+list H 17
+shall O 
+store O 
+the O 
+names H 0 0 
+and O 
+phone R 
+numbers H 0 0-0
+of O 
+up O 
+to O 
+100 O 
+potential O 
+customers H 10 2-3-3
+waiting O 
+for O 
+a O 
+classroom H 14 2-0-0-0
+opening O 
+to O 
+enroll O 
+their H 10 0-0-0-1-0
+child H 13 0-0-0-0-0-2
+. O

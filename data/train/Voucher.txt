@@ -1,0 +1,1226 @@
+This O 
+section O 
+of O 
+the O 
+document O 
+is O 
+going O 
+to O 
+explain O 
+the O 
+functionalities O 
+of O 
+the O 
+system H 0
+, O 
+its O 
+subsystems O 
+and O 
+how O 
+it O 
+’s O 
+integrated O 
+and O 
+working O 
+together O 
+. O 
+
+The O 
+VMU-system H 1
+will O 
+create O 
+the O 
+vouchers H 0 2
+and O 
+sell O 
+it O 
+to O 
+clients H 0 2-2
+through O 
+distributors H 0 2-2-2 
+. O 
+
+The O 
+distributor H 4
+will O 
+submit O 
+the O 
+sales H 0 2
+details O 
+back O 
+to O 
+the O 
+VMU H 1 2-2
+. O 
+
+Each O 
+voucher H 2
+should O 
+have O 
+two O 
+portions H 0 2
+with O 
+three O 
+tear R 
+off R 
+voucher R 
+slips H 0 0-2
+each O 
+for O 
+Client H 3 2-2-2
+and O 
+Partner H 0 2-2-2-0
+. O 
+
+The O 
+client H 3
+and O 
+/ O 
+or O 
+the O 
+partner H 8 0
+will O 
+choose O 
+the O 
+service R 
+provider H 0 2-2
+and O 
+will O 
+get O 
+treatment H 0 2-2-0
+. O 
+
+First O 
+visit H 0
+is O 
+called O 
+as O 
+Consultation H 0 2
+and O 
+if O 
+the O 
+patient H 0 0-0
+is O 
+not O 
+cured O 
+then O 
+they H 13 0-0-1
+can O 
+go O 
+for O 
+first R 
+follow-up H 0 2-0-0-2
+and O 
+second R
+follow-up H 0 2-0-0-2-0 
+. O 
+
+If O 
+the O 
+patient H 13
+is O 
+not O 
+cured O 
+then O 
+the O 
+doctor H 0 0
+will O 
+refer O 
+the O 
+patient H 13 0-2
+to O 
+some O 
+other O 
+Hospitals H 0 0-2-2
+the O 
+hospital H 17 0-0-0-0
+may O 
+be O 
+another O 
+VSP H 0 0-0-0-0-2
+or O 
+any O 
+other O 
+. O 
+
+Each O 
+visit H 11
+details O 
+( O 
+including O 
+Diagnosis H 0 0
+, O 
+Lab R 
+Test H 0 0-0
+and O 
+Drugs H 0 0-0-0
+) O 
+of O 
+the O 
+patient H 13 2-2-2-2
+is O 
+called O 
+a O 
+claim H 0 2-2-2-2-2
+. O 
+
+The O 
+VSP H 18
+will O 
+submit O 
+the O 
+claim H 22 2
+to O 
+VMIU R
+field R
+office H 0 2-2
+to O 
+enter O 
+those O 
+into O 
+the O 
+database O 
+. O 
+
+The O 
+filed R 
+office H 23
+will O 
+validate O 
+the O 
+claim R 
+form H 22 2
+manually O 
+and O 
+through O 
+system H 1 2-2
+. O 
+
+If O 
+any O 
+of O 
+mandatory O 
+information O 
+is O 
+missed O 
+or O 
+any O 
+false O 
+information O 
+is O 
+existing O 
+then O 
+the O 
+field R 
+office H 23
+will O 
+reject O 
+the O 
+claim H 22 2 
+back O 
+to O 
+VSP H 18 2-2
+and O 
+the O 
+system H 1 0-0-0
+will O 
+keep O 
+those O 
+claims H 22 0-0-0-2
+in O 
+a O 
+quarantine O 
+area O 
+. O 
+
+The O 
+quarantined O 
+forms H 22
+will O 
+be O 
+sent O 
+back O 
+to O 
+the O 
+VSP H 18 2
+for O 
+verification O 
+, O 
+if O 
+the O 
+VSP H 18 0-0
+returns O 
+the O 
+claim H 22 0-0-2
+with O 
+satisfactory O 
+details O 
+, O 
+the O 
+claims H 22 0-0-0-0
+will O 
+be O 
+entered O 
+on O 
+to O 
+the O 
+system H 1 0-0-0-0-2
+, O 
+in O 
+the O 
+following O 
+month O 
+’s O 
+batch O 
+. O 
+
+Based O 
+on O 
+the O 
+payment H 0
+terms H 0 4
+agreed O 
+by O 
+VSP H 18 2-0
+, O 
+the O 
+field R 
+office H 23 0-0-0
+will O 
+generate O 
+Bi-Month H 0 0-0-0-0
+or O 
+Monthly H 0 0-0-0-0-0
+financial H 0 0-0-0-0-2-2
+and O 
+medical H 0 0-0-0-0-2-2-0
+report H 0 0-0-0-2-0-0-2-2
+and O 
+send O 
+it H 30 0-0-0-0-0-0-0-0-1
+to O 
+MSIU R
+Admin R
+team H 0 0-0-0-0-0-0-0-0-0-2
+to O 
+arrange O 
+the O 
+payments H 24 0-0-0-0-0-0-0-0-0-0-2
+for O 
+the O 
+VSP H 18 0-0-0-0-0-0-0-0-0-0-0-2
+. O 
+
+To O 
+understand O 
+the O 
+satisfaction O 
+of O 
+client H 3
+the O 
+MSIU R 
+Admin R  
+team H 31 0
+will O 
+get O 
+client R 
+feedback H 0 0-2
+from O 
+some O 
+of O 
+the O 
+clients H 3 0-2-2
+and O 
+send O 
+those O 
+documents H 32 0-2-1-0
+to O 
+field R 
+office H 23 0-2-0-0-2
+to O 
+enter O 
+those H 32 0-0-0-0-1-2
+into O 
+database O 
+. O 
+
+The O 
+voucher H 2
+numbers H 0 4 
+are O 
+system H 1 2-0
+generated O 
+and O 
+created O 
+with O 
+unique O 
+identification O 
+numbers O 
+with O 
+security O 
+protocols O 
+in-built O 
+. O 
+
+The O 
+created O 
+unique R  
+numbers H 33
+are O 
+then O 
+printed O 
+out O 
+in O 
+the O 
+form O 
+of O 
+bar-codes O 
+, O 
+which O 
+will O 
+complement O 
+( O 
+or O 
+stuck O 
+on O 
+the O 
+voucher O 
+) O 
+the O 
+voucher H 2 3
+. O 
+
+Then O 
+at O 
+every O 
+level O 
+on O 
+the O 
+voucher O 
+cycle O 
+this O 
+number O 
+is O 
+captured O 
+, O 
+on O 
+distribution O 
+, O 
+retail O 
+sales O 
+, O 
+point O 
+of O 
+treatment O 
+, O 
+enclosed O 
+along O 
+with O 
+claim O 
+forms O 
+, O 
+at O 
+the O 
+claims O 
+processing O 
+and O 
+finally O 
+for O 
+the O 
+payment O 
+. O 
+
+Such O 
+tracking O 
+records O 
+will O 
+be O 
+utilized O 
+for O 
+reports O 
+as O 
+well O 
+. O 
+
+Each O 
+voucher H 2 
+should O 
+have O 
+the O 
+following O 
+properties O 
+: O 
+• O 
+Project R 
+code H 0 4
+• O 
+Group R 
+batch R 
+code H 0 4-0
+• O 
+Batch R 
+number H 0 4-0-0
+• O 
+Voucher R 
+number H 0 4-0-0-0
+• O 
+Security R 
+code H 33 4-0-0-0-0
+. O 
+
+Voucher H 2
+will O 
+also O 
+have O 
+MRP H 0 4
+( O 
+maximum O 
+retail O 
+price O 
+) O 
+. O 
+
+Voucher H 2
+should O 
+have O 
+two O
+portions H 6 2
+with O 
+three R 
+tear R 
+off R 
+slips H 7 0-2
+each O
+. O 
+
+If O 
+the O 
+tear R  
+off R 
+voucher R 
+slips H 7
+would O 
+be O 
+sticker O 
+then O 
+it H 7 1
+will O 
+not O 
+be O 
+lost O 
+on O 
+attaching O 
+to O 
+the O 
+claim H 22 0-2
+forms O 
+by O 
+the O 
+VSP H 18 0-2-2
+. O 
+
+Each O 
+voucher R 
+slip H 7
+should O 
+contain O 
+the O 
+bar R 
+code H 33 0
+of O 
+the O 
+Voucher H 2 0-3
+with O 
+two O 
+identifications O 
+one O 
+for O 
+the O 
+client H 3 0-0-0
+and O 
+the O 
+other O 
+for O 
+the O 
+partner H 8 0-0-0-0
+. O 
+
+The O 
+first O 
+tear H 7
+is O 
+for O 
+the O 
+first O 
+consultation H 12 2
+, O 
+second O 
+one H 7 1-0
+is O 
+for O 
+the O 
+first R
+follow-up H 14 0-0-2
+and O 
+the O 
+third O 
+one H 7 1-0-0-0
+off O 
+for O 
+the O 
+second R 
+follow-up H 15 0-0-0-0-2
+. O 
+
+The O 
+system H 1
+will O 
+capture O 
+the O 
+master O 
+details O 
+of O 
+every O 
+distributor H 4 2
+so O 
+that O 
+the O 
+users H 0 0-0
+can O 
+get O 
+the O 
+details O 
+of O 
+any O 
+distributor H 4 0-0-2
+and O 
+sales H 5 0-0-2-0
+details O 
+at O 
+any O 
+time O 
+. O 
+
+Each O 
+distributor H 4
+will O 
+have O 
+unique R 
+code H 0 4 
+and O 
+detailed O 
+descriptions O 
+such O 
+as O 
+name H 0 4-0
+, O 
+address H 0 4-0-0
+, O 
+locations H 0 4-0-0-0
+and O 
+type R 
+of R 
+business H 0 4-0-0-0-0
+etc. O 
+such O 
+valid O 
+information O 
+will O 
+help O 
+us O 
+track O 
+information O 
+related O 
+to O 
+sales R
+and R
+distributions H 5 0-0-0-0-0-0
+. O 
+
+Following O 
+fields O 
+will O 
+be O 
+captured O 
+for O 
+a O 
+distributor H 4
+: O 
+• O 
+Code H 40 4
+( O 
+3 O 
+Digit O 
+) O 
+Example O 
+: O 
+DS0001 O 
+• O 
+Name H 41 4-0
+• O 
+Type R 
+of R 
+business H 44 4-0-0
+( O 
+e.g. O 
+hospital O 
+/ O 
+pharmacy O 
+/ O 
+NGO O 
+) O 
+• O 
+Proprietor R
+Name H 0 4-0-0-0
+• O 
+Designation H 0 4-0-0-0-0
+• O 
+Address H 42 4-0-0-0-0-0
+( O 
+Street O 
+/ O 
+Road O 
+, O 
+Sub O 
+District O 
+, O 
+County O 
+, O 
+Sub O 
+County O 
+and O 
+Village O 
+or O 
+Town O 
+) O 
+• O 
+Contact R
+No H 0 4-0-0-0-0-0-0
+• O 
+Email R
+Id H 0 4-0-0-0-0-0-0-0
+• O 
+Status H 0 4-0-0-0-0-0-0-0-0
+( O 
+active O 
+/ O 
+deactivate O 
+) O 
+. O 
+
+The O 
+system H 1
+will O 
+capture O 
+the O 
+details O 
+of O 
+MSIU R 
+Salesman H 0 2
+; O 
+this O 
+would O 
+help O 
+the O 
+MSIU R 
+management R 
+team H 0 0-0
+to O 
+understand O 
+the O 
+performance O 
+of O 
+each O 
+Team H 0 0-0-2
+or O 
+salesman H 50 0-0-2-0
+. O 
+
+During O 
+every O 
+distribution R 
+transaction H 5
+the O 
+user H 39 2
+should O 
+select O 
+the O 
+name H 0 0-0
+of O 
+the O 
+salesman H 50 2-2-3
+listed O 
+from O 
+Team R 
+Master H 52 0-0-0-2
+. O 
+
+The O 
+Salesman R 
+master H 48
+should O 
+capture O 
+following O 
+information O 
+’s O 
+: O 
+• O 
+Code H 0 4
+• O 
+Name H 53 4-0
+• O 
+Date H 0 4-0-0
+of R 
+birth R 
+& O 
+Age H 0 4-0-0-0
+• O 
+Gender H 0 4-0-0-0-0
+• O 
+Communication R
+Address H 0 4-0-0-0-0-0
+• O 
+Contact R
+No H 0 4-0-0-0-0-0-0
+• O 
+E-Mail R 
+Id H 0 4-0-0-0-0-0-0-0
+• O 
+Sales-team H 52 2-0-0-0-0-0-0-0-0
+( O 
+which O 
+will O 
+have O 
+a O 
+separate O 
+master O 
+) O 
+. O 
+
+The O 
+system H 1
+will O 
+capture O 
+the O 
+details O 
+of O 
+voucher R 
+sales H 5 2
+between O 
+MSIU R 
+sales R 
+team H 52 0-2
+and O 
+Distributors H 4 0-2-2
+. O 
+
+During O 
+the O 
+distribution H 5
+the O 
+system H 1 2
+will O 
+capture O 
+the O 
+following O 
+details O 
+, O 
+to O 
+make O 
+Distribution O 
+process O 
+easily O 
+: O 
+• O 
+Name H 0 4-0
+of R 
+the R 
+distributor R
+• O 
+Name H 0 4-0-0
+of R 
+the R 
+Salesman R 
+• O 
+Date H 0 4-0-0-0
+of R 
+distribution R 
+• O 
+No H 0 4-0-0-0-0
+of R 
+vouchers R 
+sold R 
+• O 
+According O 
+to O 
+the O 
+number O 
+of O 
+vouchers O 
+required O 
+by O 
+the O 
+distributor O 
+, O 
+the O 
+system H 1 0-0-0-0-0-0
+should O 
+allocate O 
+the O 
+relevant O 
+vouchers H 2 0-0-0-0-0-0-2
+with O 
+their H 2 0-0-0-0-0-0-0-1
+numbers H 37 0-0-0-0-0-0-0-0-4
+and O 
+batch R 
+numbers H 36 0-0-0-0-0-0-0-0-4-0
+based O 
+on O 
+the O 
+stock O 
+• O 
+Invoice R 
+amount H 0 4-0-0-0-0-0-0-0-0-0-0
+= O 
+No O 
+of O 
+vouchers O 
+x O 
+Wholesale O 
+price O 
+• O 
+Mode H 0 4-0-0-0-0-0-0-0-0-0-0-0
+of R 
+payment R 
+is O 
+Cash O 
+. O 
+
+The O 
+VSP R 
+master H 18
+will O 
+have O 
+the O 
+following O 
+information O 
+: O 
+• O 
+Code H 0 4
+• O 
+Providers R 
+Name H 0 4-0
+• O 
+Physical R 
+Address H 0 4-0-0
+( O 
+Street O 
+/ O 
+Road O 
+, O 
+District O 
+, O 
+Sub-District O 
+, O 
+County O 
+, O 
+Sub-County O 
+, O 
+Village O 
+/ O 
+Town O 
+) O 
+• O 
+Communication R 
+Address H 0 4-0-0-0
+( O 
+Street O 
+/ O 
+Road O 
+, O 
+District O 
+, O 
+Sub-District O 
+, O 
+County O 
+, O 
+Sub-County O 
+, O 
+Village O 
+/ O 
+Town O 
+) O 
+• O 
+Health R
+Sub-District H 0 4-0-0-0-0
+• O 
+Locality H 0 4-0-0-0-0-0
+• O 
+Level H 0 4-0-0-0-0-0-0
+Of R 
+Facility R 
+• O 
+Type H 0 4-0-0-0-0-0-0-0
+of R 
+facility R 
+• O 
+Registration R
+Body H 0 4-0-0-0-0-0-0-0-0
+• O 
+Contact R 
+Person H 0 4-0-0-0-0-0-0-0-0-0
+• O 
+Designation H 0 4-0-0-0-0-0-0-0-0-0-0
+• O 
+Contact R 
+No H 0 4-0-0-0-0-0-0-0-0-0-0-0
+• O 
+E-Mail R 
+id H 0 4-0-0-0-0-0-0-0-0-0-0-0-0
+• O 
+Status H 0 4-0-0-0-0-0-0-0-0-0-0-0-0-0
+( O 
+Active O 
+/ O 
+In-Active O 
+) O 
+. O 
+
+The O 
+system H 1
+will O 
+have O 
+the O 
+facility O 
+to O 
+capture O 
+the O 
+details O 
+of O 
+VSP R 
+staff H 0 2
+details O 
+and O 
+the O 
+necessary O 
+master O 
+information O 
+while O 
+entering O 
+the O 
+claim H 22 0-0
+into O 
+the O 
+system H 1 0-0-2
+: O 
+• O 
+VSP R 
+Name H 0 0-4-0-0
+• O 
+Staff R 
+Code H 0 0-4-0-0-0
+• O 
+Staff R 
+Name H 0 0-4-0-0-0-0
+• O 
+Staff R 
+Type H 0 0-4-0-0-0-0-0
+• O 
+Qualification H 0 0-4-0-0-0-0-0-0
+. O 
+
+Depends O 
+on O 
+the O 
+payment H 24 
+terms H 25 4
+( O 
+Bi-monthly O 
+/ O 
+Monthly O 
+) O 
+mentioned O 
+in O 
+the O 
+VSP R 
+master H 18 2-0
+the O 
+VSP H 18 0-0-0
+should O 
+submit O 
+the O 
+Claim H 22 0-0-0-2
+( O 
+Treatment O 
+form O 
+) O 
+to O 
+the O 
+MSIU R 
+Field R 
+office H 0 0-0-0-2-2
+. O 
+
+While O 
+submitting O 
+the O 
+Claim H 22
+( O 
+Treatment O 
+Form O 
+) O 
+to O 
+MSIU H 87 2
+, O 
+the O 
+system H 1 0-0
+will O 
+have O 
+the O 
+provision O 
+to O 
+capture O 
+the O 
+following O 
+details O 
+: O 
+• O 
+VSP R 
+Name H 0 4-0-0
+• O 
+Date H 0 4-0-0-0
+of R 
+submission R
+• O 
+No H 0 4-0-0-0-0
+of R 
+Mentioned R 
+Forms R 
+• O 
+No H 0 4-0-0-0-0-0
+of R 
+Available R 
+Forms R 
+• O 
+Treatment R 
+Form R 
+No H 0 4-0-0-0-0-0-0
+. O 
+
+Before O 
+the O 
+claim O 
+entry O 
+the O 
+user H 39 
+should O 
+check O 
+the O 
+form O 
+manually O 
+to O 
+understand O 
+whether O 
+any O 
+mandatory O 
+information O 
+is O 
+missed O 
+in O 
+the O 
+Claim H 22 2
+or O 
+not O 
+. O 
+
+If O 
+yes O 
+, O 
+then O 
+the O 
+user H 39
+should O 
+mark O 
+that O 
+Claim H 22 2
+( O 
+Treatment O 
+Form O 
+) O 
+status H 0 0-4
+as O 
+Rejected O 
+and O 
+send O 
+back O 
+to O 
+VSP H 18 2-2-0
+. O 
+
+Voucher R 
+Sales R 
+return H 0
+is O 
+feature O 
+used O 
+when O 
+a O 
+distributor H 4 2
+is O 
+planning O 
+to O 
+return O 
+the O 
+vouchers H 2 2-2
+back O 
+to O 
+the O 
+MSIU R 
+sales R 
+team H 52 2-2-2
+. O 
+
+The O 
+system H 1
+will O 
+capture O 
+the O 
+following O 
+information O 
+during O 
+the O 
+sales R 
+return R 
+transaction H 0 2
+: O 
+• O 
+Distributor R 
+Name H 0 0-4
+• O 
+Salesman R 
+Name H 0 0-4-0
+• O 
+Sales R 
+Return R 
+Date H 0 0-4-0-0
+• O 
+Sales R 
+Return R 
+Amount H 0 0-4-0-0-0
+( O 
+No O 
+of O 
+voucher O 
+returned O 
+x O 
+whole O 
+sale O 
+rate O 
+) O 
+• O 
+Number H 0 0-4-0-0-0-0
+of R 
+vouchers R 
+Returned R
+. O 

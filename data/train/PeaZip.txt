@@ -1,0 +1,624 @@
+PeaZip H 0
+is O 
+a O 
+general O 
+purpose O 
+file O 
+and O 
+archive R 
+manager R 
+application H 1 1
+for O 
+a O 
+computer O 
+system O 
+, O 
+aiming O 
+to O 
+provide O 
+a O 
+cross-platform O 
+graphical O 
+interface O 
+for O 
+many O 
+Open O 
+Source O 
+archiving O 
+and O 
+compression O 
+utilities O 
+. O 
+
+The O 
+most O 
+important O 
+features O 
+that O 
+are O 
+offered O 
+by O 
+those O 
+utilities O 
+, O 
+through O 
+PeaZip H 1
+, O 
+are O 
+the O 
+following O 
+. O 
+
+• O 
+Creating O 
+archives H 0
+in O 
+any O 
+of O 
+the O 
+supported O 
+formats H 0 2
+( O 
+full O 
+list O 
+of O 
+which O 
+is O 
+provided O 
+in O 
+following O 
+chapters O 
+) O 
+. O 
+
+• O 
+Updating O 
+an O 
+already O 
+existing O 
+archive H 2
+. O 
+
+• O 
+Appending O 
+timestamp H 0
+with O 
+date O 
+and O 
+time O 
+on O 
+the O 
+managed O 
+archive H 2 3
+name H 0 0-4
+for O 
+archiving O 
+and O 
+backup O 
+purpose O 
+. O 
+
+• O 
+Two O 
+factor O 
+( O 
+password O 
+and O 
+keyfile O 
+) O 
+authentication O 
+for O 
+the O 
+managed O 
+files H 0
+and O 
+archives H 2 0
+. O 
+
+• O 
+Extracting O 
+contents O 
+of O 
+any O 
+compressed O 
+in O 
+any O 
+of O 
+the O 
+supported O 
+formats H 3
+( O 
+full O 
+list O 
+of O 
+which O 
+is O 
+provided O 
+in O 
+following O 
+chapters O 
+) O 
+. O 
+
+• O 
+Secure O 
+file H 6
+and O 
+archive H 2 0
+deletion O 
+from O 
+any O 
+storing O 
+unit O 
+of O 
+the O 
+computer O 
+system O 
+on O 
+which O 
+PeaZip H 1 0-0 
+runs O 
+. O 
+
+• O 
+Byte O 
+to O 
+byte O 
+comparison O 
+between O 
+two O 
+files H 6 
+. O 
+
+• O 
+Check O 
+files H 6
+in O 
+order O 
+to O 
+find O 
+duplicate O 
+files H 6 0
+and O 
+to O 
+check O 
+files H 6 0-0
+for O 
+corruption O 
+. O 
+
+• O 
+Splitting O 
+files H 6
+and O 
+merging O 
+split R 
+volumes H 0 0
+back O 
+to O 
+original O 
+file H 6 0-2
+. O 
+
+• O 
+Information O 
+list O 
+, O 
+which O 
+lists O 
+contend O 
+of O 
+selected O 
+files H 6
+/ O 
+archives H 2 0
+. O 
+
+In O 
+info O 
+mode O 
+, O 
+it O 
+shows O 
+number O 
+of O 
+files H 6 
+and O 
+archives H 2 0 
+, O 
+newer O 
+and O 
+older O 
+object H 0 2-2
+’s O 
+date H 0 0-0-4
+/ O 
+time H 0 0-0-4-0
+of R 
+last R 
+modification R
+, O 
+total R 
+space R 
+occupation H 0 0-0-4-0-0 
+and O 
+larger O 
+and O 
+smaller O 
+object H 8 0-0-2-0-0-0 
+’s O 
+size H 0 0-0-0-0-0-0-4
+. O 
+
+• O 
+View O 
+content H 0
+of O 
+a O 
+file H 6 3
+or O 
+archive H 2 3-0
+represented O 
+as O 
+hexadecimal O 
+values O 
+. O 
+
+• O 
+Graphical O 
+monitoring O 
+of O 
+all O 
+executed O 
+functions O 
+. O 
+
+All O 
+functions O 
+above O 
+can O 
+be O 
+modified O 
+and O 
+adapted O 
+to O 
+users’ H 0
+preferences H 0 2
+through O 
+a O 
+settings O 
+menu O 
+. O 
+
+Moreover O 
+, O 
+any O 
+of O 
+those O 
+features O 
+can O 
+be O 
+executed O 
+as O 
+command O 
+prompt O 
+command O 
+. O 
+
+Finally O 
+, O 
+more O 
+than O 
+one O 
+of O 
+those O 
+features O 
+can O 
+be O 
+applied O 
+to O 
+a O 
+single O 
+archive H 2
+or O 
+file H 6 0
+. O 
+
+This O 
+software O 
+applies O 
+to O 
+any O 
+user H 14
+of O 
+any O 
+computer O 
+system O 
+. O 
+
+There O 
+is O 
+no O 
+limitation O 
+on O 
+who O 
+would O 
+be O 
+able O 
+to O 
+or O 
+allowed O 
+to O 
+use O 
+PeaZip H 1 
+, O 
+as O 
+PeaZip H 1 0
+is O 
+an O 
+application H 1 0-1
+that H 1 0-0-1
+could O 
+be O 
+used O 
+by O 
+any O 
+user H 14 0-0-0-2
+of O 
+a O 
+computer O 
+system O 
+who O 
+would O 
+like O 
+to O 
+manage O 
+( O 
+archiving O 
+and O 
+compression O 
+) O 
+files H 6 0-0-0-0-2
+and O 
+archives H 2 0-0-0-0-2-0 
+of O 
+the O 
+system O 
+. O 
+
+PeaZip R 
+users H 14
+can O 
+be O 
+divided O 
+into O 
+two O 
+main O 
+categories H 0 4
+: O 
+to O 
+the O 
+ones O 
+that O 
+have O 
+already O 
+used O 
+an O 
+archiving O 
+and O 
+compression O 
+application O 
+and O 
+to O 
+all O 
+the O 
+rest O 
+. O 
+
+Even O 
+though O 
+PeaZip O
+functions O 
+are O 
+relatively O 
+simple O 
+and O 
+PeaZip O 
+’s O 
+interface O 
+is O 
+pleasant O 
+and O 
+user O 
+friendly O 
+, O 
+users H 14
+included O 
+in O 
+both O 
+categories H 16 4
+, O 
+should O 
+read O 
+the O 
+tutorials H 0 2-0
+and O 
+help O 
+documents H 0 2-0-0
+that O 
+have O 
+been O 
+written O 
+about O 
+the O 
+particular O 
+application H 1 0-0-2-2
+( O 
+and O 
+are O 
+either O 
+available O 
+in O 
+sites O 
+that O 
+are O 
+mentioned O 
+in O 
+following O 
+chapter O 
+or O 
+inside O 
+the O 
+application O 
+) O 
+, O 
+so O 
+as O 
+to O 
+inform O 
+themselves H 14 1-0-0-0-0 
+on O 
+the O 
+application H 1 0-0-0-0-0-2
+scope O 
+and O 
+needs O 
+that O 
+it O 
+covers O 
+, O 
+as O 
+well O 
+as O 
+to O 
+be O 
+able O 
+to O 
+use O 
+in O 
+full O 
+extend O 
+all O 
+, O 
+featured O 
+by O 
+the O 
+application O 
+, O 
+functions O 
+. O 
+
+Another O 
+distinction O 
+of O 
+PeaZip R  
+users H 14
+in O 
+categories H 16 4
+, O 
+could O 
+be O 
+made O 
+according O 
+to O 
+user O 
+’s O 
+experience O 
+and O 
+knowledge O 
+on O 
+using O 
+computer O 
+systems O 
+. O 
+
+In O 
+this O 
+case O 
+, O 
+however O 
+, O 
+the O 
+distinction O 
+into O 
+a O 
+discrete O 
+number O 
+of O 
+categories O 
+is O 
+not O 
+easy O 
+, O 
+because O 
+it O 
+is O 
+not O 
+possible O 
+to O 
+put O 
+unambiguous O 
+boarders O 
+between O 
+categories O 
+according O 
+to O 
+users’ O 
+experience O 
+and O 
+knowledge O 
+level O 
+on O 
+using O 
+computer O 
+systems O 
+, O 
+as O 
+it O 
+is O 
+a O 
+non-countable O 
+amount O 
+. O 
+
+Still O 
+, O 
+in O 
+general O 
+, O 
+it O 
+could O 
+be O 
+claimed O 
+that O 
+users H 14
+with O 
+larger O 
+experience O 
+and O 
+knowledge O 
+on O 
+using O 
+computer O 
+systems O 
+, O 
+could O 
+use O 
+more O 
+easily O 
+some O 
+advanced O 
+features O 
+offered O 
+by O 
+PeaZip H 1 2
+, O 
+such O 
+as O 
+executing O 
+its O 
+function O 
+in O 
+command O 
+prompt O 
+. O 

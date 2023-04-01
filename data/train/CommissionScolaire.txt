@@ -1,0 +1,234 @@
+A O
+school R
+board H 0
+wishes O
+to O
+manage O
+the O
+courses H 0 2
+given O
+in O
+several O
+secondary R
+schools H 0 0-2
+. O
+
+The O
+following O
+information O
+is O
+available O
+for O
+this O
+. O
+
+Each O
+secondary R
+school H 3
+has O
+a O
+website H 0 4
+and O
+is O
+structured O
+into O
+departments H 0 2-0
+, O
+which H 5 0-0-1
+bring O
+together O
+each O
+of O
+the O
+teachers H 0 0-0-0-2
+. O
+
+One O
+of O
+these O
+teachers H 6
+is O
+responsible O
+for O
+the O
+department H 5 2
+. O
+
+A O
+teacher H 6
+is O
+attached O
+to O
+a O
+single O
+department H 5 2
+. O
+
+A O
+teacher H 6
+is O
+defined O
+by O
+his H 6 1
+last R
+name H 0 0-4
+, O
+first R
+name H 0 0-4-0
+, O
+phone H 0 0-4-0-0
+, O
+email R
+address H 0 0-4-0-0-0
+, O
+hiring R
+date H 0 0-4-0-0-0-0
+and O
+his H 6 1-0-0-0-0-0-0
+grade H 0 0-0-0-0-0-0-0-4
+. O
+
+Each O
+teacher H 6
+teaches O
+only O
+one O
+course H 2 2
+. O
+
+Students H 0
+follow O
+several O
+courses H 2 2
+and O
+receive O
+a O
+grade H 0 2-2
+for O
+each O
+. O
+
+For O
+each O
+student H 13
+, O
+we O
+want O
+to O
+manage O
+their H 13 1
+permanent R
+code H 0 0-4
+, O
+last R
+name H 0 0-4-0
+, O
+first R
+name H 0 0-4-0-0
+, O
+phone H 0 0-4-0-0-0
+, O
+email R
+address H 0 0-4-0-0-0-0
+, O
+as O
+well O
+as O
+their H 13 1-0-0-0-0-0-0
+year H 0 0-0-0-0-0-0-0-4
+of R
+entry R
+to O
+high O
+school O
+. O
+
+A O
+course H 2
+can O
+be O
+taught O
+by O
+several O
+teachers H 6 2
+, O
+but O
+always O
+takes O
+place O
+in O
+the O
+same O
+classroom H 0 2-0
+( O
+each H 21 0-0-1
+with O
+a O
+determined O
+number H 0 0-0-0-4
+of R
+places R
+) O
+. O
+
+We O
+want O
+to O
+be O
+able O
+to O
+calculate O
+the O
+average H 0
+by O
+course H 2 3
+as O
+well O
+as O
+by O
+department H 5 3-0
+. O
+
+We O
+also O
+want O
+to O
+calculate O
+the O
+general R
+average H 0
+of O
+a O
+student H 13 3
+and O
+be O
+able O
+to O
+display O
+the O
+courses H 2 0-0
+in O
+which O
+he H 13 0-1-2
+was O
+not O
+marked O
+. O
+
+Finally O
+, O
+we O
+must O
+be O
+able O
+to O
+print O
+the O
+data O
+sheet O
+of O
+a O
+teacher H 6
+or O
+student H 13 0
+. O

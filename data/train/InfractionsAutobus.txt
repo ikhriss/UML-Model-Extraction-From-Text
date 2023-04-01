@@ -1,0 +1,224 @@
+We O
+want O
+to O
+model O
+a O
+system H 0
+for O
+managing O
+infractions H 0 2
+on O
+buses H 0 0-2
+. O
+
+We O
+have O
+different O
+possible O
+infractions H 2
+: O
+no R
+ticket H 0 2
+, O
+invalid R
+ticket H 0 2-0
+( O
+ticket H 0 0-0-2
+validity R
+period R
+exceeded R
+, O
+subscription H 0 0-0-2-0
+expired R
+) O
+, O
+etc O
+. O
+
+Each O
+offense H 2
+has O
+a O
+specific O
+amount R
+for R
+the R
+fine H 0 4
+. O
+
+The O
+different O
+bus R
+lines H 0
+are O
+identified O
+by O
+a O
+line R
+number H 0 4
+, O
+by O
+a O
+departure H 0 4-0
+stop H 0 2-0-0
+and O
+an O
+arrival H 0 4-0-0-0
+stop H 12 2-0-0-0-0
+( O
+terminus O
+) O
+as O
+well O
+as O
+by O
+all O
+intermediate H 0 4-0-0-0-0-0
+stops H 12 2-0-0-0-0-0-0
+. O
+
+A O
+name H 0
+and O
+a O
+location H 0 0
+identify O
+each O
+stop H 12 3-3
+. O
+
+A O
+report H 0
+corresponds O
+to O
+the O
+finding O
+of O
+an O
+infringement H 2 2
+. O
+
+This O
+report H 17 
+identifies O
+the O
+stop H 12 2
+where O
+the O
+infraction H 2 0-2
+was O
+noted O
+as O
+well O
+as O
+the O
+bus R
+line H 9 2-0-0
+. O
+
+We O
+also O
+want O
+to O
+know O
+the O
+date H 0
+and O
+time H 0 0
+when O
+the O
+offense H 2 3-3
+took O
+place O
+. O
+
+It H 2
+is O
+established O
+by O
+a O
+controller H 0 2
+( O
+name H 0 0-4
+, O
+employee R
+number H 0 0-4-0
+) O
+and O
+sent O
+to O
+a O
+fraudster H 0 2-0-0-0
+. O
+
+Information O
+you O
+need O
+to O
+know O
+about O
+a O
+fraudster H 23
+: O
+last R
+name H 0 4
+, O
+first R
+name H 0 4-0
+, O
+address H 0 4-0-0
+, O
+ID R
+number H 0 4-0-0-0
+, O
+type R
+of R
+ID H 0 4-0-0-0-0
+( O
+health O
+insurance O
+card O
+, O
+driver O
+' O
+s O
+license O
+, O
+card O
+school O
+identity O
+) O
+. O
+
+We O
+will O
+also O
+want O
+to O
+know O
+whether O
+the O
+defrauder H 23
+paid O
+his H 23 1
+fine H 2 0-2
+immediately O
+or O
+not O
+, O
+and O
+by O
+what O
+means O
+of O
+payment H 0 0-0-4
+( O
+cash O
+, O
+debit O
+, O
+or O
+credit O
+card O
+) O
+. O

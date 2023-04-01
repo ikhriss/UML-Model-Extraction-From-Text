@@ -1,0 +1,293 @@
+With O
+the O
+use O
+of O
+an O
+existing O
+Passport R
+account H 0
+the O
+user H 0 3
+can O
+login O
+to O
+the O
+messenger H 0 0-2
+. O
+
+It O
+is O
+not O
+possible O
+to O
+create O
+a O
+new O
+Passport R
+account H 1
+. O
+
+Ability O
+to O
+change O
+and O
+maintain O
+the O
+status H 0
+which H 4 1
+is O
+visible O
+to O
+the O
+buddies H 0 0-0
+. O
+
+The O
+application H 3
+provides O
+a O
+list O
+where O
+the O
+end-user H 2 2
+can O
+choose O
+the O
+new O
+status H 4 0-4
+. O
+
+The O
+application H 3
+will O
+display O
+the O
+status H 4 0
+of O
+the O
+end-users H 2 0-3
+buddies H 5 0-3-2
+. O
+
+When O
+a O
+buddy H 5
+changes O
+his H 5 1
+status H 4 0-4
+, O
+the O
+application H 3 0-0-0
+shall O
+update O
+it H 4 0-0-1-0
+. O
+
+The O
+end-user H 2
+is O
+able O
+to O
+change O
+the O
+nickname H 0 4
+with O
+which H 6 0-1
+the O
+user H 2 0-0-3
+is O
+visible O
+to O
+the O
+buddies H 5 0-0-0-2
+. O
+
+Show O
+the O
+nicknames H 6
+of O
+the O
+end-users H 2 0
+buddies H 5 3-2
+on O
+the O
+buddy R 
+list H 0 0-2-2
+. O
+
+The O
+application H 3
+updates O
+the O
+displayed O
+nickname H 6 0
+in O
+the O
+contact R
+list H 7 2-0
+when O
+a O
+buddy H 5 0-3-2
+changes O
+the O
+nickname H 6 0-0-0-4
+. O
+
+The O
+application H 3
+provides O
+the O
+possibility O
+to O
+assign O
+a O
+nickname H 6 0
+to O
+a O
+specified O
+buddy H 5 0-3
+; O
+this O
+nickname H 6 0-0-0
+has O
+preference O
+above O
+the O
+nickname H 6 0-0-0-1
+set O
+by O
+the O
+buddy H 5 0-0-0-3-3
+itself O
+. O
+
+The O
+application H 3
+provides O
+an O
+option O
+to O
+add O
+a O
+buddy H 5 2
+to O
+the O
+buddy R 
+list H 7 2-2
+. O
+
+The O
+application H 3
+has O
+an O
+option O
+to O
+delete O
+a O
+buddy H 5 2
+from O
+the O
+buddy R
+list H 7 2-2
+. O
+
+The O
+application H 3
+has O
+an O
+option O
+to O
+block O
+certain O
+buddies H 5 2
+. O
+
+The O
+application H 3
+has O
+a O
+visible O
+notification H 0 2
+when O
+an O
+incoming O
+message H 0 0-0
+is O
+received O
+. O
+
+Show O
+incoming O
+messages H 9
+on O
+the O
+screen O
+. O
+
+Possibility O
+to O
+create O
+a O
+message H 9
+and O
+send O
+it H 9 1
+to O
+a O
+buddy H 5 0-2
+. O
+
+Show O
+emoticons H 0
+in O
+incoming O
+and O
+outgoing O
+messages H 9 2
+. O
+
+Display O
+a O
+list O
+of O
+emoticons H 10
+to O
+choose O
+from O
+when O
+the O
+user H 2 0
+wants O
+to O
+include O
+an O
+emoticon H 10 0-2
+in O
+the O
+message H 9 0-0-0
+he H 2 0-1-0-2
+is O
+writing O
+. O
+
+Show O
+the O
+history O
+of O
+messages H 9
+sent O
+and O
+received O
+in O
+the O
+current O
+chat R
+session H 0 2
+. O
+
+Chat O
+with O
+multiple O
+buddies H 5
+together O
+. O

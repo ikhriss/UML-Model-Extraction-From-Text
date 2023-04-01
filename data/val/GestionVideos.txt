@@ -1,0 +1,622 @@
+Video R
+Store R
+Management R
+System H 0
+. O
+
+It O
+is O
+a O
+system H 1
+used O
+to O
+manage O
+customers H 0 2
+of O
+a O
+video O
+store O
+as O
+well O
+as O
+the O
+rental H 0 2-0
+, O
+return H 0 2-0-0
+, O
+reservation H 0 2-0-0-0
+, O
+sale H 0 2-0-0-0-0
+and O
+purchase H 0 2-0-0-0-0-0
+of O
+videos H 0 2-0-0-0-0-0-0
+. O
+
+By O
+keeping O
+track O
+of O
+these O
+movements O
+, O
+the O
+system H 1
+allows O
+you O
+to O
+manage O
+the O
+inventory O
+and O
+produce O
+statistics O
+. O
+
+Customer H 2
+Management O
+. O
+
+When O
+a O
+new O
+client H 2
+arrives O
+at O
+the O
+club O
+, O
+an O
+agent H 0 0
+enters O
+the O
+client H 2 0-2
+'s O
+information O
+( O
+telephone H 0 0-0-4
+, O
+social R
+insurance R
+number H 0 0-0-4-0
+, O
+first R
+name H 0 0-0-4-0-0
+, O
+last R
+name H 0 0-0-4-0-0-0
+, O
+address H 0 0-0-4-0-0-0-0
+) O
+and O
+prepares O
+the O
+membership R
+card H 0 0-2-0-0-0-0-0-0
+, O
+which H 15 0-0-0-0-0-0-0-0-1
+contains O
+the O
+following O
+information O
+: O
+number H 0 0-0-0-0-0-0-0-0-0-4
+, O
+first R
+name H 0 0-0-0-0-0-0-0-0-0-4-0
+, O
+last R
+name H 0 0-0-0-0-0-0-0-0-0-4-0-0
+, O
+phone R
+number H 0 0-0-0-0-0-0-0-0-0-4-0-0-0
+and O
+date H 0 0-0-0-0-0-0-0-0-0-4-0-0-0-0
+of R
+membership R
+. O
+
+The O
+system H 1
+automatically O
+assigns O
+the O
+membership O
+number O
+and O
+membership O
+date O
+. O
+
+The O
+agent H 9
+can O
+make O
+changes O
+to O
+customer H 2 2
+information O
+and O
+can O
+also O
+delete O
+or O
+deactivate O
+a O
+customer H 2 2-0
+. O
+
+Store O
+employees H 0
+( O
+agent H 9 2
+, O
+manager H 0 2-0
+) O
+are O
+described O
+by O
+their H 21 1-0-0
+first R
+name H 0 0-0-0-4
+, O
+their H 21 1-0-0-0-0
+last R
+name H 0 0-0-0-0-0-4
+, O
+their H 21 1-0-0-0-0-0-0
+address H 0 0-0-0-0-0-0-0-4
+, O
+their H 21 1-0-0-0-0-0-0-0-0
+date H 0 0-0-0-0-0-0-0-0-0-4
+of R
+hiring R
+, O
+and O
+their H 21 1-0-0-0-0-0-0-0-0-0-0
+salary H 0 0-0-0-0-0-0-0-0-0-0-0-4
+. O
+
+Processing O
+Video H 8
+. O
+
+Rentals H 3
+, O
+Returns H 4 0
+and O
+Billing H 0 2-0
+. O
+
+When O
+a O
+customer H 2
+chooses O
+one O
+( O
+or O
+more O
+) O
+video H 8 2
+( O
+s O
+) O
+, O
+he H 2 1-0
+gives O
+the O
+agent H 9 0-0-2
+his H 2 1-0-0-0
+phone R
+number H 10 0-0-0-0-4
+. O
+
+The O
+customer H 2
+enters O
+the O
+phone R
+number H 10 4
+to O
+consult O
+and O
+verify O
+customer H 2 0-0
+information O
+and O
+validate O
+their H 2 1-0-0
+rentals H 3 0-0-0-4
+. O
+
+If O
+the O
+customer H 2
+is O
+new O
+( O
+it O
+does O
+not O
+exist O
+in O
+the O
+system H 1 0
+) O
+, O
+the O
+agent H 9 0-0
+then O
+proceeds O
+to O
+register O
+him H 2 1-0-2
+. O
+
+Otherwise O
+, O
+the O
+customer H 2
+shows O
+his H 2 1
+membership R
+card H 15 0-4
+. O
+
+The O
+agent H 9
+enters O
+the O
+identifiers H 0 0
+of O
+the O
+copies R
+of R
+the R
+videos H 8 2-3
+as O
+well O
+as O
+the O
+numbers H 0 0-0-0
+of O
+the O
+videos H 8 0-0-0-3
+to O
+record O
+them O
+. O
+
+The O
+system H 1
+then O
+assigns O
+rental R
+time H 0 0
+and O
+date H 0 0-0
+to O
+each O
+copy H 8 0-3-3
+and O
+calculates O
+the O
+charges O
+to O
+be O
+collected O
+. O
+
+The O
+agent H 9
+receives O
+the O
+charges O
+and O
+provides O
+a O
+rental R
+receipt H 0 2
+to O
+the O
+client H 2 0-2
+for O
+signature O
+. O
+
+At O
+this O
+time O
+the O
+rental O
+period O
+begins O
+. O
+
+When O
+a O
+customer H 2
+returns O
+the O
+videos H 8 2
+, O
+the O
+agent H 9 0-0
+enters O
+the O
+copy H 8 0-0-0
+identifiers H 29 0-0-0-4
+and O
+the O
+system H 1 0-0-0-0-0
+checks O
+to O
+see O
+if O
+the O
+copies H 8 0-0-0-0-0-0
+were O
+returned O
+late O
+. O
+
+If O
+this O
+is O
+the O
+case O
+, O
+the O
+system H 1
+calculates O
+the O
+additional O
+charges O
+to O
+be O
+paid O
+by O
+the O
+customer H 2 0
+. O
+
+Finally O
+, O
+the O
+system H 1
+updates O
+the O
+trace O
+of O
+the O
+rental H 3 2
+. O
+
+Video H 8
+Inventory O
+Management O
+. O
+
+When O
+the O
+club O
+receives O
+its O
+orders O
+for O
+new O
+videos H 8
+( O
+in O
+one O
+or O
+more O
+copies O
+) O
+or O
+additional O
+copies O
+, O
+the O
+agent H 9 0
+enters O
+the O
+relevant O
+information O
+for O
+each O
+new O
+video H 8 0-0
+( O
+video R
+number H 0 0-0-4
+, O
+film R
+title H 0 0-0-4-0
+, O
+total O
+number H 0 0-0-4-0-0
+of R
+copies R
+and O
+date H 0 0-0-4-0-0-0
+of R
+purchase R
+) O
+and O
+assigns O
+an O
+identifier H 0 0-0-0-0-0-0-0
+to O
+each O
+video R
+copy H 8 0-0-0-0-0-0-0-3
+. O
+
+The O
+videos H 8
+are O
+ready O
+for O
+rental H 3 2
+. O
+
+The O
+club O
+can O
+also O
+sell O
+certain O
+videos H 8
+. O
+
+In O
+this O
+case O
+, O
+the O
+agent H 9
+enters O
+this O
+sale R
+transaction H 6 0
+. O
+
+In O
+the O
+event O
+of O
+a O
+loss O
+of O
+a O
+video R
+copy H 8
+, O
+the O
+agent H 9 0
+eliminates O
+the O
+copy H 8 0-2
+of O
+the O
+stock O
+. O
+
+The O
+follow-up O
+of O
+these O
+operations H 0
+( O
+rental H 3 2
+, O
+return H 4 2-0
+, O
+loan H 5 2-0-0
+, O
+purchase H 7 2-0-0-0
+, O
+sale H 6 2-0-0-0-0
+, O
+loss H 0 2-0-0-0-0-0
+) O
+allows O
+employees H 21 0-0-0-0-0-0-0
+to O
+have O
+the O
+real O
+state O
+of O
+the O
+videos H 8 0-0-0-0-0-0-0-0
+( O
+rented O
+copy O
+, O
+available O
+, O
+late O
+, O
+borrowed O
+, O
+sold O
+, O
+lost O
+, O
+etc O
+. O
+) O
+in O
+the O
+club O
+. O
+
+Production O
+of O
+statistics O
+. O
+
+At O
+the O
+end O
+of O
+each O
+day O
+, O
+the O
+system H 1
+provides O
+the O
+manager H 22 2
+with O
+the O
+list O
+of O
+daily O
+transactions O
+including O
+the O
+operations H 39 0-0
+mentioned O
+above O
+. O
+
+At O
+the O
+end O
+of O
+each O
+month O
+, O
+the O
+system H 1
+releases O
+the O
+list O
+of O
+new O
+customers H 2 0
+, O
+the O
+list O
+of O
+deleted O
+or O
+deactivated O
+customers H 2 0-0
+, O
+the O
+quantity O
+rented O
+for O
+each O
+video H 8 0-0-0
+and O
+the O
+list O
+of O
+new O
+videos H 8 0-0-0-0
+. O

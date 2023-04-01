@@ -1,0 +1,391 @@
+Specifications O
+for O
+the O
+pump R
+service R
+station R
+management R
+system H 0
+. O
+
+A O
+computer R
+system H 1
+is O
+required O
+to O
+simulate O
+the O
+operation O
+of O
+a O
+service R
+station H 0 2
+. O
+
+The O
+system H 1
+must O
+be O
+able O
+to O
+control O
+the O
+flow O
+of O
+gasoline O
+, O
+manage O
+customer H 0 0
+regulations H 0 2-2
+, O
+and O
+control O
+the O
+level H 0 0-0-0
+of O
+fuel R
+tanks H 0 2-0-0-3
+. O
+
+The O
+pump R
+service R
+station H 2
+includes O
+3 O
+pumps H 0 2
+, O
+one O
+for O
+each O
+gasoline R
+category H 0 0-4
+available O
+( O
+regular O
+, O
+average O
+and O
+super O
+) O
+. O
+
+A O
+customer H 3
+who H 3 1
+wishes O
+to O
+obtain O
+gasoline O
+is O
+presented O
+in O
+front O
+of O
+a O
+pump H 7 0-2
+of O
+the O
+chosen O
+category H 8 0-0-4
+, O
+presses O
+a O
+button O
+to O
+have O
+the O
+authorization O
+to O
+use O
+the O
+pump H 7 0-2-0-0
+. O
+
+Alerted O
+by O
+an O
+audible O
+signal H 0
+on O
+his O
+terminal H 0 2
+, O
+the O
+pump R
+service R
+employee H 0 2-2
+gives O
+the O
+authorization O
+from O
+his H 11 0-0-1
+terminal H 10 0-0-0-2
+, O
+and O
+the O
+engine H 0 0-0-0-0-2
+starts O
+. O
+
+The O
+customer H 3
+enters O
+the O
+amount O
+he H 3 1
+wants O
+to O
+have O
+as O
+a O
+gasoline O
+equivalent O
+, O
+pulls O
+the O
+gun H 0 2-0
+out O
+of O
+his H 13 0-0-1
+holster H 0 0-0-0-2
+and O
+lowers O
+his H 13 0-0-1-0-0
+trigger H 0 0-0-0-0-0-2
+, O
+and O
+the O
+gasoline O
+begins O
+to O
+flow O
+. O
+
+A O
+meter H 0
+in O
+the O
+pump H 7 2
+sends O
+a O
+signal O
+to O
+the O
+system H 1 0-2
+for O
+every O
+1/100th O
+of O
+a O
+liter O
+of O
+gasoline O
+that O
+has O
+been O
+dispensed O
+, O
+thus O
+allowing O
+the O
+pump H 7 0-0-0
+screen H 0 0-0-0-2
+to O
+permanently O
+display O
+the O
+volume H 0 0-4-0-0-0
+and O
+the O
+amount H 0 0-4-0-0-0-0
+of O
+gasoline O
+received O
+. O
+
+As O
+soon O
+as O
+the O
+amount H 19
+requested O
+is O
+reached O
+, O
+the O
+pump H 7 3
+stops O
+pumping O
+by O
+automatically O
+raising O
+the O
+trigger H 15 0-2
+. O
+
+The O
+customer H 3
+also O
+has O
+the O
+possibility O
+to O
+raise O
+the O
+trigger H 15 2
+of O
+the O
+pump H 7 0-2
+manually O
+before O
+reaching O
+the O
+desired O
+amount H 19 0-0-4
+at O
+the O
+start O
+. O
+
+In O
+both O
+cases O
+, O
+the O
+engine H 12
+stops O
+, O
+the O
+customer H 3 0
+puts O
+the O
+gun H 13 0-2
+back O
+in O
+its H 13 0-0-1
+case H 14 0-0-0-2
+and O
+goes O
+to O
+the O
+service R
+employee H 11 0-2-0-0-0
+to O
+pay O
+the O
+amount H 19 0-0-0-0-0-0
+due O
+. O
+
+Transactions H 0
+are O
+saved O
+by O
+the O
+system H 1 2
+. O
+
+Payment H 0
+can O
+be O
+made O
+in O
+cash H 0 2
+, O
+credit R
+card H 0 2-0
+, O
+or O
+account H 0 2-0-0
+. O
+
+A O
+receipt H 0
+may O
+be O
+required O
+by O
+a O
+client H 3 2
+. O
+
+It O
+should O
+be O
+noted O
+that O
+the O
+pump R
+service R
+station H 2
+currently O
+has O
+three O
+tanks H 6 2
+, O
+each H 6 0-1
+containing O
+a O
+category H 0 0-0-4
+of O
+gasoline O
+( O
+ordinary O
+, O
+average O
+or O
+super O
+) O
+. O
+
+The O
+level H 5
+of O
+each O
+tank H 6 3
+must O
+not O
+fall O
+below O
+4% O
+of O
+its O
+capacity O
+. O
+
+If O
+this O
+happens O
+, O
+the O
+pump H 7
+served O
+by O
+him O
+cannot O
+deliver O
+gasoline O
+. O
+
+Each O
+week O
+, O
+the O
+pump R
+station R
+manager H 0
+pulls O
+out O
+a O
+record O
+of O
+transactions H 20 2
+made O
+by O
+customers H 3 0-2
+during O
+the O
+week O
+. O

@@ -1,0 +1,940 @@
+When O
+the O
+user H 0
+begins O
+the O
+MultiMahjongClient R
+program H 0 2
+, O
+they H 1 1-0
+will O
+be O
+able O
+to O
+choose O
+to O
+create O
+a O
+new O
+multi R
+player R 
+game H 0 0-0-2
+, O
+to O
+create O
+a O
+new O
+single R 
+player R 
+game H 0 0-0-2-0
+, O
+to O
+join O
+an O
+existing O
+multi R 
+player R 
+game H 3 0-0-2-1-0
+, O
+or O
+to O
+quit O
+the O
+program H 2 0-0-2-0-0-0
+. O
+
+These O
+options O
+will O
+be O
+available O
+at O
+any O
+stage O
+while O
+the O
+program H 2
+is O
+running O
+as O
+long O
+as O
+there O
+is O
+no O
+game H 0 0
+currently O
+being O
+played O
+by O
+the O
+user H 1 0-2
+. O
+
+When O
+a O
+user H 1
+creates O
+a O
+new O
+multi R 
+player R 
+game H 3 2
+, O
+they H 1 1-0
+must O
+: O
+• O
+Enter O
+their H 1 1-0-1
+name H 0 0-0-0-4
+• O
+Choose O
+an O
+icon H 0 0-0-4-0-0
+from O
+a O
+predetermined O
+list O
+• O
+Decide O
+the O
+number R
+of R
+human H 0 0-4-0-0-0-0
+and O 
+the O
+number R
+of R
+computer R 
+opponents H 0 0-4-0-0-0-0-0
+they H 1 1-0-1-0-0-0-0-0
+want O
+- O
+as O
+any O
+game H 5 0-0-0-0-0-0-0-0-0
+of O
+Mahjong O
+requires O
+4 O
+players H 0 0-0-0-0-0-0-0-0-0-2
+, O
+the O
+MultiMahjongClient H 2 0-0-0-0-0-0-0-0-0-0-0
+will O
+limit O
+the O
+user H 1 0-0-0-0-0-0-0-0-0-0-0-2
+to O
+choosing O
+4 O
+players H 10 0-0-0-0-0-0-0-0-0-0-0-0-0
+in O
+total
+• O
+Set O
+the O
+score R 
+limit H 0 0-4-0-0-0-0-0-0-0-0-0-0-0-0
+for O
+winning O
+a O
+hand O
+of O
+Mahjong O
+. O 
+
+When O
+all O
+the O
+necessary O
+human R 
+players H 0
+have O
+joined O
+the O
+game H 5 2
+, O
+the O
+user H 1 0-0
+may O
+choose O
+to O
+begin O
+the O
+game H 5 0-0-2
+. O
+
+The O
+MultiMahjongClient H 2
+must O
+send O
+this O
+game H 5 0
+initialisation O
+information O
+to O
+the O
+MultiMahjongServer H 0 2-0
+so O
+that O
+the O
+MultiMahjongServer H 13 0-0-0
+can O
+create O
+a O
+new O
+game H 5 0-0-0-2
+. O
+
+The O
+processing O
+for O
+any O
+Computer R 
+Opponents H 0
+will O
+be O
+done O
+by O
+the O
+MultiMahjongClient R
+program H 2 2
+. O
+
+In O
+a O
+single R 
+player R 
+game H 4
+, O
+the O
+MultiMahjongClient H 2 0
+will O
+need O
+to O
+process O
+for O
+3 O
+opponents H 14 0-2
+. O
+
+In O
+a O
+multi R 
+player R 
+game H 3
+with O
+2 O
+human R 
+players H 12 2
+, O
+each O
+MultiMahjongClient H 2 0-0
+will O
+support O
+1 O
+opponent H 14 0-0-2
+. O
+
+In O
+a O
+multi R 
+player R 
+game H 3
+with O
+3 O
+human R
+players H 12 2
+, O
+only O
+1 O
+of O
+the O
+3 O
+MultiMahjongClients H 2 0-0
+will O
+support O
+an O
+opponent H 14 0-0-2
+. O
+
+Obviously O
+, O
+in O
+a O
+multi R 
+player R 
+game H 3
+with O
+4 O
+human R 
+players H 12 2
+, O
+no O
+opponent H 14 0-0
+is O
+required O
+. O
+
+When O
+a O
+user H 1
+creates O
+a O
+new O
+single R 
+player R 
+game H 4 2
+, O
+they H 1 1-0
+must O
+: O
+• O
+Enter O
+their H 1 1-0-1
+name H 6 0-0-0-4
+• O
+Choose O
+an O
+icon H 7 0-0-4-0-0
+from O
+a O
+predetermined O
+list O
+• O
+Set O
+the O
+score R 
+limit H 11 0-4-0-0-0-0
+for O
+winning O
+a O
+hand O
+of O
+Mahjong O
+. O 
+
+When O
+a O
+user H 1
+selects O
+the O
+option O
+to O
+join O
+an O
+existing R
+game H 5 2
+, O
+the O
+MultiMahjongClient H 2 0-0
+will O
+retrieve O
+a O
+list O
+of O
+any O
+games H 5 0-0-2
+that O
+still O
+require O
+players H 10 0-0-0-2
+from O
+the O
+MultiMahjongServer H 13 0-0-2-0-0
+. O
+
+When O
+a O
+user H 1
+wishes O
+to O
+join O
+a O
+multi R 
+player R 
+game H 3 2
+, O
+they H 1 1-0
+must O
+: O
+• O
+Enter O
+their H 1 1-0-1
+name H 6 0-0-0-4
+• O
+Choose O
+an O
+icon H 7 0-0-4-0-0
+from O
+a O
+predetermined O
+list O
+• O
+Choose O
+which O
+of O
+the O
+available O
+games H 5 0-0-2-0-0-0
+they H 1 1-0-1-0-0-0-2
+wish O
+to O
+join O
+. O 
+
+The O
+MultiMahjongClient H 2
+must O
+send O
+this O
+join O
+information O
+to O
+the O
+MultiMahjongServer H 13 2
+. O
+
+In O
+a O
+multi R 
+player R 
+game H 3
+, O
+each O
+MultiMahjongClient H 2 0
+must O
+retrieve O
+the O
+following O
+data O
+from O
+the O
+MultiMahjongServer H 13 0-2
+: O
+• O
+Whether O
+it H 2 0-1-0
+must O
+support O
+an O
+opponent H 14 0-0-0-2 
+• O
+The O
+score R 
+limit H 11 4-0-0-0-0
+for O
+a O
+hand O
+• O
+All O
+players' H 10 2-0-0-0-0-0
+names H 6 0-0-0-0-0-0-4
+, O
+icons H 7 0-0-0-0-0-0-4-0
+and O
+seating R 
+positions H 0 0-0-0-0-0-0-4-0-0
+• O
+The O
+tiles H 0 0-0-0-0-0-0-0-0-0-0
+of O
+the O
+human R 12 0-0-0-0-0-0-0-0-0-0-2
+and O
+opponent R
+player H 14 0-0-0-0-0-0-0-0-0-0-2-0
+supported O
+on O
+the O
+MultiMahjongClient H 2 0-0-0-0-0-0-0-0-0-0-0-0-0
+. O
+
+The O
+list O
+of O
+un-started R 
+games H 5
+that H 5 1
+the O
+MultiMahjongClient H 2 2-0
+fetches O
+from O
+the O
+MultiMahjongServer H 13 0-0-2
+will O
+be O
+displayed O
+in O
+such O
+a O
+way O
+that O
+users H 1 0-0-0-0
+can O
+see O
+the O
+following O
+information O
+about O
+each O
+game H 5 0-0-0-0-2
+: O
+• O
+The O
+name H 6 0-0-0-0-0-0
+and O
+icon H 7 0-0-0-0-0-0-0
+of O
+the O
+player H 10 0-0-0-0-0-0-3-3
+who H 10 0-0-0-0-0-0-0-0-1
+created O
+the O
+game H 5 0-0-0-0-0-0-0-0-0-2
+• O
+The O
+score R 
+limit H 11 0-0-0-0-0-0-0-0-0-0-0
+for O
+winning O
+a O
+hand O
+• O
+The O
+number R
+of R 
+places H 8 0-0-0-0-0-0-0-0-0-0-0-0
+that H 8 0-0-0-0-0-0-0-0-0-0-0-0-1
+still O
+need O
+to O
+be O
+filled O
+before O
+the O
+game H 5 0-0-0-0-0-0-0-0-0-0-0-0-0-3
+can O
+commence O
+. O 
+
+The O
+MultiMahjongClient H 2
+will O
+save O
+the O
+user O
+preferences O
+in O
+a O
+file O
+and O
+read O
+them O
+in O
+when O
+the O
+program O
+begins O
+. O
+
+Users H 1
+who O
+create O
+a O
+new O
+game H 5 2
+will O
+be O
+able O
+to O
+change O
+the O
+ability R 
+level H 0 0-0
+of O
+any O
+opponent H 14 0-0-3
+involved O
+in O
+the O
+game H 5 0-0-0-2
+. O
+
+There O
+will O
+be O
+3 O
+levels H 17
+available O
+: O 
+Beginner O
+, O
+Intermediate O
+and O
+Advanced O
+. O
+
+Users H 1
+who O
+create O
+a O
+new O
+game H 5 2
+will O
+be O
+able O
+to O
+choose O
+to O
+play O
+different O
+variations H 0 0-4
+of R 
+Mahjong R 
+rules R
+. O
+
+The O
+variations H 18
+will O
+include O
+the O
+Cleared O
+Hand O
+variation O
+and O
+the O
+Japanese O
+variation O
+. O
+
+Any O
+user H 1
+who O
+creates O
+or O
+joins O
+a O
+game H 5 2
+will O
+be O
+able O
+to O
+upload O
+their H 1 1-0
+own O
+image H 7 0-0-4
+that H 7 0-0-0-1
+they H 1 1-0-0-0-3
+wish O
+to O
+have O
+displayed O
+above O
+their H 1 0-0-0-0-0-1
+name H 6 0-0-0-0-0-0-4
+, O
+if O
+they H 1 0-0-0-0-1-0-0-0
+do O
+not O
+wish O
+to O
+use O
+a O
+preset R
+icon H 7 0-0-0-0-0-0-0-0-4
+. O
+
+The O
+MultiMahjongClient H 2
+must O
+only O
+allow O
+players H 10 2
+to O
+make O
+moves H 0 0-2
+according O
+to O
+the O
+Chinese O
+rules O
+of O
+Mahjong O
+. O
+
+The O
+MultiMahjongClient H 2
+will O
+inform O
+the O
+user H 1 2
+whose O
+turn O
+it O
+is O
+to O
+pick O
+up O
+a O
+tile H 16 0-2
+. O
+
+The O
+MultiMahjongClient H 2
+will O
+retrieve O
+other O
+players' H 10 0
+changes H 19 2-2
+in O
+the O
+game R
+situation H 5 0-0-2
+from O
+the O
+MultiMahjongServer H 13 2-0-0-0
+. O
+
+The O
+user O 
+'s O
+screen O
+is O
+then O
+updated O
+to O
+display O
+these O
+changes H 19
+. O
+
+The O
+following O
+game R 
+changes H 19
+are O
+displayed O
+: O
+• O
+Another O
+player H 10 0
+picks O
+up O
+a O
+tile H 16 0-2
+from O
+the O
+wall H 0 0-0-2
+• O
+Another O
+player H 10 0-0-0-0
+exposes O 
+/ O 
+reveals O
+a O
+set O
+of O
+tiles H 16 0-0-0-0-2
+• O
+Another O
+player H 10 0-0-0-0-0-0
+discards O
+a O
+tile H 16 0-0-0-0-0-0-2
+. O 
+
+Users H 1
+will O
+be O
+able O
+to O
+pick O
+up O
+a O
+tile H 16 2
+from O
+the O
+wall H 20 0-2
+if O
+it O
+is O
+their O
+turn O
+. O
+
+If O
+they O
+choose O
+to O
+pick O
+up O
+, O
+the O
+MultiMahjongClient H 2
+must O
+send O
+this O
+information O
+to O
+the O
+MultiMahjongServer H 13 2
+. O
+
+Users H 1
+will O
+be O
+able O
+to O
+discard O
+a O
+tile H 16 2
+if O
+they H 1 1-0
+have O
+picked O
+one H 16 0-1-2
+up O
+. O
+
+When O
+they O
+choose O
+to O
+discard O
+, O
+the O
+MultiMahjongClient H 2
+must O
+send O
+this O
+information O
+to O
+the O
+MultiMahjongServer H 13 2
+. O
+
+The O
+MultiMahjongClient H 2
+must O
+inform O
+the O
+user H 1 2
+if O
+another O
+player H 10 0-0
+is O
+fishing O
+. O 
+
+The O
+MultiMahjongClient H 2
+must O
+inform O
+the O
+user H 1 2
+if O
+another O
+player H 10 0-0
+goes O
+Mahjong O
+. O
+
+The O
+MultiMahjongClient H 2
+must O
+inform O
+the O
+user H 1 2
+if O
+the O
+hand O
+has O
+ended O
+in O
+a O
+draw O
+. O
+
+The O
+MultiMahjongClient H 2
+will O
+keep O
+the O
+user H 1 2
+'s O
+tiles H 16 0-2
+in O
+order O
+. O
+
+The O
+MultiMahjongClient H 2
+will O
+play O
+sound O
+effects O
+associated O
+with O
+certain O
+game O
+actions O
+. O
+
+Users H 1
+will O
+be O
+able O
+to O
+turn O
+the O
+sound O
+on O
+or O
+off O
+at O
+any O
+stage O
+during O
+the O
+game O
+. O
+
+Users H 1
+will O
+be O
+able O
+to O
+view O
+the O
+High O
+Scores O
+list O
+that O
+is O
+located O
+on O
+the O
+MultiMahjongServer H 13 0
+. O
+
+Users H 1
+will O
+be O
+able O
+to O
+change O
+their H 1 1
+icons H 7 0-4
+/ O 
+pictures H 7 0-4-1
+and O
+names H 6 0-4-0-0
+during O
+the O
+game H 5 0-0-0-0-0
+. O

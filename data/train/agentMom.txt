@@ -1,0 +1,375 @@
+The O
+purpose O
+of O
+this O
+document O
+is O
+to O
+describe O
+functionality O
+and O
+behavior O
+of O
+the O
+new O
+agentMom H 0
+framework R
+. O
+
+Unicast H 0
+refers O
+to O
+one-to-one O
+communication H 0 2
+in O
+such O
+a O
+way O
+that O
+a O
+packet H 0 0-2
+originates O
+from O
+a O
+single R
+Internet R
+host H 0 0-2-0
+, O
+and O
+it O
+is O
+destined O
+to O
+a O
+unique R
+location R
+of R
+another R
+Internet R
+host H 5 0-2-0-1
+. O
+
+Multicast H 0
+refers O
+to O
+one-to-many O
+communication H 3 2
+in O
+such O
+a O
+way O
+that O
+a O
+packet H 4 0-2
+originates O
+from O
+a O
+single R
+Internet R
+host H 5 0-2-0
+, O
+and O
+it O
+is O
+destined O
+to O
+multiple O
+receivers H 5 0-2-0-1
+within O
+the O
+same O
+multicast H 6 1-0-0-0-0
+address H 0 0-0-0-0-0-4
+. O
+
+Broadcast H 0
+refers O
+to O
+one-to-many O
+communication H 3 2
+in O
+such O
+a O
+way O
+that O
+a O
+packet H 4 0-2
+originates O
+from O
+a O
+single R
+Internet R
+host H 5 0-2-0
+, O
+and O
+it O
+is O
+destined O
+to O
+all O
+receivers H 5 0-2-0-1
+within O
+the O
+same O
+local R
+network H 0 0-2-0-0-2
+. O
+
+The O
+product H 1
+enables O
+agents H 0 0
+to O
+broadcast O
+a O
+message H 3 0-2
+to O
+all O
+the O
+agents H 10 0-1-2
+within O
+the O
+same O
+local R
+network H 9 0-2-0-2
+, O
+to O
+multicast O
+a O
+message H 3 0-2-0-0-0
+to O
+all O
+the O
+agents H 10 0-1-0-0-0-2
+within O
+the O
+same O
+multicast R
+address H 0 0-0-0-0-0-0-4
+, O
+to O
+unicast O
+a O
+message H 3 0-2-0-0-0-0-0-0
+to O
+other O
+agents H 10 0-1-0-0-0-0-0-0-2
+within O
+organization H 0 0-0-0-0-0-0-0-0-0-2
+. O
+
+It O
+allows O
+agents H 10
+to O
+choose O
+among O
+unicast R 2 0
+, O
+multicast R 6 0-0
+and O
+broadcast R
+communication H 8 0-0-0 
+and O
+to O
+join O
+and O
+leave O
+multicast R
+group H 0 2-0-0-0
+. O
+
+It O
+provides O
+message O
+encryption O
+and O
+decryption O
+techniques O
+for O
+secured O
+communication O
+and O
+allow O
+agents H 10
+to O
+choose O
+to O
+encrypt O
+or O
+not O
+to O
+encrypt O
+message H 3 2
+. O
+
+We O
+assume O
+that O
+each O
+agent H 10
+knows O
+the O
+address H 11 0
+of O
+destination R
+agents H 10 1-3
+in O
+order O
+to O
+send O
+unicast R 
+message H 2 2-0-2
+. O
+
+We O
+assume O
+that O
+each O
+agent H 10
+has O
+enough O
+knowledge O
+to O
+decide O
+the O
+best O
+way O
+to O
+communicate O
+with O
+the O
+other O
+agents H 10 1
+. O
+
+In O
+the O
+case O
+of O
+using O
+secured H 0
+multicast R 
+communication H 6 3
+, O
+we O
+assume O
+that O
+there O
+is O
+an O
+agent H 10 0-0
+whom H 10 0-0-1
+each O
+agent H 10 0-0-1-1
+can O
+request O
+for O
+the O
+same O
+encryption H 0 0-0-0-0-0 
+and O
+decryption H 0 0-0-0-0-0-0
+key H 0 0-0-0-2-2-2-2
+. O
+
+This O
+agent H 10
+should O
+maintain O
+a O
+list H 0 2
+of O
+agents H 10 1-2
+who H 10 0-0-1
+are O
+allowed O
+to O
+get O
+the O
+keys H 17 0-2-0-0
+. O
+
+We O
+assume O
+that O
+each O
+agent H 10
+knows O
+the O
+multicast R
+address H 7 0
+in O
+order O
+to O
+send O
+multicast R
+message H 6 2-3
+. O
+
+An O
+agent H 10
+can O
+send O
+request H 0 2
+to O
+join O
+and O
+to O
+leave O
+multicast R
+group H 13 2-2
+, O
+but O
+he H 10 1-0-0
+cannot O
+receive O
+multicast R
+message H 6 0-0-0-2
+from O
+a O
+group H 13 0-0-0-2-2
+before O
+joining O
+that O
+multicast R
+group H 13 0-0-0-2-0-0
+nor O
+after O
+leaving O
+that O
+multicast R
+group H 13 0-0-0-2-0-0-0
+. O
+
+An O
+agent H 10
+can O
+set O
+a O
+time-to-live H 0 0
+for O
+multicast R
+message H 6 2-3
+and O
+multicast R
+address H 7 0-0-0
+and O
+port H 0 0-0-0-0
+for O
+sending O
+and O
+receiving O
+multicast R
+message H 6 2-0-0-3-3
+. O
+
+He H 10
+can O
+receive O
+multicast R
+message H 6 1
+from O
+multiple O
+groups H 13 0-2
+. O

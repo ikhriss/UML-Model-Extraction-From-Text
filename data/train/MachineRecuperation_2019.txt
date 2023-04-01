@@ -1,0 +1,300 @@
+Description O
+of O
+a O
+simulation R
+system H 0
+of O
+a O
+collecting R
+machine H 0 2
+. O
+
+A O
+computer R
+system H 1
+is O
+required O
+to O
+simulate O
+a O
+machine H 2 2
+for O
+collecting O
+bottles H 0 0-2
+and O
+cans H 0 0-2-0
+. O
+
+There O
+can O
+be O
+several O
+types H 0
+of O
+cans H 4 2
+and O
+several O
+types H 5 0-0
+of O
+bottles H 3 0-0-2
+. O
+
+A O
+type H 5
+of O
+cans H 4 2
+is O
+characterized O
+by O
+its H 4 0-1
+width H 0 0-0-4
+and O
+height H 0 0-0-4-0
+. O
+
+One O
+type H 5
+of O
+bottle H 3 2
+is O
+characterized O
+by O
+its H 3 0-1
+neck R
+width H 0 0-0-4
+, O
+bottom R
+width H 0 0-0-4-0
+and O
+height H 0 0-0-4-0-0
+. O
+
+For O
+each O
+type H 5
+, O
+there O
+is O
+an O
+amount H 0 4
+of R
+deposit R
+; O
+for O
+example O
+if O
+a O
+customer O
+returns O
+a O
+can O
+of O
+Coca-Cola O
+, O
+the O
+deposit O
+amount O
+is O
+5 O
+cents O
+. O
+
+The O
+machine H 2
+must O
+therefore O
+pay O
+5 O
+cents O
+for O
+each O
+can O
+of O
+Coca-Cola O
+returned O
+. O
+
+The O
+system H 1
+must O
+be O
+able O
+to O
+recognize O
+the O
+type H 5 2
+of O
+each O
+item O
+returned O
+. O
+
+He H 1
+must O
+also O
+record O
+the O
+number O
+of O
+items O
+( O
+for O
+each O
+type O
+) O
+that O
+a O
+customer H 0 2
+has O
+returned O
+and O
+calculate O
+the O
+amount O
+of O
+money O
+that O
+the O
+machine H 2 0-0
+must O
+pay O
+to O
+the O
+customer H 12 0-0-2
+. O
+
+The O
+system H 1
+must O
+also O
+print O
+a O
+receipt H 0 2
+summarizing O
+the O
+information O
+of O
+the O
+return O
+transaction H 0 0-2
+performed O
+by O
+the O
+customer H 12 0-0-2
+. O
+
+The O
+system H 1
+is O
+also O
+used O
+by O
+an O
+operator H 0 2
+. O
+
+The O
+latter H 15
+will O
+need O
+to O
+know O
+the O
+number O
+of O
+items O
+returned O
+for O
+each O
+type O
+during O
+the O
+day O
+. O
+
+He H 15
+will O
+also O
+be O
+able O
+to O
+modify O
+the O
+information O
+on O
+the O
+types H 5 2
+of O
+cans H 4 2-2
+and O
+bottles H 3 2-2-0
+accepted O
+by O
+the O
+system H 1 0-2-0-0
+. O
+
+Finally O
+, O
+the O
+system H 1
+must O
+warn O
+the O
+operator H 15 2
+, O
+by O
+triggering O
+an O
+alarm R
+signal H 0 2-2
+, O
+if O
+there O
+is O
+any O
+problem H 0 0-0-2
+in O
+the O
+machine H 2 0-0-0-2
+. O
+
+The O
+problems H 17
+that O
+the O
+machine H 2 2
+may O
+encounter O
+can O
+be O
+of O
+three O
+kinds H 0 4-0
+: O
+a O
+can O
+or O
+a O
+bottle O
+blocked O
+, O
+no O
+paper O
+in O
+the O
+roll O
+for O
+printing O
+receipts O
+, O
+or O
+there O
+is O
+not O
+enough O
+money O
+in O
+the O
+machine O
+. O

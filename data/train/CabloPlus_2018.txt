@@ -1,0 +1,1613 @@
+Description O
+of O
+the O
+management R
+system H 0
+of O
+a O
+cable O
+television O
+company O
+. O
+
+CABLOPLUS O
+is O
+a O
+company O
+that O
+offers O
+cable O
+TV O
+service O
+across O
+the O
+country O
+. O
+
+Its O
+customers H 0
+are O
+individuals O
+who H 2 1
+want O
+access O
+to O
+their H 2 1-1
+TV H 0 0-0-2
+( O
+s O
+) O
+to O
+different O
+channels H 0 0-2-0-2
+and O
+other O
+media H 0 0-2-0-2-0
+. O
+
+To O
+facilitate O
+its O
+operations O
+, O
+CABLOPLUS O
+wants O
+to O
+get O
+a O
+computer R
+system H 1
+. O
+
+The O
+present O
+work O
+consists O
+of O
+analyzing O
+and O
+producing O
+the O
+specifications O
+of O
+the O
+future O
+system H 1
+. O
+
+CABLOPLUS O
+holds O
+a O
+license O
+from O
+the O
+CRTC O
+( O
+Canadian O
+Council O
+for O
+Broadcasting O
+and O
+Telecommunications O
+) O
+, O
+which O
+allows O
+it O
+to O
+operate O
+in O
+a O
+number O
+of O
+jurisdictions H 0
+. O
+
+It O
+was O
+the O
+CRTC O
+that O
+split O
+the O
+country O
+into O
+territories H 6
+and O
+assigned O
+a O
+number O
+to O
+each O
+cable O
+company O
+. O
+
+A O
+territory H 6
+is O
+a O
+geographical O
+unit O
+, O
+characterized O
+by O
+a O
+number H 0 4
+and O
+a O
+name H 0 4-0
+. O
+
+CABLOPLUS O
+offers O
+its O
+services H 0
+by O
+installing O
+at O
+the O
+customer H 2 0
+one O
+or O
+more O
+connections H 0 0-2
+to O
+its O
+cable O
+network O
+. O
+
+It O
+also O
+offers O
+some O
+specialized O
+equipment H 0
+for O
+renting O
+. O
+
+Available O
+equipment H 11
+and O
+rental R
+rates H 0 4
+are O
+the O
+same O
+in O
+all O
+territories H 6 0-0
+. O
+
+On O
+the O
+other O
+hand O
+, O
+the O
+broadcasting R
+services H 0
+offered O
+, O
+their H 13 1
+rates H 0 0-4
+and O
+their H 13 1-0-0
+location H 0 0-0-0-4
+on O
+the O
+television H 3 0-0-0-0-0
+channels H 4 2-0-0-0-0-2
+vary O
+from O
+one O
+territory H 6 0-0-0-0-0-0-0
+to O
+another O
+, O
+but O
+are O
+identical O
+within O
+a O
+territory H 6 0-0-0-0-0-0-0-0
+. O
+
+To O
+offer O
+its O
+services H 9
+, O
+CABLOPLUS O
+does O
+business O
+with O
+several O
+suppliers: H 0 2
+- O
+regional R 0 0-2
+, O
+national R 0 0-2-0
+or O
+international R
+television R
+channels H 0 0-2-0-0
+, O
+- O
+community R
+channels H 0 0-2-0-0-0
+, O
+- O
+film R
+distribution R
+companies H 0 0-2-0-0-0-0
+, O
+- O
+public R
+services H 0 0-2-0-0-0-0-0
+such O
+as O
+meteorology H 0 0-0-0-0-0-0-0-2
+or O
+retransmission R
+of R
+parliamentary R
+debates H 0 0-0-0-0-0-0-0-2-0
+, O
+- O
+CABLOPLUS H 0 0-2-0-0-0-0-0-0-0-0
+itself O
+broadcasts O
+on O
+some O
+channels H 0 0-0-0-0-0-0-0-0-0-0-0
+. O
+
+The O
+following O
+sections O
+describe O
+in O
+more O
+detail O
+the O
+aspects O
+of O
+the O
+CABLOPLUS O
+activity O
+that O
+will O
+be O
+computerized O
+. O
+
+Services H 9
+offered O
+to O
+customers H 2 2
+. O
+
+There O
+is O
+a O
+range O
+of O
+equipment H 11
+that H 11 1
+a O
+subscriber H 2 0-2
+can O
+rent O
+: O
+socket H 0 0-2-0
+( O
+s O
+) O
+for O
+connection H 10 0-0-0-2
+to O
+the O
+network O
+( O
+at O
+least O
+one O
+per O
+TV H 3 0-0-0-2-0
+) O
+, O
+remote R
+control H 0 0-2-0-0-0-0
+( O
+s O
+) O
+, O
+decoders H 0 0-2-0-0-0-0-0
+, O
+televisions H 3 0-2-0-0-0-0-0-0
+, O
+etc O
+. O
+
+Each O
+piece O
+of O
+equipment H 11
+is O
+defined O
+by O
+its H 11 1
+type H 0 0-4
+( O
+a O
+number O
+) O
+, O
+the O
+name H 0 0-0-0
+of O
+the O
+equipment H 11 0-0-0-3
+and O
+the O
+monthly R
+rental R
+fee H 0 0-4-0-0-0
+. O
+
+The O
+prices H 32
+of O
+any O
+equipment H 11 3
+may O
+change O
+from O
+time O
+to O
+time O
+. O
+
+New O
+equipment H 11
+can O
+be O
+introduced O
+from O
+time O
+to O
+time O
+. O
+
+Here O
+are O
+the O
+definitions O
+of O
+three O
+terms O
+used: O
+- O
+Channel H 26
+( O
+or O
+position H 26 1
+) O
+: O
+a O
+position H 26 0-0
+on O
+the O
+TV H 3 0-0-2
+selector O
+or O
+a O
+number O
+on O
+the O
+remote R
+control H 28 0-0-2-0
+. O
+
+CABLOPLUS O
+has O
+planned O
+999 O
+possible O
+channels H 26
+, O
+but O
+not O
+all O
+are O
+busy O
+. O
+
+- O
+Channel H 4
+: O
+a O
+program O
+provided O
+by O
+a O
+private O
+or O
+public O
+company O
+that O
+can O
+be O
+retransmitted O
+on O
+a O
+channel H 26 2
+. O
+
+Examples O
+: O
+Radio-Canada O
+, O
+TVA O
+, O
+RDI O
+. O
+
+For O
+the O
+purposes O
+of O
+broadcasting R
+services H 13
+, O
+a O
+channel H 4 0
+is O
+described O
+by O
+its H 4 0-1
+acronym H 0 0-0-4
+( O
+for O
+example O
+RDI O
+) O
+, O
+its H 4 0-1-0-0
+name H 0 0-0-0-0-4
+( O
+Information O
+Network O
+) O
+and O
+its H 4 0-1-0-0-0-0
+nature H 0 0-0-0-0-0-0-4
+( O
+general O
+, O
+community O
+, O
+specialized O
+, O
+public O
+service O
+) O
+. O
+
+- O
+Broadcast R
+grid H 0
+: O
+allocation O
+of O
+channels H 4 0
+to O
+channels H 26 0-2
+. O
+
+The O
+available O
+broadcasting R
+services H 13
+and O
+their H 13 1
+subscription R
+rates H 14 0-4
+vary O
+from O
+one O
+territory H 6 0-0-0
+to O
+another O
+. O
+
+They O
+may O
+also O
+vary O
+from O
+time O
+to O
+time O
+. O
+
+First O
+, O
+there O
+is O
+the O
+basic R
+service H 0
+, O
+which H 37 1
+is O
+the O
+minimum O
+to O
+subscribe O
+to O
+every O
+subscriber H 2 0-2
+. O
+
+It H 37
+consists O
+of O
+a O
+number O
+of O
+regional R 17 2
+, O
+national R 18 2-0
+, O
+international R
+channels H 19 2-0-0
+, O
+one O
+or O
+more O
+community R
+posts H 20 2-0-0-0
+, O
+one O
+or O
+more O
+public R
+services H 22 2-0-0-0-0
+, O
+one O
+or O
+more O
+CABLOPLUS R
+channels H 25 2-0-0-0-0-0
+( O
+usually O
+CABLOPLUS O
+advertises O
+its O
+other O
+services O
+) O
+. O
+
+The O
+basic R
+service H 37
+is O
+not O
+necessarily O
+the O
+same O
+in O
+each O
+territory H 6 0
+. O
+
+Then O
+there O
+is O
+( O
+but O
+not O
+necessarily O
+in O
+all O
+territories O
+) O
+a O
+" O
+maxi-view R
+" O
+service H 0
+consisting O
+of O
+a O
+number O
+of O
+additional O
+channels H 4 2
+. O
+
+There O
+is O
+also O
+one O
+or O
+more O
+Pay R
+TV R
+channels H 0
+, O
+one O
+per O
+channel H 4 2
+. O
+
+Each O
+channel H 4
+is O
+a O
+separate O
+service H 9 2
+. O
+
+The O
+same O
+channel H 4
+can O
+be O
+in O
+the O
+basic R
+service H 37 2
+of O
+a O
+territory H 6 0-0
+, O
+in O
+the O
+maxi-view R
+service H 38 2-0-0
+of O
+another O
+, O
+be O
+a O
+pay R
+channel H 39 2-0-0-0
+in O
+a O
+third O
+territory H 6 0-0-0-0-0
+and O
+finally O
+not O
+be O
+available O
+at O
+all O
+in O
+a O
+fourth O
+territory H 6 0-0-0-0-0-0
+. O
+
+There O
+is O
+finally O
+one O
+or O
+more O
+channels H 4
+projecting O
+pay R
+movies H 0 2
+. O
+
+To O
+benefit O
+from O
+this O
+service H 9
+, O
+it O
+is O
+necessary O
+to O
+have O
+a O
+decoder H 29 0
+. O
+
+When O
+a O
+subscriber H 2
+wants O
+to O
+see O
+a O
+movie H 40 2
+, O
+it O
+indicates O
+it O
+using O
+the O
+remote R
+control H 28 0-0
+to O
+the O
+decoder H 29 0-0-0
+, O
+which H 29 0-0-0-1
+sends O
+CABLOPLUS O
+a O
+message H 0 0-0-0-0-2
+containing O
+the O
+account H 0 0-0-0-0-0-0
+number H 0 0-0-0-0-0-4-4
+and O
+the O
+code R
+number H 0 0-0-0-0-0-4-0-0
+of O
+the O
+film H 40 0-0-0-0-0-0-0-0-3
+. O
+
+This O
+message H 41
+can O
+be O
+received O
+by O
+a O
+computer R
+system H 1 2
+. O
+
+Each O
+broadcast R
+service H 13
+is O
+associated O
+with O
+one O
+or O
+more O
+positions H 26 2
+on O
+the O
+grid H 36 0-2
+. O
+
+The O
+grid H 36
+is O
+the O
+same O
+in O
+a O
+territory H 6 0
+, O
+but O
+varies O
+from O
+one O
+territory H 6 0-0
+to O
+another O
+. O
+
+There O
+are O
+two O
+subscription R
+rates H 14
+for O
+each O
+service H 13 3
+except O
+for O
+pay R
+movies H 40 0-0
+: O
+monthly O
+( O
+if O
+paid O
+monthly O
+) O
+and O
+annual O
+( O
+paid O
+year O
+round O
+) O
+. O
+
+Customer H 2
+relations O
+. O
+
+CABLOPLUS O
+has O
+customers H 2
+who O
+have O
+accounts H 42 2
+. O
+
+A O
+customer H 2
+is O
+a O
+person O
+or O
+company O
+who O
+subscribes O
+and O
+to O
+whom O
+the O
+invoice O
+( O
+s O
+) O
+will O
+be O
+sent O
+. O
+
+A O
+customer H 2
+has O
+a O
+name H 0 4
+, O
+a O
+customer R
+number H 0 4-0
+and O
+an O
+address H 0 4-0-0
+. O
+
+An O
+account H 42
+is O
+one O
+or O
+more O
+connections H 10 2
+at O
+the O
+same O
+address H 0 4-0
+. O
+
+An O
+account H 42
+includes O
+a O
+set O
+of O
+equipment H 11 2
+and O
+broadcasting R
+services H 13 2-0
+. O
+
+Billing O
+and O
+balance O
+management O
+are O
+done O
+at O
+the O
+level O
+of O
+each O
+account H 42
+. O
+
+An O
+account H 42
+has O
+an O
+account R
+number H 43 4
+, O
+a O
+total R
+monthly R
+fee H 0 4-0
+, O
+a O
+balance H 0 4-0-0
+and O
+a O
+billing R
+method H 0 4-0-0-0
+( O
+monthly O
+or O
+yearly O
+) O
+. O
+
+A O
+customer H 2
+who O
+wants O
+to O
+subscribe O
+contacts O
+CABLOPLUS O
+and O
+asks O
+to O
+subscribe O
+. O
+
+If O
+the O
+address H 47
+where O
+he H 2 3
+wants O
+to O
+have O
+a O
+connection H 10 0-2
+is O
+in O
+a O
+territory H 6 0-2-0
+served O
+by O
+CABLOPLUS O
+, O
+it O
+is O
+accepted O
+. O
+
+To O
+find O
+out O
+if O
+the O
+client H 2
+'s O
+address H 47 4
+is O
+in O
+a O
+territory H 6 2-0
+served O
+by O
+CABLOPLUS O
+, O
+the O
+company O
+consults O
+a O
+database O
+of O
+its O
+territories H 6 0-0-0
+( O
+for O
+each O
+territory O
+, O
+municipalities O
+or O
+portions O
+of O
+a O
+municipality O
+, O
+streets O
+or O
+portions O
+of O
+streets O
+) O
+. O
+
+The O
+installation H 0
+costs H 0 4
+depend O
+on O
+the O
+state O
+of O
+the O
+place O
+that O
+can O
+be O
+connected O
+or O
+not O
+. O
+
+If O
+the O
+location O
+is O
+connected O
+, O
+the O
+subscriber H 2
+does O
+not O
+pay O
+the O
+connection H 10 0
+fee H 0 0-4
+. O
+
+The O
+customer H 2
+must O
+also O
+specify O
+the O
+equipment H 11 0
+and O
+broadcasting R
+services H 13 0-0
+to O
+which H 13 0-0-1
+he H 2 1-0-0-2
+wants O
+to O
+be O
+subscribed O
+to O
+this O
+address H 48 0-0-0-0-4
+and O
+the O
+method H 51 0-0-0-0-0-0
+of R
+payment R
+envisaged O
+( O
+monthly O
+or O
+annual O
+) O
+. O
+
+At O
+any O
+time O
+, O
+a O
+client H 2
+may O
+change O
+his H 2 1
+profile H 0 0-2
+to O
+this O
+address H 48 0-0-0
+( O
+equipment H 11 0-0-2-0
+and O
+services H 9 0-0-2-0-0
+desired O
+) O
+, O
+may O
+request O
+the O
+opening O
+of O
+a O
+new O
+account H 42 2-0-0-0-0-0
+( O
+another O
+address H 48 0-0-0-0-0-0-4
+may O
+even O
+be O
+in O
+another O
+territory H 6 0-0-0-0-0-0-0-0
+) O
+and O
+may O
+want O
+to O
+cancel O
+one O
+or O
+more O
+of O
+his H 2 1-0-0-0-0-0-0-0-0
+accounts H 42 0-0-0-0-0-0-0-0-0-2
+. O
+
+Each O
+time O
+, O
+it O
+is O
+obviously O
+necessary O
+to O
+recalculate O
+what O
+he H 2
+will O
+have O
+to O
+pay O
+. O
+
+In O
+case O
+of O
+closure O
+of O
+an O
+account H 42
+, O
+he H 2 2
+must O
+pay O
+the O
+full O
+balance O
+upon O
+receipt O
+of O
+a O
+closing O
+invoice O
+. O
+
+The O
+term O
+imputation O
+means O
+the O
+fact O
+of O
+putting O
+a O
+certain O
+amount O
+in O
+the O
+debit O
+of O
+the O
+total O
+monthly O
+fee O
+of O
+an O
+account H 42
+. O
+
+For O
+example O
+, O
+when O
+a O
+new O
+customer H 2
+subscribes O
+, O
+his H 2 1
+or O
+her H 2 1-0
+account H 42 0-2-2
+is O
+charged O
+for O
+the O
+connection H 10 0-0-0-2
+fees H 54 0-0-0-0-4
+, O
+if O
+any O
+. O
+
+Billing O
+is O
+the O
+process O
+of O
+actually O
+producing O
+the O
+bill O
+for O
+an O
+account H 42
+and O
+sending O
+it O
+to O
+the O
+customer H 2 2
+. O
+
+All O
+services H 9
+, O
+except O
+paid R
+movies H 40 2
+, O
+are O
+charged O
+monthly O
+, O
+regardless O
+of O
+whether O
+the O
+account H 42 0-0
+is O
+billed O
+monthly O
+or O
+annually O
+. O
+
+The O
+projection O
+of O
+a O
+paying R
+film H 40
+is O
+imputed O
+as O
+soon O
+as O
+the O
+film O
+is O
+projected O
+on O
+the O
+television H 3 0
+of O
+the O
+corresponding O
+client H 2 0-2
+. O
+
+Billing O
+is O
+counted O
+by O
+account H 42
+, O
+monthly O
+or O
+yearly O
+, O
+depending O
+on O
+the O
+customer H 2 0
+'s O
+choice O
+. O
+
+For O
+pay R
+movies H 40
+, O
+billing O
+is O
+done O
+at O
+the O
+end O
+of O
+the O
+month O
+. O
+
+If O
+the O
+account H 42
+has O
+monthly O
+billing O
+, O
+there O
+is O
+one O
+invoice O
+detailing O
+all O
+services H 9 2
+. O
+
+If O
+the O
+account H 42
+has O
+an O
+annual O
+billing O
+for O
+other O
+services O
+, O
+a O
+bill O
+for O
+pay O
+movies H 40 0
+is O
+sent O
+each O
+month O
+. O
+
+Supplier H 16
+Relations O
+. O
+
+The O
+various O
+providers H 16
+, O
+having O
+an O
+interest O
+to O
+be O
+on O
+the O
+cable O
+, O
+present O
+to O
+CABLOPLUS O
+a O
+request H 0 2
+of O
+diffusion O
+, O
+specifying O
+the O
+territory H 6 0-0
+or O
+territories H 6 0-0-0
+where O
+they H 16 1-0-0-0
+wish O
+to O
+be O
+diffused O
+. O
+
+CABLOPLUS O
+studies O
+the O
+request H 56
+and O
+decides O
+yes O
+or O
+no O
+. O
+
+If O
+the O
+decision O
+is O
+positive O
+, O
+it H 56
+also O
+includes O
+( O
+if O
+applicable O
+) O
+additional O
+information O
+such O
+as O
+whether O
+it O
+is O
+part O
+of O
+the O
+basic R
+service H 37 0
+, O
+maxi-view H 38 0-0
+or O
+whether O
+it O
+is O
+a O
+pay R
+channel H 39 0-0-0
+, O
+etc O
+. O
+
+CABLOPLUS O
+also O
+decides O
+the O
+position H 26
+on O
+the O
+grid H 36 2
+for O
+the O
+territories H 6 0-0
+concerned O
+. O
+
+A O
+contract H 0
+is O
+then O
+signed O
+with O
+the O
+supplier H 16 2
+. O
+
+This O
+contract H 57
+contains O
+the O
+duration H 0 4
+during O
+which H 58 0-1
+it H 57 1-0-3
+is O
+valid O
+, O
+the O
+position H 26 4-0-0-0
+of O
+the O
+chain H 4 0-0-0-0-2
+on O
+the O
+grid H 36 0-0-0-0-2-0
+of O
+each O
+territory H 6 0-0-0-0-0-0-0
+where H 6 0-0-0-0-0-0-0-1
+it H 4 0-0-0-0-0-1-0-0-0
+will O
+be O
+available O
+, O
+which O
+service H 9 4-0-0-0-0-0-0-0-0-0
+it H 4 0-0-0-0-0-1-0-0-0-0-2
+will O
+be O
+part O
+of O
+, O
+etc O
+. O
+
+In O
+the O
+case O
+of O
+film R
+distribution R
+companies H 21
+, O
+this O
+is O
+a O
+reciprocal O
+commitment O
+that O
+includes O
+a O
+list O
+of O
+films O
+, O
+a O
+commitment O
+to O
+upcoming O
+films O
+and O
+financial O
+terms O
+. O
+
+For O
+contract H 57
+management O
+purposes O
+, O
+a O
+television H 3 0
+channel H 4 0-2
+is O
+characterized O
+by O
+its H 4 0-0-1
+name H 0 0-0-0-4
+, O
+address H 0 0-0-0-4-0
+, O
+start R 0 0-0-0-4-0-0
+and O
+end R
+dates H 0 0-0-0-4-0-0-0
+of O
+the O
+contract H 57 0-0-0-0-0-0-3-3
+and O
+the O
+monthly R
+amount H 0 0-0-0-4-0-0-0-0-0
+to O
+be O
+cashed O
+or O
+paid O
+. O
+
+CABLOPLUS O
+wants O
+the O
+help O
+of O
+IT O
+to O
+record O
+contracts H 57
+, O
+bill O
+channels O
+, O
+charge O
+royalties O
+to O
+film O
+distribution O
+companies O
+, O
+and O
+find O
+out O
+when O
+a O
+contract H 57 0
+will O
+expire O
+. O

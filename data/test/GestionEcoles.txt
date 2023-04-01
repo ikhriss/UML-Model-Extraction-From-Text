@@ -1,0 +1,188 @@
+We O
+want O
+to O
+build O
+a O
+system H 0
+to O
+computerize O
+part O
+of O
+the O
+management O
+of O
+a O
+school H 0 2
+. O
+
+The O
+staff H 0
+of O
+this O
+school H 2 2
+is O
+composed O
+of O
+teachers H 0 2-0
+and O
+secretaries H 0 2-0-0
+. O
+
+Each O
+member O
+of O
+staff H 3
+is O
+identified O
+by O
+a O
+personnel R
+number H 0 4
+and O
+is O
+described O
+by O
+a O
+last R
+name H 0 4-0
+, O
+a O
+first R
+name H 0 4-0-0
+and O
+an O
+address H 0 4-0-0-0
+. O
+
+The O
+school H 2
+is O
+made O
+up O
+of O
+premises H 0 2
+( O
+identified O
+by O
+a O
+number H 0 0-4
+) O
+which H 10 0-1-0
+are O
+either O
+offices H 0 0-0-0-2
+( O
+in O
+this O
+case O
+, O
+they H 12 0-0-0-0-1
+are O
+provided O
+with O
+a O
+single R
+telephone H 0 0-0-0-0-0-4
+) O
+, O
+or O
+classrooms H 0 0-0-0-2-0-0-0
+( O
+which H 14 0-0-0-0-0-0-0-1
+include O
+a O
+certain O
+number H 0 0-0-0-0-0-0-0-0-4
+of R
+places R
+) O
+. O
+
+An O
+office H 12
+is O
+occupied O
+by O
+a O
+professor H 4 2
+and O
+/ O
+or O
+several O
+secretaries H 5 2-0
+. O
+
+A O
+student H 0
+has O
+a O
+student R
+ID R
+number H 0 4
+. O
+
+He H 16
+is O
+described O
+by O
+a O
+last R
+name H 0 4
+, O
+a O
+first R
+name H 0 4-0
+, O
+an O
+address H 0 4-0-0
+and O
+a O
+telephone R
+number H 0 4-0-0-0
+. O
+
+A O
+student H 16
+enrolls O
+in O
+only O
+one O
+program H 0 2
+of R
+study R
+. O
+
+A O
+program H 22
+is O
+described O
+using O
+a O
+code H 0 4
+and O
+a O
+name H 0 4-0
+. O
+
+A O
+study R
+program H 22
+consists O
+of O
+a O
+set O
+of O
+courses H 0 2
+( O
+described O
+by O
+code H 0 0-4
+, O
+title H 0 0-4-0
+, O
+and O
+number R
+of R
+hours H 0 0-4-0-0
+) O
+. O

@@ -1,0 +1,406 @@
+Description O
+of O
+a O
+library R
+management R
+system H 0
+. O
+
+This O
+library R
+system H 1
+assists O
+in O
+the O
+management O
+of O
+subscribers H 0 2
+and O
+books H 0 2-0
+and O
+provides O
+services H 0 2-0-0
+to O
+subscribers H 2 0-0-0-2
+. O
+
+Subscriber H 2
+management O
+: O
+Register O
+a O
+subscriber H 2 0
+: O
+an O
+individual H 2 0-0
+who O
+wishes O
+to O
+register O
+provides O
+the O
+loan R
+clerk H 0 0-0-2
+with O
+his H 2 0-0-1-0
+personal O
+information O
+( O
+last R
+name H 0 0-0-0-0-4
+, O
+first R
+name H 0 0-0-0-0-4-0
+, O
+address H 0 0-0-0-0-4-0-0
+, O
+telephone H 0 0-0-0-0-4-0-0-0
+, O
+occupation H 0 0-0-0-0-4-0-0-0-0
+) O
+. O
+
+The O
+loan R
+clerk H 5
+assigns O
+a O
+subscriber H 2 2
+number H 0 0-4
+, O
+determines O
+status H 0 0-4-0
+, O
+and O
+makes O
+the O
+subscriber H 2 2-0-0-0
+card H 0 0-0-0-0-4
+. O
+
+Update O
+a O
+subscriber H 2
+: O
+at O
+the O
+end O
+of O
+6 O
+months O
+, O
+the O
+system H 1 0
+automatically O
+deactivates O
+the O
+subscribers H 2 0-2
+to O
+start O
+a O
+new O
+subscription R
+session H 0 0-2-0
+. O
+
+Produce O
+the O
+list O
+of O
+subscribers H 2
+: O
+on O
+request O
+, O
+the O
+system H 1 0
+provides O
+an O
+alphabetical O
+list O
+of O
+subscribers H 2 0-0
+with O
+the O
+personal O
+information O
+mentioned O
+above O
+. O
+
+Books H 3
+Management O
+: O
+Buy O
+books H 3 0
+: O
+the O
+purchasing R
+manager H 0 0-0
+prepares O
+orders H 0 0-0-2
+for O
+the O
+books H 3 0-0-0-2
+to O
+be O
+purchased O
+based O
+on O
+subscriber H 2 0-0-0-0-0
+proposals H 0 0-0-0-2-2-2
+and O
+new O
+editions H 0 0-0-0-2-2-0-0
+. O
+
+Catalog O
+a O
+book H 3
+: O
+when O
+receiving O
+a O
+book H 3 0
+, O
+the O
+librarian H 0 0-0
+assigns O
+it H 3 0-1-2
+a O
+rating H 0 0-0-0-4
+, O
+one O
+or O
+more O
+subjects H 0 0-0-0-4-0
+, O
+and O
+decides O
+on O
+its H 3 0-1-2-0-0-0
+use R
+status H 0 0-0-0-0-0-0-4
+( O
+loan O
+authorized O
+or O
+on-site O
+consultation O
+) O
+and O
+its H 3 0-1-2-0-0-0-0-0
+location H 0 0-0-0-0-0-0-0-0-4
+on O
+the O
+shelves O
+. O
+
+Produce O
+a O
+list O
+( O
+complete O
+or O
+partial O
+) O
+of O
+the O
+books H 3
+: O
+on O
+request O
+, O
+the O
+system H 1 0
+provides O
+the O
+full O
+list O
+of O
+works H 3 0-2
+in O
+the O
+library O
+or O
+a O
+specific O
+list O
+of O
+works H 3 0-2-0
+relating O
+to O
+a O
+given O
+subject H 21 0-0-0-4
+( O
+for O
+example O
+, O
+the O
+list O
+of O
+books O
+in O
+software O
+engineering O
+) O
+. O
+
+Subscriber H 2
+services H 4 2
+: O
+Loan H 0 0-2
+and O
+return H 0 0-2-0
+: O
+operation O
+consisting O
+of O
+registering H 24 0-0-0-0
+a R
+loan R
+of O
+a O
+book H 3 0-0-0-0-2
+for O
+three O
+weeks O
+and O
+also O
+recording H 25 0-0-0-0-0-0
+the R
+return R
+of O
+a O
+book H 3 0-0-0-0-0-0-2
+to O
+the O
+library O
+. O
+
+Recall O
+list O
+: O
+generation O
+of O
+the O
+list O
+of O
+subscribers H 2
+for O
+whom H 2 1
+the O
+delivery R
+date H 0 0-4
+has O
+been O
+exceeded O
+. O
+
+This O
+list O
+includes O
+subscriber H 2
+name H 6 4
+, O
+borrowed O
+book H 3 0-0
+, O
+borrowing H 24 0-0-0
+date H 0 0-0-0-4
+and O
+return H 25 0-0-0-0-0
+date H 0 0-0-0-0-0-4
+. O
+
+Reservation H 0
+: O
+when O
+all O
+the O
+copies R
+of R
+a R
+book H 3 0
+have O
+been O
+borrowed O
+and O
+a O
+subscriber H 2 0-0
+wishes O
+to O
+borrow O
+the O
+same O
+book H 3 0-0-2
+, O
+he H 2 0-0-1-0
+can O
+make O
+a O
+reservation H 29 0-0-0-0-2
+, O
+which H 29 0-0-0-0-0-1
+will O
+give O
+him H 2 0-0-0-0-1-0-2
+loan O
+priority O
+as O
+soon O
+as O
+a O
+copy R
+of R
+the R
+book H 3 0-0-0-0-0-0-2-0
+is O
+returned O
+. O
+
+Purchase R
+suggestion H 17
+: O
+subscribers H 2 0
+can O
+suggest O
+to O
+the O
+library O
+to O
+buy O
+books H 3 0-2
+. O
+
+Index H 0
+: O
+the O
+library O
+provides O
+subscribers H 2 0
+with O
+a O
+file O
+allowing O
+them O
+to O
+search O
+using O
+a O
+key O
+( O
+author O
+, O
+subject O
+) O
+for O
+the O
+list O
+of O
+books O
+verifying O
+their O
+requests O
+. O

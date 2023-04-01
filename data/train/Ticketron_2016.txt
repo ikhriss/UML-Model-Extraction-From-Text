@@ -1,0 +1,386 @@
+Description O
+of O
+the O
+show R
+ticket R
+sales R
+system H 0
+. O
+
+The O
+Ticketron O
+company O
+contracts O
+with O
+the O
+directors H 0
+of O
+theaters H 0 2
+. O
+
+At O
+the O
+time O
+of O
+signing O
+, O
+the O
+data O
+of O
+the O
+hall H 3
+( O
+name H 0 4
+, O
+address H 0 4-0
+, O
+days H 0 0-0-0
+and O
+hours H 0 0-0-0-0
+of O
+sessions H 0 2-0-0-3-3
+, O
+a O
+picture H 0 4-0-0-0-0-0
+of R
+the R
+hall R
+, O
+list O
+of O
+places H 0 2-0-0-0-0-0-0
+by O
+category H 0 0-0-0-0-0-0-0-4
+, O
+price H 0 0-0-0-0-0-0-0-0-0
+of O
+seats H 10 0-0-0-0-0-0-0-0-0-3
+by O
+category H 11 0-0-0-0-0-0-0-0-0-0-4
+) O
+are O
+recorded O
+. O
+
+For O
+each O
+hall H 3
+, O
+the O
+schedule H 0 2
+is O
+fixed O
+. O
+
+Seats H 10
+in O
+a O
+category H 11 4
+are O
+made O
+of O
+contiguous O
+blocks O
+of O
+seats O
+. O
+
+The O
+system H 1
+must O
+be O
+able O
+to O
+report O
+on O
+halls H 3 2
+on O
+request O
+. O
+
+When O
+a O
+theater R
+director H 2
+rides O
+or O
+presents O
+a O
+show H 0 2
+, O
+he H 2 1-0
+provides O
+Ticketron O
+with O
+the O
+relevant O
+data O
+( O
+show H 14 0-0-0
+name H 0 0-0-0-4
+, O
+start R 0 0-0-0-4-0
+and O
+end R
+dates H 0 0-0-0-4-0-0
+) O
+. O
+
+The O
+shows H 14
+in O
+a O
+hall H 3 2
+do O
+not O
+overlap O
+in O
+time O
+. O
+
+Theater R
+contracts H 0
+and O
+show R
+announcements H 0 0
+can O
+occur O
+more O
+or O
+less O
+at O
+any O
+time O
+. O
+
+Whenever O
+a O
+new O
+show H 14
+or O
+a O
+lot O
+of O
+new O
+shows H 14 0
+is O
+entered O
+into O
+the O
+system H 1 2-2
+gives O
+rise O
+to O
+their O
+programming O
+resulting O
+in O
+scheduling O
+sessions H 8 0-0-2
+for O
+the O
+show H 14 0-0-0-2
+( O
+s O
+) O
+. O
+
+Ticketron O
+subcontracts O
+the O
+actual O
+sale O
+of O
+the O
+tickets H 0
+to O
+sellers H 0 2
+. O
+
+When O
+signing O
+a O
+contract H 0
+with O
+a O
+seller H 21 2
+, O
+the O
+information O
+registered O
+for O
+a O
+seller H 21 0-0
+is O
+: O
+first R
+name H 0 0-0-4
+, O
+last R
+name H 0 0-0-4-0
+, O
+address H 0 0-0-4-0-0
+, O
+phone R
+number H 0 0-0-4-0-0-0
+, O
+and O
+the O
+total O
+amount H 0 0-0-4-0-0-0-0
+of R
+ticket R
+sales R
+made O
+by O
+that O
+seller H 21 0-0-0-0-0-0-0-3
+( O
+this O
+amount H 27 0-0-0-0-0-0-0-0-0
+is O
+obviously O
+0 O
+when O
+registering O
+the O
+seller H 21 0-0-0-0-0-0-0-0-0-0
+) O
+. O
+
+When O
+a O
+customer H 0
+wants O
+to O
+purchase O
+tickets H 20 2
+for O
+a O
+show H 14 2-2
+, O
+the O
+system H 1 0-0-0
+provides O
+information O
+about O
+available O
+seats H 10 0-0-0-2
+, O
+bookings O
+and O
+physical O
+ticketing O
+. O
+
+The O
+customer H 28
+can O
+pay O
+by O
+cash O
+, O
+credit O
+card O
+or O
+debit O
+card O
+. O
+
+Finally O
+, O
+the O
+system H 1
+must O
+provide O
+sales O
+information O
+upon O
+request O
+. O
+
+The O
+selection O
+criteria O
+are O
+the O
+name H 24
+of O
+the O
+seller H 21 3
+, O
+the O
+name H 4 0-0
+of O
+the O
+hall H 3 0-0-3
+, O
+the O
+name H 15 0-0-0-0
+of O
+the O
+show H 14 0-0-0-0-3
+and O
+the O
+period H 0 0-0-0-0-0-0
+in O
+which O
+the O
+transactions H 0 0-0-0-0-0-0-3
+are O
+made O
+. O
+
+Names O
+can O
+be O
+explicit O
+values O
+? O
+? O
+( O
+for O
+example O
+sellers H 21
+where O
+their O
+last R
+names H 24 4
+are O
+Tremblay O
+) O
+or O
+a O
+generic O
+condition O
+on O
+the O
+name O
+( O
+starting O
+with O
+the O
+letter O
+T O
+for O
+example O
+) O
+. O
+
+By O
+default O
+, O
+the O
+system H 1
+must O
+give O
+for O
+each O
+vendor H 21 0
+the O
+total O
+amount O
+of O
+sales O
+made O
+. O

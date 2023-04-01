@@ -1,0 +1,598 @@
+This O
+project O
+is O
+to O
+develop O
+a O
+grid-based O
+software O
+infrastructure O
+to O
+support O
+bio-geochemical O
+modeling O
+. O
+
+The O
+application H 0
+will O
+use O
+the O
+Daymet O
+surface O
+weather O
+interpolation O
+engine O
+for O
+generating O
+gridded O
+surface O
+weather O
+datasets O
+from O
+observation O
+data O
+records O
+. O
+
+The O
+Biome-BGC O
+model O
+will O
+be O
+used O
+to O
+perform O
+BGC O
+modeling O
+activities O
+. O
+
+User H 0
+classes O
+and O
+Characteristics O 
+. O
+
+Scientists H 0
+. O
+
+Scientific R
+users H 3
+are O
+the O
+favored O
+and O
+primary O
+user H 2 2
+class O
+for O
+the O
+system H 1 0-2
+. O
+
+Scientific R
+users H 3
+will O
+use O
+the O
+system H 1 2
+to O
+manage O
+input R
+data H 0 2-0
+, O
+run O
+simulations H 0 2-0-0
+, O
+visualize O
+results H 0 2-0-0-0
+, O
+and O
+manage O
+output R
+data H 0 2-0-0-0-0
+. O
+
+Portal R
+Administrator H 0
+. O
+
+The O
+portal R
+administrator H 8
+will O
+be O
+in O
+charge O
+of O
+managing O
+the O
+day O
+to O
+day O
+operations O
+of O
+the O
+system H 1 2
+. O
+
+This H 8
+user O
+will O
+be O
+responsible O
+for O
+managing O
+user R
+accounts H 2 2
+, O
+managing O
+user R
+runs H 0 2-0
+if O
+needed O
+, O
+and O
+general O
+portal O
+settings O
+and O
+monitoring O
+. O
+
+Data R
+Users H 0
+. O
+
+Data R
+users H 10
+are O
+researchers O
+who O
+need O
+to O
+use O
+simulation R
+output H 7 2
+but O
+who O
+do O
+not O
+have O
+the O
+ability O
+to O
+initiate O
+simulations H 5 2-0
+. O
+
+User R
+Accounts H 2
+. O
+
+Access O
+to O
+the O
+functional O
+areas O
+of O
+the O
+system O
+will O
+be O
+controlled O
+by O
+user R
+accounts H 2
+. O
+
+All O
+GridBGC R
+users H 2
+shall O
+be O
+required O
+to O
+have O
+valid O
+NCAR R
+Gatekeeper R
+accounts H 0 2
+to O
+use O
+the O
+system H 1 2-0
+. O
+
+Not O
+all O
+Gatekeeper R
+account H 11
+holders O
+will O
+have O
+access O
+to O
+the O
+GridBGC R
+system H 1 0
+. O
+
+Users H 2
+must O
+be O
+approved O
+by O
+the O
+GridBGC R
+administrators H 8 2
+for O
+access O
+. O
+
+Users H 2
+must O
+use O
+the O
+existing O
+Gatekeeper O
+tools O
+to O
+manage O
+their O
+passwords H 0 4
+. O
+
+User R
+accounts H 2
+will O
+have O
+the O
+following O
+status R
+states H 0 4
+: O
+• O
+Pending O
+Confirmation
+• O
+Pending O
+Approval
+• O
+Active
+• O
+Locked
+• O
+Deleted O
+. O
+
+The O
+system H 1
+shall O
+support O
+the O
+following O
+user H 2 0
+roles H 0 0-4
+: O
+• O
+User O
+– O
+General O
+end O
+user O
+of O
+the O
+system O
+• O
+Administrator O
+– O
+Has O
+additional O
+permissions O
+to O
+administer O
+the O
+operation O
+of O
+the O
+system O
+. O
+
+End O
+users O
+can O
+apply O
+for O
+an O
+account H 2
+directly O
+through O
+the O
+web O
+portal O
+and O
+enter O
+all O
+required O
+fields O
+: O
+• O
+name H 0 4
+• O
+position H 0 4-0
+• O
+institution H 0 4-0-0
+. O 
+
+Data O
+Organization O
+. O
+
+The O
+system H 1
+is O
+organized O
+in O
+to O
+types O
+of O
+logical O
+grouping O
+elements O
+: O
+• O
+Objects H 0 0
+• O
+Projects H 0 0-0
+. O
+
+Objects H 18
+will O
+be O
+the O
+mechanism O
+by O
+which O
+data O
+is O
+shared O
+and O
+reused O
+throughout O
+the O
+system O
+. O
+
+Projects H 19
+will O
+be O
+elements O
+that O
+group O
+specific O
+objects O
+together O
+to O
+perform O
+a O
+unit O
+of O
+work O
+. O
+
+Objects H 18
+. O
+
+The O
+system H 1
+shall O
+support O
+3 O
+types O
+of O
+objects H 18 2
+: O
+• O
+List R
+objects H 0 0-2
+will O
+contain O
+arbitrary O
+points O
+of O
+data O
+• O
+Grid R
+objects H 0 0-2-0
+will O
+contain O
+rectangular O
+grid O
+datasets O
+, O
+• O
+Parameterization R
+objects H 0 0-2-0-0
+will O
+contain O
+model O
+specific O
+parameter O
+data O
+. O
+
+Users H 2
+can O
+select O
+to O
+share O
+specific O
+objects H 18 2
+with O
+other O
+users H 2 1-2
+. O
+
+Users H 2
+can O
+create O
+new O
+dataset R
+object H 18 2
+by O
+merging O
+existing O
+objects H 18 2-1
+. O
+
+Projects H 19
+. O 
+
+Project H 19
+will O
+have O
+two O
+main O
+functions O
+within O
+the O
+system H 1 0
+; O
+contain O
+references O
+to O
+supporting O
+datasets O
+and O
+serve O
+as O
+the O
+simulation O
+run O
+control O
+element O
+. O
+
+The O
+user H 2
+shall O
+specify O
+the O
+type O
+of O
+project H 19 2
+during O
+initial O
+setup O
+; O
+either O
+List H 0 0-2
+or O
+Grid H 0 0-2-0
+. O
+
+The O
+user H 2
+can O
+create O
+new O
+projects H 19 2
+. O
+
+Objects H 18
+and O
+projects H 19 0
+can O
+be O
+of O
+two O
+kinds O
+: O
+daymet H 0 2-2
+ant O
+BiomeBGC H 0 2-2-0
+. O
+
+Daymet R
+objects H 25
+can O
+be O
+projection R
+objects H 0 2
+, O
+grid R
+registration R
+objects H 0 2-0
+, O
+surface R
+observation R
+objects H 0 2-0-0
+, O
+site R
+data R
+objects H 0 2-0-0-0
+, O
+daymet R
+parameterization R
+objects H 0 2-0-0-0-0
+, O
+DEM R
+objects H 0 2-0-0-0-0-0
+, O
+analysis R
+mask R
+objects H 0 2-0-0-0-0-0-0
+or O
+daymet R
+output R
+objects H 0 2-0-0-0-0-0-0-0
+. O
+
+BiomeBCG R
+objects H 26
+can O
+be O
+plant R
+functional R
+type R
+objects H 0 2
+, O
+BiomeBCG R
+site R
+data R
+objects H 0 2-0
+, O
+output R
+specific R
+objects H 0 2-0-0
+, O
+nitrogen R
+deposition R
+objects H 0 2-0-0-0
+, O
+disturbance R
+objects H 0 2-0-0-0-0
+or O
+BiomeBCG R
+output R
+objects H 0 2-0-0-0-0-0
+. O
+
+Projects H 19
+will O
+be O
+elements O
+that O
+group O
+specific O
+objects H 18 2
+together O
+to O
+perform O
+a O
+unit O
+of O
+work O
+. O

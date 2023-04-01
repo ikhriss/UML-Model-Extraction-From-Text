@@ -1,0 +1,503 @@
+The O 
+functionality O 
+of O 
+the O 
+Crime R 
+& R 
+Criminal R 
+Tracking R 
+Network R 
+and R 
+Systems R 
+application H 0
+is O 
+focused O 
+on O 
+providing O 
+value O 
+to O 
+the O 
+police R 
+personnel H 0 2
+, O 
+especially O 
+the O 
+officers H 0 0-2
+operating O 
+at O 
+the O 
+cutting O 
+edge O 
+and O 
+easing O 
+the O 
+day O 
+to O 
+day O 
+operations O 
+of O 
+the O 
+police O 
+function O 
+. O 
+
+Registration O 
+. O 
+
+Citizens H 0
+can O 
+register O 
+their O 
+complaints H 0 2
+with O 
+police H 2 2-2 
+and O 
+then O 
+based O 
+on O 
+the O 
+evidence H 0 0-0-0 
+, O 
+facts H 0 0-0-0-0 
+and O 
+following O 
+investigation H 0 0-0-0-0-0 
+, O 
+police H 2 0-0-0-0-0-0 
+shall O 
+take O 
+the O 
+complaint H 5 0-0-0-2-2-2-2 
+forward O 
+. O 
+
+The O 
+Registration O 
+module O 
+acts O 
+as O 
+an O 
+interface O 
+between O 
+the O 
+police H 2 
+and O 
+citizens H 4 2 
+and O 
+it O 
+eases O 
+the O 
+approach O 
+, O 
+interaction O 
+and O 
+information O 
+exchange O 
+between O 
+police H 2 0-0 
+and O 
+complainants H 0 0-2-2 
+. O 
+
+Investigation O 
+. O 
+
+After O 
+a O 
+complaint H 5 
+is O 
+initiated O 
+, O 
+police H 2 0 
+initiates O 
+the O 
+investigation R 
+process H 8 0-2
+. O 
+
+The O 
+Investigation O 
+module O 
+of O 
+the O 
+application O 
+facilitates O 
+the O 
+investigation R 
+process H 8 
+and O 
+introduces O 
+operational O 
+efficiencies O 
+by O 
+automating O 
+most O 
+of O 
+the O 
+tasks O 
+that O 
+take O 
+place O 
+after O 
+initial O 
+entries O 
+are O 
+made O 
+during O 
+registration O 
+. O 
+
+Prosecution O 
+. O 
+
+Interfacing O 
+with O 
+the O 
+courts H 0 
+during O 
+the O 
+prosecution O 
+of O 
+cases O 
+is O 
+an O 
+integral O 
+part O 
+of O 
+the O 
+responsibilities O 
+of O 
+police R 
+personnel H 2 2 
+. O 
+
+A O 
+designated O 
+constable H 0 
+from O 
+each O 
+police R 
+station H 2 2
+constantly O 
+interfaces O 
+with O 
+the O 
+courts H 10 2-0 
+. O 
+
+The O 
+Prosecution O 
+module O 
+of O 
+the O 
+application O 
+aids O 
+this O 
+interfacing O 
+by O 
+providing O 
+a O 
+platform O 
+to O 
+record O 
+entries O 
+of O 
+the O 
+court H 10 
+interactions O 
+. O 
+
+Search O 
+. O 
+
+The O 
+Search O 
+module O 
+of O 
+the O 
+application O 
+gives O 
+police R 
+personnel H 2 
+the O 
+ability O 
+to O 
+execute O 
+a O 
+basic O 
+or O 
+advanced O 
+search O 
+on O 
+cases H 0 2 
+. O 
+
+Using O 
+the O 
+search O 
+functionality O 
+, O 
+police R 
+personnel H 2 
+can O 
+search O 
+for O 
+a O 
+particular O 
+person H 0 2 
+, O 
+type H 0 0-0 
+of O 
+crime H 0 2-0-3
+, O 
+modus R 
+operandi H 0 2-0-0-0
+, O 
+property H 0 2-0-0-0-0 
+etc O 
+. O 
+
+It O 
+also O 
+gives O 
+the O 
+user O 
+the O 
+ability O 
+to O 
+customize O 
+the O 
+results O 
+view O 
+by O 
+criminal H 0 
+/ O 
+accused H 0 0 
+or O 
+by O 
+cases H 12 0-0 
+. O 
+
+It O 
+makes O 
+reporting O 
+easy O 
+for O 
+police H 2 
+by O 
+enabling O 
+them H 2 1 
+to O 
+execute O 
+different O 
+types H 0 0-0 
+of O 
+queries H 0 0-2-3 
+such O 
+as O 
+monthly O 
+reporting O 
+, O 
+RTI O 
+related O 
+etc O 
+. O 
+
+Citizen O 
+Interface O 
+. O 
+
+The O 
+Citizen O 
+Interface O 
+module O 
+of O 
+the O 
+application O 
+acts O 
+as O 
+a O 
+conduit O 
+for O 
+the O 
+information O 
+exchange O 
+between O 
+citizens H 4 
+and O 
+police R 
+units H 2 2
+/ O 
+personnel H 2 2-1
+. O 
+
+Citizens H 4 
+can O 
+use O 
+it O 
+as O 
+a O 
+tool O 
+to O 
+get O 
+information O 
+or O 
+acknowledgements O 
+from O 
+police H 2 2 
+. O 
+
+The O 
+police H 2 
+in O 
+turn O 
+can O 
+use O 
+it O 
+to O 
+respond O 
+to O 
+citizens H 4 2 
+with O 
+very O 
+little O 
+turnaround O 
+time O 
+. O 
+
+It O 
+improves O 
+overall O 
+productivity O 
+by O 
+helping O 
+citizens H 4 
+and O 
+police H 2 0 
+to O 
+cut O 
+short O 
+the O 
+drudgery O 
+of O 
+large O 
+amounts O 
+of O 
+paperwork O 
+. O 
+
+Navigation O 
+. O 
+
+The O 
+Navigation O 
+module O 
+of O 
+the O 
+application O 
+provides O 
+role O 
+based O 
+landing O 
+pages O 
+which O 
+help O 
+in O 
+navigating O 
+through O 
+the O 
+application O 
+. O 
+
+It O 
+shows O 
+information O 
+such O 
+as O 
+cases H 12
+assigned R 
+, O 
+alerts H 0 0 
+, O 
+pending R 
+tasks H 0 0-0 
+etc O 
+. O 
+hence O 
+helping O 
+police R 
+personnel H 2 0-0-0 
+to O 
+plan O 
+better O 
+and O 
+execute O 
+with O 
+greater O 
+efficiency O 
+. O 
+
+Application O 
+Configuration O 
+. O 
+
+The O 
+Configuration O 
+module O 
+of O 
+the O 
+application O 
+helps O 
+keep O 
+the O 
+application O 
+configured O 
+according O 
+to O 
+the O 
+states’ O 
+requirements O 
+in O 
+addition O 
+to O 
+keeping O 
+data O 
+elements O 
+/ O 
+rules O 
+up O 
+to O 
+date O 
+. O 
+
+With O 
+a O 
+proper O 
+configuration O 
+, O 
+information O 
+such O 
+as O 
+act H 0 
+and O 
+sections H 0 0 
+, O 
+state R 
+specific R 
+data H 0 0-0 
+, O 
+castes H 0 0-0-0 
+, O 
+tribes H 0 0-0-0-0 
+, O 
+property H 17 0-0-0-0-0 
+information O 
+etc O 
+. O 
+can O 
+be O 
+created O 
+updated O 
+and O 
+deleted O 
+. O 

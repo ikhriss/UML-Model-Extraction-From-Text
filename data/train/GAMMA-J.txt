@@ -1,0 +1,647 @@
+This O
+is O
+the O
+Software O
+Requirements O
+Specification O
+for O
+GAMMA-J R
+’s R
+Web R
+Store H 0
+. O
+
+This O
+Web R
+Store H 1
+is O
+designed O
+to O
+allow O
+new O
+online R
+store R
+owners H 0 2
+a O
+quick O
+and O
+easy O
+means O
+to O
+setup O
+and O
+perform O
+sales H 0 2-2
+and O
+other O
+core O
+business O
+over O
+the O
+internet O
+. O
+
+This O
+document O
+will O
+outline O
+all O
+of O
+the O
+functions O
+, O
+capabilities O
+and O
+requirements O
+of O
+GAMMA-J R
+’s R
+Web R
+Store H 1
+. O
+
+Account H 0
+Management O
+allows O
+users H 0 2
+to O
+create O
+, O
+edit O
+, O
+and O
+view O
+accounts H 4 0-2
+information O
+. O
+
+It O
+also O
+allows O
+the O
+user H 5
+to O
+login O
+/ O
+out O
+of O
+the O
+web R
+store H 1 2
+. O
+
+Search O
+Engine O
+is O
+the O
+tool O
+that O
+assists O
+the O
+user H 5
+in O
+finding O
+a O
+specific O
+item H 0 2
+in O
+the O
+database O
+. O
+
+It O
+can O
+receive O
+search O
+criteria O
+, O
+find O
+search O
+criteria O
+, O
+and O
+return O
+the O
+results O
+of O
+the O
+search O
+. O
+
+Product H 0
+Management O
+allows O
+sales R
+personnel H 0 0
+to O
+manage O
+the O
+product R
+line H 0 0-2
+shown O
+on O
+the O
+web R
+site H 1 0-0-2
+. O
+
+Shopping R
+Cart H 0
+is O
+temporary O
+storage O
+for O
+customers H 0 2
+shopping O
+on O
+the O
+web H 1 0-2
+. O
+
+Items H 6
+from O
+the O
+inventory H 0 2
+can O
+be O
+reserved O
+in O
+a O
+virtual R
+cart H 0 2-0
+until O
+the O
+customer H 11 0-0-2
+decides O
+to O
+purchase O
+them H 6 1-0-0-2
+. O
+
+Purchasing O
+and O
+Payment O
+is O
+used O
+to O
+approve O
+and O
+transfer O
+payment H 0
+from O
+buyers H 0 2
+when O
+purchasing O
+items H 6 2-2
+in O
+the O
+cart H 13 2-2-2
+. O
+
+The O
+system R
+administrator H 0
+is O
+generally O
+the O
+owner H 2 2
+that O
+takes O
+care O
+of O
+maintenance O
+for O
+the O
+Web R
+Store R
+system H 1 2-0
+. O
+
+The O
+administrator H 16
+will O
+be O
+in O
+charge O
+of O
+assigning O
+privileges H 0 0
+of O
+accounts H 4 2-3
+. O
+
+Suggested O
+more O
+than O
+one O
+individual O
+can O
+have O
+administrator O
+privilege O
+to O
+ensure O
+advisability O
+. O
+
+Full O
+documentation O
+will O
+be O
+provided O
+to O
+the O
+Administrator H 16
+to O
+assist O
+with O
+this O
+process O
+. O
+
+The O
+sales R
+personnel H 8
+is O
+generally O
+the O
+owner H 2 2
+of O
+the O
+Web R
+Store H 1 0-2
+tasked O
+with O
+updating O
+inventory H 12 2-0-0
+and O
+product R
+line H 9 2-0-0-0
+descriptions O
+. O
+
+Once O
+added O
+, O
+sales R
+personnel H 7
+can O
+add O
+, O
+delete O
+and O
+change O
+descriptions H 0 0
+, O
+pictures H 0 0-0
+, O
+prices H 0 0-0-0
+, O
+and O
+when O
+ready O
+flag O
+items H 6 2-3-3-3
+for O
+customers H 11 0-0-0-0-2
+to O
+buy O
+. O
+
+A O
+customer H 11
+is O
+an O
+individual H 0 2
+wishing O
+to O
+purchase O
+inventory H 12 2-0
+from O
+GAMMA-J R
+’s R
+Web R
+Store H 1 2-0-2
+. O
+
+The O
+Web R
+store H 1
+will O
+have O
+a O
+variety O
+of O
+clientele O
+depending O
+upon O
+the O
+inventory H 12 2
+loaded O
+on O
+the O
+Key O
+. O
+
+When O
+creating O
+a O
+new O
+account H 4
+on O
+Web R
+Store H 1 0
+it O
+will O
+default O
+as O
+a O
+customer R
+account H 0 2-0
+. O
+
+Later O
+if O
+the O
+account H 4
+needs O
+to O
+be O
+upgraded O
+the O
+administrator H 16 2
+can O
+accomplish O
+this O
+via O
+the O
+administrator O
+interface O
+. O
+
+Customers H 11
+will O
+be O
+able O
+to O
+create O
+accounts H 4 2
+to O
+store O
+their H 11 1-0
+customer R
+profiles H 0 0-4-0
+, O
+configure O
+contact H 0 0-4-0-0
+information O
+, O
+view O
+their H 11 1-0-0-0-0
+purchase R
+history H 0 0-4-0-0-0-0
+, O
+and O
+confirm O
+orders H 0 2-0-0-0-0-0-0
+. O
+
+Customers H 11
+will O
+be O
+able O
+to O
+register O
+, O
+log O
+in O
+, O
+and O
+log O
+out O
+of O
+their H 11 1
+accounts H 4 0-2
+. O
+
+Furthermore O
+, O
+Customer R
+profiles H 23
+will O
+also O
+include O
+payment H 0 2
+information O
+, O
+such O
+as O
+the O
+ability O
+to O
+store O
+credit R
+card H 0 0-4
+information O
+, O
+and O
+address H 0 0-4-0
+information O
+. O
+
+Inventory H 12
+management O
+will O
+allow O
+for O
+the O
+placement O
+of O
+products H 0 0
+into O
+multi-tiered R
+categories H 0 0-2
+. O
+
+Products H 7
+will O
+be O
+stored O
+in O
+multi-tiered R
+categories H 31 2
+; O
+a O
+category H 31 0-0
+can O
+contain O
+sub R
+categories H 0 0-0-2
+or O
+products H 7 0-0-2-0
+. O
+
+The O
+inventory H 12
+management O
+will O
+allow O
+for O
+administrators H 15 0
+to O
+update O
+the O
+categories H 31 0-2
+, O
+the O
+products H 7 0-2-0
+placed O
+in O
+categories H 31 0-0-0-2
+, O
+and O
+the O
+specific O
+product H 7 0-2-0-0-0
+details H 0 0-0-0-0-0-4
+. O
+
+Customers H 11
+will O
+be O
+able O
+to O
+add O
+and O
+store O
+products H 7 2
+for O
+purchase O
+within O
+the O
+shopping R
+cart H 10 2-2
+. O
+
+The O
+shopping R
+cart H 10
+will O
+clearly O
+display O
+the O
+number R
+of R
+items H 0 4
+in O
+the O
+cart H 10 0-3
+, O
+along O
+with O
+the O
+total R
+cost H 0 4-0-0
+. O
+
+The O
+customer H 11
+will O
+also O
+be O
+able O
+to O
+add O
+to O
+or O
+remove O
+products H 7 2
+from O
+the O
+shopping R
+cart H 10 2-2
+prior O
+to O
+checkout O
+and O
+order H 26 2-0-2
+confirmation O
+. O
+
+Customers H 11
+will O
+be O
+able O
+to O
+confirm O
+the O
+order H 26 2
+after O
+checkout O
+. O
+
+If O
+the O
+order H 26
+is O
+incorrect O
+, O
+the O
+customer H 11 0
+will O
+be O
+able O
+to O
+revise O
+and O
+update O
+their O
+order H 26 0-2
+. O
+
+The O
+customer H 11
+will O
+then O
+receive O
+a O
+confirmation R
+email H 0 2
+with O
+the O
+specific O
+order H 26 0-2
+details H 0 0-0-4
+. O
+
+Customers H 11
+will O
+be O
+presented O
+with O
+an O
+unambiguous O
+interface O
+to O
+assist O
+in O
+browsing O
+the O
+categories H 31 2
+and O
+products H 7 2-0
+. O
+
+Customers H 11
+will O
+be O
+able O
+to O
+search O
+for O
+products H 7 2
+matching O
+their O
+search O
+criteria O
+. O 

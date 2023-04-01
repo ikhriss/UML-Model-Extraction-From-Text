@@ -1,0 +1,345 @@
+Description O
+of O
+the O
+project R
+monitoring R
+system H 0
+. O
+
+An O
+IT O
+consulting O
+firm O
+wants O
+to O
+computerize O
+its O
+project R
+monitoring R
+system H 1
+. O
+
+Professionals H 0
+( O
+computer O
+consultants O
+) O
+are O
+paid O
+in O
+fees O
+and O
+not O
+in O
+salaries O
+. O
+
+A O
+professional H 2
+is O
+in O
+a O
+certain O
+category H 0 2
+given O
+his H 2 1-0
+experience H 0 0-0-4
+. O
+
+For O
+each O
+category H 3
+there O
+are O
+customer R
+billing R
+rates H 0 4
+and O
+fees H 0 4-0
+for O
+professional O
+fees O
+. O
+
+A O
+professional H 2
+may O
+change O
+his H 2 1
+category H 3 0-4
+during O
+his O
+career O
+. O
+
+Rates H 0
+( O
+billing H 5 2
+, O
+payment H 6 2-0
+) O
+can O
+change O
+independently O
+of O
+each O
+other O
+. O
+
+Rates H 7
+are O
+per R
+hour H 0 4
+, O
+per R
+day H 0 4-0
+, O
+per R
+week H 0 4-0-0
+. O
+
+A O
+professional H 2
+may O
+also O
+have O
+travel R 0 4
+and O
+living R
+expenses H 0 4-0
+, O
+which O
+are O
+reimbursed O
+at O
+cost O
+and O
+invoiced O
+to O
+the O
+client O
+as O
+is O
+. O
+
+The O
+operations O
+of O
+the O
+office O
+consist O
+of O
+projects H 0
+. O
+
+A O
+project H 13
+has O
+a O
+number H 0 4
+, O
+a O
+customer H 0 4-0
+, O
+a O
+start R
+date H 0 4-0-0
+, O
+a O
+total R
+budget H 0 4-0-0-0
+, O
+an O
+end R
+date H 0 4-0-0-0-0
+. O
+
+In O
+order O
+to O
+follow O
+the O
+activities O
+, O
+each O
+professional H 2
+must O
+complete O
+each O
+week O
+a O
+time R
+sheet H 0 2
+in O
+which H 19 0-1
+he H 2 1-0-2
+enters O
+his H 2 0-0-0-1
+professional R
+number H 0 0-0-0-0-4
+and O
+the O
+following O
+information O
+for O
+each O
+project H 13 0-0-0-0-0-0
+on O
+which H 13 0-0-0-0-0-0-1
+he H 2 1-0-0-0-0-0-0-2
+worked O
+during O
+the O
+week O
+: O
+� O
+project R
+number H 0 0-0-4-0-0-0-0-0-0
+, O
+type R
+of R
+pricing H 0 0-0-4-0-0-0-0-0-0-0
+( O
+time O
+, O
+day O
+, O
+week O
+) O
+, O
+number R
+of R
+units H 0 0-0-4-0-0-0-0-0-0-0-0
+dedicated O
+to O
+the O
+project O
+, O
+� O
+travelling R
+expenses H 0 0-0-4-0-0-0-0-0-0-0-0-0
+, O
+� O
+living R
+expenses H 0 0-0-4-0-0-0-0-0-0-0-0-0-0
+. O
+
+We O
+want O
+the O
+future O
+computer R
+system H 1
+to O
+produce O
+the O
+following O
+information O
+on O
+demand O
+: O
+� O
+list O
+of O
+professionals H 2 0
+in O
+the O
+office O
+, O
+� O
+price O
+list O
+, O
+� O
+list O
+of O
+projects H 13 0-0
+in O
+progress O
+, O
+� O
+for O
+a O
+project H 13 0-0-0
+a O
+sheet O
+with O
+: O
+o O
+the O
+professionals H 2 0-0-0-0
+working O
+on O
+it H 13 0-0-0-1-2
+( O
+at O
+the O
+moment O
+when O
+we O
+leave O
+the O
+list O
+or O
+in O
+the O
+previous O
+week O
+) O
+, O
+o O
+the O
+planned O
+budget O
+, O
+o O
+total O
+expenses O
+to O
+date O
+. O
+
+At O
+the O
+end O
+of O
+the O
+month O
+, O
+we O
+want O
+the O
+system H 1
+to O
+come O
+out O
+: O
+� O
+a O
+monthly O
+report O
+of O
+activities O
+by O
+project H 13 0
+, O
+� O
+a O
+report O
+feeding O
+the O
+professionals' H 2 0-0
+payment O
+system O
+, O
+� O
+a O
+report O
+that O
+feeds O
+the O
+billing O
+system O
+to O
+customers H 15 0-0-0
+. O
