@@ -15,4 +15,5 @@ See the references below.
 
 ## References
 Rigou, Y., Khriss, I. (2023). A Deep Learning Approach to UML Class Diagrams Discovery from Textual Specifications of Software Systems. In: Arai, K. (eds) Intelligent Systems and Applications. IntelliSys 2022. Lecture Notes in Networks and Systems, vol 543. Springer, Cham. https://doi.org/10.1007/978-3-031-16078-3_49. https://link.springer.com/chapter/10.1007/978-3-031-16078-3_49
+
 Rigou, Y. (2022). Une approche de découverte des diagrammes de classes UML par l’apprentissage profond. Mémoire de Maîtrise, Rimouski, QC, Canada. Directeur de mémoire : Khriss, I. https://semaphore.uqar.ca/id/eprint/2117/
