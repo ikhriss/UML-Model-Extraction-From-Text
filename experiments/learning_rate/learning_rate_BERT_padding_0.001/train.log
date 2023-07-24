@@ -1,0 +1,50 @@
+2023-07-18 23:17:36,078:INFO: Loading the datasets...
+2023-07-18 23:17:46,739:INFO: - done.
+2023-07-18 23:17:49,074:INFO: Starting training for 5 epoch(s)
+2023-07-18 23:17:49,081:INFO: Epoch 1/5
+2023-07-18 23:18:19,160:INFO: Training   -- Loss Mention: 20.320784 | Loss Coreference: 245.642670 | Loss Relation: 29.969147
+2023-07-18 23:18:23,051:INFO: Evaluation -- Loss Mention: 17.193033 | Loss Coreference: 226.075562 | Loss Relation: 27.182638
+2023-07-18 23:18:24,673:INFO: Epoch 2/5
+2023-07-18 23:18:57,287:INFO: Training   -- Loss Mention: 18.540998 | Loss Coreference: 218.279099 | Loss Relation: 27.543097
+2023-07-18 23:18:59,957:INFO: Evaluation -- Loss Mention: 18.496925 | Loss Coreference: 218.727844 | Loss Relation: 25.927948
+2023-07-18 23:19:01,616:INFO: Epoch 3/5
+2023-07-18 23:19:36,296:INFO: Training   -- Loss Mention: 18.085350 | Loss Coreference: 215.552811 | Loss Relation: 25.708008
+2023-07-18 23:19:39,040:INFO: Evaluation -- Loss Mention: 19.520803 | Loss Coreference: 224.916702 | Loss Relation: 27.876440
+2023-07-18 23:19:39,041:INFO: Epoch 4/5
+2023-07-18 23:20:10,260:INFO: Training   -- Loss Mention: 17.974047 | Loss Coreference: 215.793564 | Loss Relation: 25.674606
+2023-07-18 23:20:13,703:INFO: Evaluation -- Loss Mention: 17.050226 | Loss Coreference: 225.888321 | Loss Relation: 24.899240
+2023-07-18 23:20:15,648:INFO: Epoch 5/5
+2023-07-18 23:20:48,679:INFO: Training   -- Loss Mention: 18.021553 | Loss Coreference: 209.511826 | Loss Relation: 24.219950
+2023-07-18 23:20:51,361:INFO: Evaluation -- Loss Mention: 16.058027 | Loss Coreference: 225.523926 | Loss Relation: 25.280058
+2023-07-18 23:20:52,944:INFO: ----- TEST -----
+2023-07-18 23:20:54,829:INFO: --Mentions statistics--
+
+2023-07-18 23:20:54,836:INFO:               precision    recall  f1-score   support
+
+           0      0.924     0.897     0.910       580
+           1      0.568     0.797     0.663       158
+           2      0.000     0.000     0.000        47
+
+    accuracy                          0.823       785
+   macro avg      0.497     0.565     0.524       785
+weighted avg      0.797     0.823     0.806       785
+
+2023-07-18 23:20:54,837:INFO: --Coreferences statistics--
+
+2023-07-18 23:20:54,841:INFO: Precision: 0.338303
+2023-07-18 23:20:54,841:INFO: Recall: 0.763566
+2023-07-18 23:20:54,842:INFO: F1: 0.468870 
+2023-07-18 23:20:54,842:INFO: --Relations statistics--
+
+2023-07-18 23:20:54,848:INFO:               precision    recall  f1-score   support
+
+           0      0.797     0.491     0.608       224
+           1      0.438     0.389     0.412        18
+           2      0.257     0.725     0.379        40
+           3      0.000     0.000     0.000         9
+           4      0.207     0.293     0.242        41
+
+    accuracy                          0.476       332
+   macro avg      0.340     0.380     0.328       332
+weighted avg      0.618     0.476     0.508       332
+
