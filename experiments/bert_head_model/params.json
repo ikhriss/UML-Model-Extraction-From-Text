@@ -1,0 +1,12 @@
+{
+    "EMBEDDING_DIM" : 50,
+    "ENCODING_HIDDEN_DIM" : 768,
+    "MENTION_DIM" : 3,
+    "RELATION_DIM" : 5,
+    "FREEZED_LAYERS" : 12,
+    "DECODING_HIDDEN_DIM" : 100,
+    "DISTANCE_DIM" : 50,
+    "DROPOUT" : 0.2,
+    "LEARNING_RATE" : 0.001,
+    "EPOCHS" : 5
+}
